@@ -1,0 +1,496 @@
+/****************
+
+  Table of Contents
+
+  01  Slider Styles
+  02  Buttons
+  03  Navbar
+  04  Aside Navbar
+  05  Fullscreen Menu
+  06  Home Slider
+  07  Icon Boxes
+  08  Footer
+  09  Portfolio
+  10  Team
+  11  Blog
+  12  Shop
+  13  Forms
+  14  Timeline
+  15  Pricing Tables
+  16  Photo Gallery
+  17  Animations
+  18  Fullpage
+  19  Zoom
+  20  Helpers
+  21  Media Queries
+*****************/
+
+/*
+  01
+  Global Styles
+*/
+body {
+  background: #FFF5EA !important;
+  min-width: 480px;
+}
+
+dt {
+  font-weight: 600;
+  font-family: 'Khand';
+  font-size: 1.15em;
+}
+
+dd {
+  font-family: 1em;
+}
+
+p {
+  font-family: "Khand";
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.3em;
+}
+
+pre {
+  background: #FFF5EA !important;
+}
+
+section {
+  background: transparent;
+}
+
+.uk-panel-box,
+.uk-block-secondary,
+.uk-pagination,
+.tm-content {
+  background: #FFF5EA !important;
+}
+
+/*
+  02
+  Nav Styles
+*/
+
+.uk-navbar-toggle {
+  padding-top: 1em;
+}
+
+.flaco-logo-nav>h1 {
+  color: #f9f9f9;
+  display: block;
+  float: left;
+  font-family: 'Khand';
+  font-size: 3em;
+  margin: 10px 0;
+  padding-left: 1em;
+}
+
+.flaco-logo-nav>svg {
+  float: left;
+  margin-bottom: 0px;
+  margin-left: 80px;
+  margin-top: .75em;
+  padding-bottom: 0px;
+  width: 5%;
+}
+
+/*
+  02
+  Slider Styles
+*/
+
+.background {
+  background-image: url('/images/wood-background.png');
+  margin: 0 0 5em 0;
+}
+
+.tm-slidenav {
+  margin: -80px;
+}
+
+.tm-slideshow-gaucho .uk-slidenav {
+  top: 35%;
+}
+
+.tm-header-box {
+  background-color: rgba(151, 0, 0, 0);
+}
+
+.container-1 {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 16px;
+  height: auto;
+  justify-content: center;
+  margin-top: -110px;
+  padding: 10em;
+}
+
+.container-1 div {
+  padding: 80px;
+}
+
+.container-1 h3 {
+  margin: 1em 0 2em 0;
+}
+
+.container-1 h1,
+h3 {
+  font-weight: 600;
+}
+
+.box-1 {
+  background: #FFF5EA;
+  border-top: 10px solid #A08F7C;
+  box-shadow: inset 4px 0 rgba(0, 0, 0, 0.05);
+  flex-basis: 20%;
+  flex: 1;
+  max-width: 500px;
+  min-height: 550px !important;
+  min-width: 400px;
+  order: 1;
+}
+
+.box-2 {
+  flex-basis: 60%;
+  flex: 2;
+  max-width: 760px;
+  order: 2;
+  padding: 0px !important;
+}
+
+.cf-nobackground {
+  background: transparent !important;
+}
+
+.cf-slider {
+  margin: 0px !important;
+  padding-left: 0px;
+  padding: 0px !important;
+}
+
+.cf-slider-dots {
+  bottom: -15% !important;
+  position: absolute;
+  right: 5% !important;
+}
+
+.cf-slider-height {
+  height: 500px !important;
+}
+
+.cf-google-maps {
+  font-size: .75em;
+  line-height: 1.3em;
+  overflow: auto;
+}
+
+
+/* 
+  16
+  Location Welcome Pages
+*/
+
+.tm-dropcap-block p {
+  font-weight: 500;
+  line-height: 1.5em;
+  font-size: 1.75em;
+
+}
+
+/* 
+  03
+  Menu Styles
+*/
+
+.cf-menu-background {
+  background: #FFF5EA !important;
+}
+
+.no {
+  display: none;
+}
+
+/* 
+
+  04
+  Footer Styles
+
+*/
+
+small {
+  color: #F9F9F9;
+}
+
+.flaco-logo {
+  width: 4%;
+  display: block;
+  margin: 10px auto;
+}
+
+.footer {
+  border-top: 8px solid #AEA512;
+
+}
+
+.footer h2 {
+  color: #EC4E00 !important;
+  font-size: 1.75em;
+  font-family: 'Khand';
+}
+
+.footer li {
+  list-style: none;
+  font-size: .775em;
+  margin-left: -30px;
+}
+
+.footer p {
+  line-height: 1.5em;
+  font-size: 1.25em;
+}
+
+.footer>.uk-grid>* {
+  margin-right: 10em !important;
+}
+
+/* .cf-grid>* {
+  margin-right: 6em !important;
+} */
+
+/* 
+  17
+  Testimonials
+*/
+
+.cf-testimonials {
+  width: 75% !important;
+  margin: 0 auto;
+  display: block;
+  padding: 0 0 10em 0;
+}
+
+.cf-testimonials p {
+  font-size: 1.6em;
+}
+
+
+/*
+  18
+  Call Out Section
+*/
+
+.cf-callout-background {
+  background-color: #50B3B8 !important;
+  border: 1px solid #285A5C;
+}
+
+.cf-callout h2 {
+  font-size: 2em;
+}
+
+/*
+  19
+  Buttons
+*/
+
+.cf-button {
+  border-radius: 0px;
+  border: 0px;
+  font-size: 1.25em !important;
+  letter-spacing: .125em !important;
+  margin-bottom: 1em !important;
+  margin-top: .75em;
+  padding: .25em 1.5em;
+}
+
+.cf-button-tertiary {
+  border-radius: 0px;
+  border: 0px;
+  background: #ec4e00;
+  font-size: 1.25em !important;
+  letter-spacing: .125em !important;
+  padding: .25em 1.5em;
+}
+
+.cf-button-tertiary:focus,
+.cf-button-tertiary:hover {
+  background-color: #a23600;
+  color: #ffffff
+}
+
+.uk-button {
+  border-radius: 0px;
+  border: 0px;
+}
+
+
+/*
+  20
+  Utilities
+*/
+
+.cf-block {
+  background-color: #FFF5EA;
+  display: block;
+}
+
+.cf-padding-none {
+  padding: 0px !important;
+}
+
+
+.cf-heading {
+  font-family: 'khand';
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.25em;
+}
+
+/*
+  21
+  Media Queries
+*/
+
+
+/* 
+  22
+  Tabs 
+
+*/
+
+.nav-tabs {
+  border: none !important;
+}
+
+.nav-tabs>li {
+  display: inline-block;
+  float: inherit;
+  width: 40% !important;
+}
+
+.nav-tabs>li.active>a {
+  background-color: #AEA512 !important;
+  border-radius: 0px;
+  border: none !important;
+  color: #f9f9f9 !important;
+  cursor: default;
+  font-family: 'Varela', sans-serif;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover {
+  background-color: #c2b92b !important;
+  border: none !important;
+  color: #555 !important;
+  border-radius: 0px;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+  background-color: #938372 !important;
+  border: none !important;
+  text-decoration: none;
+  border-radius: 0px;
+}
+
+
+
+@media (max-width: 1700px) {
+
+  .cf-button {
+    display: block !important;
+    font-size: 1.5em !important;
+    letter-spacing: .15em !important;
+    margin-bottom: 1em !important;
+    margin-top: 1.5em;
+    padding: 8px !important;
+    width: 100% !important;
+  }
+
+  .cf-callout-grid {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .right {
+    margin-bottom: 0;
+    margin-left: 0 !important;
+  }
+
+  .cf-slider-height {
+    height: 600px !important;
+  }
+
+  .cf-slider-dots {
+    bottom: -10% !important;
+    position: absolute;
+    right: 5% !important;
+  }
+}
+
+@media (max-width:959px) {
+  .cf-callout-grid {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:768px) {
+
+  small {
+    font-size: 1em;
+  }
+
+  .cf-button {
+    display: block !important;
+    font-size: 1.75em !important;
+    letter-spacing: .15em !important;
+    margin-bottom: 1em !important;
+    margin-top: 1.5em;
+    padding: 8px !important;
+    width: 100% !important;
+
+  }
+
+  .cf-button-tertiary {
+    width: 100% !important;
+  }
+
+  .cf-testimonials p {
+    font-size: 1.25em;
+  }
+
+  .cf-logo-footer svg {
+    width: 10% !important;
+  }
+
+  .flaco-logo-nav>h1 {
+    margin: 30px 0;
+    padding-left: 1em;
+  }
+
+  .right {
+    margin-bottom: 0;
+    margin-left: 0 !important;
+  }
+
+  .trb_nh_l {
+    width: 40% !important;
+  }
+
+  /* .cf-grid>* {
+    margin-right: 6em !important;
+    padding-left: 1.25em !important;
+  } */
+
+}
+
+@media (max-width:550px) {
+
+  .cf-button-tertiary {
+    width: 100% !important;
+  }
+}

@@ -1,0 +1,11 @@
+#-------------------------------
+
+hartford :
+
+  - {link: "https://www.facebook.com/Coyote-Flaco-Hartford-105872539453849/", class: 'uk-icon-facebook'}
+
+
+mansfield:
+
+  - {link: "https://www.facebook.com/coyoteflacomansfield/", class: 'uk-icon-facebook'}
+

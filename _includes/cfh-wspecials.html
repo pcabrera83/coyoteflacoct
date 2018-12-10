@@ -1,0 +1,124 @@
+<div id="tm-top-b" class="tm-block-top-b uk-block uk-block-default" data-uk-parallax="{bg: '-200'}" style="background: #FFF5EA;"
+ data-uk-parallax="{bg: '-200'}">
+	<div class="uk-container uk-container-center">
+		<section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
+			<div class="uk-width-1-1 uk-row-first">
+				<div class="uk-panel uk-text-center">
+					<h2 class="uk-margin-large-bottom uk-text-center cf-heading">
+						{% include left-arrows.html %}
+						Weekly Specials
+						{% include right-arrows.html %}
+					</h2>
+				</div>
+				<div class="tm-article-content uk-margin-large-bottom uk-margin-top-remove">
+					<div class="tm-article">
+						<div class="tm-slideset-gaucho" data-uk-slideset="{default: 1, animation: 'fade'}" style="">
+							<!-- data filters -->
+							<ul class="uk-subnav uk-flex-center">
+								<li data-uk-filter="" class="uk-active"> <a href="#">
+										All
+									</a>
+								</li>
+								<li data-uk-filter="appetizers" class=""> <a href="#">
+										appetizers
+									</a>
+								</li>
+								<li data-uk-filter="entrees" class=""> <a href="#">
+										entrees
+									</a>
+								</li>
+								<li data-uk-filter="dessert" class=""> <a href="#">
+										Dessert
+									</a>
+								</li>
+								<li data-uk-filter="drinks" class=""> <a href="#">
+										drinks
+									</a>
+								</li>
+							</ul>
+							<!-- slideset -->
+							<div class="uk-slidenav-position uk-margin">
+								<ul class="uk-grid uk-slideset uk-grid-match uk-flex-center uk-grid-width-1-1">
+									<li data-uk-filter="appetizers" class="uk-active" style="">
+										<div class="uk-panel uk-text-left">
+											<div class="uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-2" data-uk-grid-margin="">
+												<!-- First Column -->
+												<div class="uk-panel uk-panel-space uk-row-first">
+													{% for item in site.data.cf-dine.Appetizers %}
+													<div class="tm-menu-item tm-menu-compound">
+														<div class="uk-grid" data-uk-grid-margin="">
+															<div class="uk-width-1-5 uk-row-first">
+																<img class="uk-align-left uk-thumbnail uk-border-circle" src="{{ site.baseurl }}/images/demo/menu/food-7.jpg"
+																 width="72" height="72" alt="{{ item.alt }}">
+															</div>
+															<div class="uk-width-4-5">
+																<div class="uk-margin-small-left">
+																	<h3 class="tm-menu-name cf-menu-background">
+																		{{ item.menuItem }}
+																	</h3>
+																	<div class="uk-badge-danger uk-badge {{ item.spicy }}">
+																		hot
+																	</div>
+																	<span class="tm-menu-dots"></span>
+																	<span class="tm-menu-price cf-menu-background">
+																		{{ item.menuPrice }}
+																	</span>
+																	<span class="tm-menu-desc">
+																		{{ item.menuDescription }}
+																	</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													{% endfor %}
+												</div>
+												<!-- Second Column -->
+												<div class="uk-panel uk-panel-space uk-grid-margin uk-row-first">
+													{% for item in site.data.cf-dine.Appetizers-2 %}
+													<div class="tm-menu-item tm-menu-compound">
+														<div class="uk-grid" data-uk-grid-margin="">
+															<div class="uk-width-1-5 uk-row-first">
+																<img class="uk-align-left uk-thumbnail uk-border-circle" src="{{ site.baseurl }}images/demo/menu/food-7.jpg"
+																 width="72" height="72" alt="{{ item.alt }}">
+															</div>
+															<div class="uk-width-4-5">
+																<div class="uk-margin-small-left">
+																	<h3 class="tm-menu-name cf-menu-background">
+																		{{ item.menuItem }}
+																	</h3>
+																	<div class="uk-badge-danger uk-badge {{ item.spicy }}">
+																		hot
+																	</div>
+																	<span class="tm-menu-dots"></span>
+																	<span class="tm-menu-price cf-menu-background">
+																		{{ item.menuPrice }}
+																	</span>
+																	<span class="tm-menu-desc">
+																		{{ item.menuDescription }}
+																	</span>
+																</div>
+															</div>
+														</div>
+													</div>
+													{% endfor %}
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+								<ul class="uk-slideset-nav uk-dotnav uk-flex-center uk-margin-bottom-remove">
+									<li data-uk-slideset-item="0" class="uk-active"><a></a></li>
+									<li data-uk-slideset-item="1"><a></a></li>
+									<li data-uk-slideset-item="2"><a></a></li>
+									<li data-uk-slideset-item="3"><a></a></li>
+									<li data-uk-slideset-item="4"><a></a></li>
+									<li data-uk-slideset-item="5"><a></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>

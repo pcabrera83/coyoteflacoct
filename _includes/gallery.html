@@ -1,0 +1,52 @@
+<div id="tm-top-a" class="tm-block-top-a uk-block cf-padding">
+    <div class="uk-text-center">
+        <div class="uk-container uk-container-center">
+            <h2 class="uk-margin-large-bottom uk-text-center cf-heading">
+                {% include left-arrows.html%}
+                Dine With Us
+                {% include right-arrows.html%}
+            </h2>
+            <section class="tm-top-a uk-grid uk-hidden-small" data-uk-grid-match="{target:'> div > .uk-panel'}"
+                data-uk-grid-margin style="background: #ffffff; padding: 10px; margin: 0px;">
+                <div class="uk-width-1-1" style="padding-left: 0px !important;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="with-spacing four-col" id="works-grid">
+                                {% for item in site.data.gallery %}
+                                <div class="work-item branding ui-ux">
+                                    <div class="work-detail">
+                                        <a href="{{ item.path }}">
+                                            <img src="{{ item.path }}" alt="">
+                                            <div class="work-info">
+                                                <div class="centrize">
+                                                    <div class="v-center">
+                                                        <h3>{{ item.title }}</h3>
+                                                        <p>{{ item.location }}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="gallery-overlay"></div>
+                                        </a>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Mobile Gallery -->
+            <section class="uk-hidden-large uk-hidden-medium" style="border-top: 0px; padding: 0px;">
+                <div class="container">
+                    <div class="row pt-25 pb-25">
+                        <div class="images-gallery">
+                            {% for item in site.data.gallery %}
+                            <img src="{{ item.path }}" alt=" {{ item.alt }}" width="350" height="415">
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

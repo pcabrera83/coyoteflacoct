@@ -1,0 +1,44 @@
+- path: 'images/quesadilla@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Quesadilla
+  alt: Quesadilla
+
+- path: 'images/mansfield-patio@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Mansfield Patio
+  alt: Mansfield Patio
+
+- path: 'images/tacos-margarita@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Tacos and Margarita
+  alt: Tacos and Margarita
+
+- path: 'images/cactus@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Cactus 
+  alt: Cactus
+
+- path: 'images/pollo-mexicana@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Pollo al Mexicana
+  alt: Pollo al Mexicana
+
+- path: 'images/chips-margarita@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Margarita, chips and salsa
+  alt: Margarita, chips and salsa
+
+- path: 'images/sangria@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Sangria Drink
+  alt: Sangria Drink
+
+- path: 'images/flan@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Flan
+  alt: Flan
+
+- path: 'images/hartford-patio@2x.png'
+  lightbox: "{group:'gallery1'}"
+  title: Hartford Patio
+  alt: Hartford Patio

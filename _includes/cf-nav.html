@@ -1,0 +1,106 @@
+<div class="tm-navbar" data-uk-sticky>
+    <div class="tm-toolbar uk-clearfix uk-hidden-small" style="background-color: #D2C82A; ">
+        <!-- toolbar left -->
+        <div class="uk-float-left">
+            <div>
+                <!-- <ul class="uk-subnav uk-subnav-line"><li><a href="" target="_blank">Buy Now</a></li><li><a href="#">Login</a></li></ul> -->
+            </div>
+            <div class=" uk-hidden-small">
+                <!-- <p>Open daily: 7:30 am to 11:00 pm</p> -->
+            </div>
+        </div>
+        <!-- Nav Social Media Section -->
+        <div class="uk-float-right">
+            <div>
+                <!-- <a href="" class="uk-icon-button uk-icon-facebook" target="_blank"></a><a href="" class="uk-icon-button uk-icon-instagram" target="_blank"></a> -->
+            </div>
+        </div>
+    </div>
+    <nav class="tm-navbar-container uk-flex uk-flex-space-between uk-margin-large-right">
+        <!-- Coyote Flaco Section -->
+        <div class="tm-nav-logo-small">
+            <a class="tm-logo-small" href="{{ site.baseurl }}/" />
+            <div class=" flaco-logo-nav">
+                <span class="uk-hidden-small" style="display: none;">
+                    {% include flaco-logo.html %} </span>
+                <h1>Coyote
+                    Flaco</h1>
+            </div>
+            </a>
+        </div>
+        <!-- main menu -->
+        <div class="tm-nav uk-hidden-small">
+            <ul class="uk-navbar-nav uk-hidden-small">
+                <!-- home menu  -->
+                <li class="uk-parent uk-active" data-uk-dropdown>
+                    <a href="{{ site.baseurl }}/">
+                        Home
+                    </a>
+                </li>
+                <!-- Locations menu -->
+                <li class="uk-parent" data-uk-dropdown>
+                    <a href="#">
+                        Locations
+                    </a>
+                    <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
+                        <div class="uk-grid uk-dropdown-grid">
+                            <div class="uk-width-1-1">
+                                <ul class="uk-nav uk-nav-navbar">
+                                    {% for item in site.data.navigation.locations %}
+                                    <li>
+                                        <a href="{{ site.baseurl }}/{{ item.link }}">
+                                            {{ item.name }}
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Menu -->
+                <li class="uk-parent" data-uk-dropdown="" aria-haspopup="true" aria-expanded="false"><a href="#">Menu</a>
+                    <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1 uk-dropdown-bottom" aria-hidden="true"
+                        tabindex="" style="top: 70px; left: 0px;">
+                        <div class="uk-grid uk-dropdown-grid">
+                            <div class="uk-width-1-1">
+                                <ul class="uk-nav uk-nav-navbar">
+                                    <li><a href="{{ site.baseurl }}/#">Lunch</a></li>
+                                    <li><a href="{{ site.baseurl }}/hartford-dine-in">Dine In</a>
+                                        <!-- <li class="uk-parent"><a href="#">Dine In</a> -->
+                                        <!-- <ul class="uk-nav-sub uk-dropdown-flip">
+                                            <li><a href="">Appetizer</a></li>
+                                            <li><a href="">Entreés</a></li>
+                                            <li><a href="">Fajitas</a></li>
+                                            <li><a href="">Combos</a></li>
+                                            <li><a href="">Desserts</a></li>
+                                            <li><a href="">Drinks</a></li>
+                                        </ul> -->
+                                    <li><a href="{{ site.baseurl }}/#">Take Out</a></li>
+                                    <li><a href="{{ site.baseurl }}/#">Drinks</a></li>
+                </li>
+
+            </ul>
+        </div>
+</div>
+</div>
+</li>
+
+<!-- Happy Hour -->
+<li class="uk-parent" data-uk-dropdown>
+    <a href="{{ site.baseurl }}/happyhour">Happy Hour</a>
+</li>
+<!-- Reservations -->
+<li class="uk-parent" data-uk-dropdown>
+    <a href="{{ site.baseurl }}/reservations">Reservations</a>
+</li>
+<!-- About Us  -->
+<li class="uk-parent" data-uk-dropdown>
+    <a href="{{ site.baseurl }}/about/">About Us</a>
+</li>
+</ul>
+</div>
+<!-- offcanvas nav icon -->
+<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+</nav>
+</div>

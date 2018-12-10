@@ -1,0 +1,7 @@
+global: 
+
+- { review: 'Best homemade Mexican Food in New England', name: 'Art', location: 'West Hartford, CT' }
+- { review: 'Everything was delicious, the staff was friendly and attentive, and the ambiance was great!', name: 'Eva', location: 'Storrs, CT' }
+- { review: 'We love the mom and pop vibe!', name: 'Jen', location: 'Kensington, CT' }
+- { review: 'This quaint restaurant serves up huge flavor that does not disappoint', name: 'Art', location: 'Pasadena, CA' }
+- { review: 'Some of the best Mexican food I have ever had', name: 'Suresh', location: ' Glastonbury, CT' }

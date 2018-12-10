@@ -1,0 +1,11 @@
+#-------------------------------
+
+  # Hartford Address
+hartford :
+
+  - {name: 'Coyote Hartford', street: '635 New Britain Ave', city: 'Hartford, CT 06106', phone: '860-953-1299'}
+
+  # Mansfield Address
+mansfield:
+
+  - {name: 'Coyote Flaco Mansfield', street: '50 Higgins Hwy', city: 'Mansfield, CT 06250', phone: '860-423-4414'}

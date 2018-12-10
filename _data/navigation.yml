@@ -1,0 +1,4 @@
+locations: 
+
+- {name: 'Hartford', link: 'hartford/', class: 'uk-button-primary',}
+- {name: 'Mansfield', link: 'mansfield/', class: 'uk-button-secondary', class2: 'right', }
