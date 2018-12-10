@@ -37,7 +37,7 @@
             <ul class="uk-navbar-nav uk-hidden-small">
                 <!-- home menu  -->
                 <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="{{ site.baseurl }}/">
+                    <a href="{{ site.url }}/">
                         Home
                     </a>
                 </li>
@@ -52,7 +52,7 @@
                                 <ul class="uk-nav uk-nav-navbar">
                                     {% for item in site.data.navigation.locations %}
                                     <li>
-                                        <a href="{{ site.baseurl }}/{{ item.link }}">
+                                        <a href="{{ site.url }}/{{ item.link }}">
                                             {{ item.name }}
                                         </a>
                                     </li>
@@ -63,7 +63,7 @@
                     </div>
                 </li>
                 <!-- menu menu  -->
-                <li class="uk-parent" data-uk-dropdown><a href="{{ site.baseurl }}/about/">About Us</a>
+                <li class="uk-parent" data-uk-dropdown><a href="{{ site.url }}/about/">About Us</a>
                 </li>
             </ul>
         </div>

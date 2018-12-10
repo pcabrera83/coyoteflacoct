@@ -1,7 +1,7 @@
 ---
 layout: hartford-layout
 title: Hartford
-permalink: /hartford.html
+permalink: /hartford
 ---
 <!-- Slider In Section -->
 {% include cfh-slider.html %}
