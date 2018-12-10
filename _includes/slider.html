@@ -13,7 +13,7 @@
                 Vist Our Locations
             </h3>
             {% for item in site.data.navigation.locations %}
-            <a class="uk-button-large uk-button cf-button {{ item.class }} {{ item.class2 }}" href="{{ site.baseurl }}/{{ item.link }}">
+            <a class="uk-button-large uk-button cf-button {{ item.class }} {{ item.class2 }}" href="{{ site.url }}/{{ item.link }}">
                 {{ item.name }}
             </a>
             {% endfor %}
