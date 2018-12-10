@@ -33,7 +33,7 @@
             <ul class="uk-navbar-nav uk-hidden-small">
                 <!-- home menu  -->
                 <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="{{ site.baseurl }}/">
+                    <a href="{{ site.url }}/">
                         Home
                     </a>
                 </li>
@@ -48,7 +48,7 @@
                                 <ul class="uk-nav uk-nav-navbar">
                                     {% for item in site.data.navigation.locations %}
                                     <li>
-                                        <a href="{{ site.baseurl }}/{{ item.link }}">
+                                        <a href="{{ site.url }}/{{ item.link }}">
                                             {{ item.name }}
                                         </a>
                                     </li>
@@ -65,8 +65,8 @@
                         <div class="uk-grid uk-dropdown-grid">
                             <div class="uk-width-1-1">
                                 <ul class="uk-nav uk-nav-navbar">
-                                    <li><a href="{{ site.baseurl }}/#">Lunch</a></li>
-                                    <li><a href="{{ site.baseurl }}/hartford-dine-in">Dine In</a>
+                                    <li><a href="{{ site.url }}/#">Lunch</a></li>
+                                    <li><a href="{{ site.url }}/hartford-dine-in">Dine In</a>
                                         <!-- <li class="uk-parent"><a href="#">Dine In</a> -->
                                         <!-- <ul class="uk-nav-sub uk-dropdown-flip">
                                             <li><a href="">Appetizer</a></li>
@@ -76,8 +76,8 @@
                                             <li><a href="">Desserts</a></li>
                                             <li><a href="">Drinks</a></li>
                                         </ul> -->
-                                    <li><a href="{{ site.baseurl }}/#">Take Out</a></li>
-                                    <li><a href="{{ site.baseurl }}/#">Drinks</a></li>
+                                    <li><a href="{{ site.url }}/#">Take Out</a></li>
+                                    <li><a href="{{ site.url }}/#">Drinks</a></li>
                 </li>
 
             </ul>
@@ -88,15 +88,15 @@
 
 <!-- Happy Hour -->
 <li class="uk-parent" data-uk-dropdown>
-    <a href="{{ site.baseurl }}/happyhour">Happy Hour</a>
+    <a href="{{ site.url }}/happyhour">Happy Hour</a>
 </li>
 <!-- Reservations -->
 <li class="uk-parent" data-uk-dropdown>
-    <a href="{{ site.baseurl }}/reservations">Reservations</a>
+    <a href="{{ site.url }}/reservations">Reservations</a>
 </li>
 <!-- About Us  -->
 <li class="uk-parent" data-uk-dropdown>
-    <a href="{{ site.baseurl }}/about/">About Us</a>
+    <a href="{{ site.url }}/about/">About Us</a>
 </li>
 </ul>
 </div>
