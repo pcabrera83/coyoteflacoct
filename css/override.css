@@ -100,7 +100,7 @@ section {
 */
 
 .background {
-  background-image: url('/images/wood-background.png');
+  background-image: url('{{site.url}}/images/wood-background.png');
   margin: 0 0 5em 0;
 }
 
