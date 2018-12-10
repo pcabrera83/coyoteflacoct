@@ -7,8 +7,9 @@
                     <h2 class="uk-margin-large-top">Home</h2>
                     <h2 class="uk-margin-medium-top">Locations
                         <ul>
-                            <li class="uk-margin-small-top"><a href="">Hartford</a></li>
-                            <li><a href="">Mansfield</a></li>
+                            {% for item in site.data.navigation.locations %}
+                            <li class="uk-margin-small-top"><a href="{{ site.url }}/{{ item.link }}">{{ item.name }}</a></li>
+                            {% endfor %}
                         </ul>
                     </h2>
                     <h2 class="uk-margin-medium-top">About Us</h2>
