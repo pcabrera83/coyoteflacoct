@@ -3075,7 +3075,7 @@ hr {
     color: rgba(26, 26, 16, 0.8)
 }
 
-.uk-block-primary .uk-form input:not([type]):focus,
+/* .uk-block-primary .uk-form input:not([type]):focus,
 .uk-block-primary .uk-form input[type=email]:focus,
 .uk-block-primary .uk-form input[type=password]:focus,
 .uk-block-primary .uk-form input[type=text]:focus,
@@ -3083,7 +3083,7 @@ hr {
 .uk-block-primary .uk-form textarea:focus {
     border-color: rgba(26, 26, 16, 0.4);
     color: rgba(26, 26, 16, 0.8)
-}
+} */
 
 .uk-block-primary .uk-alert-success {
     color: #ffffff;

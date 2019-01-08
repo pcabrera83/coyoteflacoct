@@ -3067,7 +3067,7 @@ section.gradient-bg:not([data-gradients]) {
     display: block;
     color: #fff;
     font-size: 13px;
-    /*font-family: 'Poppins', sans-serif;*/
+    /*font-family: 'Poppins', sans-serif;
 font-weight: 500;
 -webkit-transition: all .3s ease;
 transition: all .3s ease;
@@ -3076,7 +3076,7 @@ padding-left: 15px;
 padding-right: 15px;
 outline: none;
 }
-
+/*  */
 #navbar .navigation-menu>li>a:hover,
 #navbar .navigation-menu>li>a:focus {
     background-color: transparent;

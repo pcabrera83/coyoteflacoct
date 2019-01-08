@@ -1,0 +1,86 @@
+<!-- Apps Section -->
+<div id="tm-top-b" class="tm-block-top-b uk-block uk-block-default" data-uk-parallax="{bg: '-200'}" style="background: #FFF5EA;">
+    <div class="uk-container uk-container-center">
+        <section class="tm-top-b uk-grid">
+            <div class="uk-width-1-1 uk-row-first">
+                <div class="uk-panel uk-text-center">
+                    <img class="" src="images/sopa.png" alt="sopa" width="300" height="200">
+                    <h2 class="uk-text-center cf-heading uk-margin-large-bottom">
+                        {% include left-arrows.html %}
+                        Aperitivos
+                        {% include right-arrows.html %}
+                        <span class="uk-sub-title uk-block">
+                            Appetizers
+                        </span>
+                    </h2>
+                </div>
+                <div class="tm-article-content uk-margin-large-bottom uk-margin-top-remove">
+                    <div class="tm-article">
+                        <div class="uk-panel uk-text-left">
+                            <div class="uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-2" data-uk-grid-margin="">
+                                <div class="uk-panel uk-panel-space uk-row-first">
+                                    {% for item in site.data.cf-lunch.Appetizers %}
+                                    <div class="tm-menu-item tm-menu-compound">
+                                        <div class="uk-grid" data-uk-grid-margin="">
+                                            <div class="uk-width-4-5 uk-row-first">
+                                                <div class="uk-margin-small-left">
+                                                    <h3 class="tm-menu-name" style="background: #fff5ea;">
+                                                        {{ item.menuItem }}
+                                                    </h3>
+                                                    <div class="uk-badge-danger uk-badge {{ item.spicy }}">
+                                                        hot
+                                                    </div>
+                                                    <span class="tm-menu-dots"></span>
+                                                    <span class="tm-menu-price" style="background: #fff5ea;">
+                                                        {{ item.menuPrice }}
+                                                    </span>
+                                                    <span class="tm-menu-desc">
+                                                        {{ item.menuDescription }}
+                                                    </span>
+                                                    <span class="cf-submenu-price">
+                                                        {{ item.menuSubPrice }}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                <!-- Column 2 -->
+                                <div class="uk-panel uk-panel-space uk-row-first">
+                                    {% for item in site.data.cf-lunch.Appetizers-2 %}
+                                    <div class="tm-menu-item tm-menu-compound">
+                                        <div class="uk-grid" data-uk-grid-margin="">
+                                            <div class="uk-width-4-5 uk-row-first">
+                                                <div class="uk-margin-small-left">
+                                                    <h3 class="tm-menu-name" style="background: #fff5ea;">
+                                                        {{ item.menuItem }}
+                                                    </h3>
+                                                    <div class="uk-badge-danger uk-badge {{ item.spicy }}">
+                                                        hot
+                                                    </div>
+                                                    <span class="tm-menu-dots"></span>
+                                                    <span class="tm-menu-price" style="background: #fff5ea;">
+                                                        {{ item.menuPrice }}
+                                                    </span>
+                                                    <span class="tm-menu-desc">
+                                                        {{ item.menuDescription }}
+                                                    </span>
+                                                    <span class="cf-submenu-price">
+                                                        {{ item.menuSubPrice }}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    {% endfor %}
+                                </div>
+                                <!-- End Column 2 -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>

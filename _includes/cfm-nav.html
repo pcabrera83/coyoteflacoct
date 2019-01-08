@@ -19,12 +19,11 @@
     <nav class="tm-navbar-container uk-flex uk-flex-space-between uk-margin-large-right">
         <!-- Coyote Flaco Section -->
         <div class="tm-nav-logo-small">
-            <a class="tm-logo-small" href="{{ site.url }}/">
+            <a class="tm-logo-small" href="index.html">
                 <div class="flaco-logo-nav">
                     <span class="uk-hidden-small" style="display: none;">
                         {% include flaco-logo.html %} </span>
-                    <h1>Coyote
-                        Flaco</h1>
+                    <h1>Coyote Flaco <small>Mansfield</small></h1>
                 </div>
             </a>
         </div>
@@ -33,7 +32,7 @@
             <ul class="uk-navbar-nav uk-hidden-small">
                 <!-- home menu  -->
                 <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="{{ site.url }}/">
+                    <a href="index.html">
                         Home
                     </a>
                 </li>
@@ -48,7 +47,7 @@
                                 <ul class="uk-nav uk-nav-navbar">
                                     {% for item in site.data.navigation.locations %}
                                     <li>
-                                        <a href="{{ site.url }}/{{ item.link }}">
+                                        <a href="{{ item.link }}">
                                             {{ item.name }}
                                         </a>
                                     </li>
@@ -66,7 +65,7 @@
                             <div class="uk-width-1-1">
                                 <ul class="uk-nav uk-nav-navbar">
                                     <!-- <li><a href="#">Lunch</a></li> -->
-                                    <li><a href="{{ site.url }}/mansfield-dine-in">Dine In</a>
+                                    <li><a href="mansfield-dine-in.html">Dine In</a>
                                         <!-- <li class="uk-parent"><a href="#">Dine In</a> -->
                                         <!-- <ul class="uk-nav-sub uk-dropdown-flip">
                                             <li><a href="">Appetizer</a></li>
@@ -76,8 +75,8 @@
                                             <li><a href="">Desserts</a></li>
                                             <li><a href="">Drinks</a></li>
                                         </ul> -->
-                                    <li><a href="#">Take Out</a></li>
-                                    <li><a href="#">Drinks</a></li>
+                                        <!-- <li><a href="/mansfield-take-out.html">Take Out</a></li> -->
+                                    <li><a href="mansfield-drinks.html">Drinks</a></li>
                 </li>
 
             </ul>
@@ -92,15 +91,15 @@
 </li> -->
 <!-- Reservations -->
 <li class="uk-parent" data-uk-dropdown>
-    <a href="{{ site.url }}/reservations">Reservations</a>
+    <a href="mansfield-reservations.html">Reservations</a>
 </li>
 <!-- About Us  -->
 <li class="uk-parent" data-uk-dropdown>
-    <a href="{{ site.url }}/about/">About Us</a>
+    <a href="about-mansfield.html">About Us</a>
 </li>
 </ul>
 </div>
 <!-- offcanvas nav icon -->
-<a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+<!-- <a href=" #offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a> -->
 </nav>
 </div>

@@ -1,44 +1,59 @@
 - path: 'images/quesadilla@2x.png'
   lightbox: "{group:'gallery1'}"
   title: Quesadilla
-  alt: Quesadilla
+  alt: 
 
-- path: 'images/mansfield-patio@2x.png'
+- path: 'images/mansfield-patio-R.jpg'
   lightbox: "{group:'gallery1'}"
   title: Mansfield Patio
-  alt: Mansfield Patio
+  alt: 
 
-- path: 'images/tacos-margarita@2x.png'
+- path: 'images/silvia-flan.jpg'
   lightbox: "{group:'gallery1'}"
-  title: Tacos and Margarita
-  alt: Tacos and Margarita
+  title: Flan
+  alt: 
+  
+- path: 'images/donjulio-margarita.jpg'
+  lightbox: "{group:'gallery1'}"
+  title: Don Julio Margarita
+  alt: 
 
-- path: 'images/cactus@2x.png'
+- path: 'images/cactus-R.jpg'
   lightbox: "{group:'gallery1'}"
-  title: Cactus 
-  alt: Cactus
+  title: Mansfield Dining Room 
+  alt: 
+
+- path: 'images/tacos-margarita-R.png'
+  lightbox: "{group:'gallery1'}"
+  title: Tacos and Margarita 
+  alt: 
+
+- path: 'images/cranberry-margarita.jpg'
+  lightbox: "{group:'gallery1'}"
+  title: Cranberry Margarita
+  alt: 
 
 - path: 'images/pollo-mexicana@2x.png'
   lightbox: "{group:'gallery1'}"
   title: Pollo al Mexicana
-  alt: Pollo al Mexicana
+  alt: 
 
-- path: 'images/chips-margarita@2x.png'
+- path: 'images/chips-margarita.jpg'
   lightbox: "{group:'gallery1'}"
-  title: Margarita, chips and salsa
-  alt: Margarita, chips and salsa
+  title: Chips and Margaritas
+  alt: 
 
-- path: 'images/sangria@2x.png'
+- path: 'images/sangria.jpg'
   lightbox: "{group:'gallery1'}"
   title: Sangria Drink
-  alt: Sangria Drink
-
-- path: 'images/flan@2x.png'
-  lightbox: "{group:'gallery1'}"
-  title: Flan
-  alt: Flan
+  alt: 
 
 - path: 'images/hartford-patio@2x.png'
   lightbox: "{group:'gallery1'}"
   title: Hartford Patio
-  alt: Hartford Patio
+  alt: 
+
+- path: 'images/silvia-frozenmarg.jpg'
+  lightbox: "{group:'gallery1'}"
+  title: Frozen Margarita
+  alt: 

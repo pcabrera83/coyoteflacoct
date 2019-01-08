@@ -66,6 +66,17 @@ section {
   background: #FFF5EA !important;
 }
 
+
+.cf-submenu-price {
+  font-size: 22px;
+  font-family: 'Khand';
+  font-weight: 400;
+}
+
+.cf-thumbnail {
+  max-height: 550px !important;
+}
+
 /*
   02
   Nav Styles
@@ -94,13 +105,18 @@ section {
   width: 5%;
 }
 
+.flaco-logo-nav small {
+  color: #f9f9f9;
+  font-size: .45em;
+}
+
 /*
   02
   Slider Styles
 */
 
 .background {
-  background-image: url('/coyoteflacoct/images/wood-background.png');
+  background-image: url('/images/wood-background.png');
   margin: 0 0 5em 0;
 }
 
@@ -222,6 +238,10 @@ h3 {
 
 small {
   color: #F9F9F9;
+}
+
+.footer-links {
+  color: #EC4E00 !important;
 }
 
 .flaco-logo {
@@ -437,12 +457,22 @@ small {
     width: 80%;
     margin: 0 auto;
   }
+
+  .cf-block-large {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
 }
 
 @media (max-width:768px) {
 
   small {
     font-size: 1em;
+  }
+
+  .cf-block-large {
+    padding-top: 140px;
+    padding-bottom: 100px;
   }
 
   .cf-button {
@@ -494,8 +524,9 @@ small {
   .cf-button-tertiary {
     width: 100% !important;
   }
-}
 
-.patricio {
-  color: blue;
+  .cf-block-large {
+    padding-top: 140px;
+    padding-bottom: 100px;
+  }
 }

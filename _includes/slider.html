@@ -1,19 +1,17 @@
-<div class="container-1 uk-cover-background background">
+<div class="container-1 uk-cover-background background" style="background-image: url('images/wood-background.png');">
     <div class="box-1 uk-text-left tm-header-box uk-flex-center">
         <h1 class="uk-module">
             ¡Bienvenidos to Coyote Flaco!
         </h1>
         <p>
-            We are a family owned restaurant that offers fresh local
-            food. Choose us for your next dining experience. In the summer you can sit on the patio and drink
-            margaritas.
+            Delicious Mexican food from our family's recipes.
         </p>
         <div class="uk-flex-middle" style="box-shadow: none; padding: 0px!important;">
             <h3 class="uk-margin">
-                Vist Our Locations
+                Visit Our Locations
             </h3>
             {% for item in site.data.navigation.locations %}
-            <a class="uk-button-large uk-button cf-button {{ item.class }} {{ item.class2 }}" href="{{ site.url }}/{{ item.link }}">
+            <a class="uk-button-large uk-button cf-button {{ item.class }} {{ item.class2 }}" href="{{ item.link }}">
                 {{ item.name }}
             </a>
             {% endfor %}
@@ -23,49 +21,35 @@
         <!-- Old Code -->
         <div class="cf-slider" style="padding-left: 0px;">
             <div class="tm-slideshow-gaucho uk-slidenav-position cf-padding-none" data-uk-slideshow="{autoplay:true, animation: 'scale', pauseOnHover: true, duration: 750, autoplayInterval: 15000, kenburns: true, kenburnsanimations: 'uk-animation-top-center'}">
+                <!-- Slides -->
                 <ul class="uk-slideshow uk-overlay-active cf-slider-height">
-                    <li data-slideshow-slide="html" aria-hidden="true" class="" style="animation-duration: 750ms; opacity: 1; height: 800px;">
-                        <div style="min-height: 550px !important;">
-                            <div class="uk-cover-background uk-position-cover uk-animation-scale uk-animation-reverse uk-animation-top-center"
-                                style="background-image: url('images/hartford-building@2x.png'); animation-duration: 15s;">
-                            </div>
-                            <canvas width="1200" height="500" style="width: 100%; height: auto; opacity: 0;">
-                            </canvas>
-                            <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-slide-left">
-                                <!-- <div>
+                    {% for item in site.data.slider.home %}
+                    <!-- Slide #{{ item.order }}  -->
+                    <li data-slideshow-slide="img" aria-hidden="" class="" style="animation-duration: 450ms !important; opacity: 1; height: 800px;">
+                        <!-- Image for Slider -->
+                        <div class="uk-cover-background uk-position-cover uk-animation-scale uk-animation-reverse uk-animation-top-center"
+                            style="animation-duration: 15s; {{ item.class }}">
+                        </div>
+                        <canvas width="1200" height="500" style="width: 100%; height: auto; opacity; 0;">
+                        </canvas>
+                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-slide-left">
+                            <!-- <div>
                                     <div class="uk-margin">
                                     </div>
                                     <span class="uk-button-default uk-button-large uk-button">Hartford</span>
                                 </div> -->
-                            </div>
                         </div>
                     </li>
-                    <li data-slideshow-slide="html" aria-hidden="true" style="animation-duration: 750ms; opacity: 0; height: 800px;"
-                        class="">
-                        <div class="uk-cover-background uk-position-cover uk-animation-scale uk-animation-reverse uk-animation-top-center"
-                            style="background-image: url('{{site.baseurl}}images/mansfield-building@2x.png'); animation-duration: 15s;">
-                        </div>
-                        <canvas width="1200" height="500" style="width: 100%; height: auto; opacity: 0;">
-                        </canvas>
-                        <div class="uk-overlay-panel uk-flex uk-flex-middle uk-overlay-slide-left">
-                            <!-- <div>
-                                <div class="uk-margin">
-                                </div>
-                                <span class="uk-button-default uk-button-large uk-button">Mansfield</span>
-                            </div> -->
-                        </div>
-                    </li>
+                    {% endfor %}
                 </ul>
                 <!-- slide navigation buttons -->
                 <div class="uk-margin cf-nobackground cf-slider-dots">
                     <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
-                        <li data-uk-slideshow-item="0" class="">
-                            <a href="">
-                            </a>
-                        </li>
-                        <li data-uk-slideshow-item="1" class="uk-active">
+                        {% for item in site.data.slider.home %}
+                        <li data-uk-slideshow-item="{{ item.order }}" class="">
                             <a href=""></a>
                         </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!-- slide navigation arrows -->
@@ -80,48 +64,47 @@
                 <!-- Controls Background for Slider Buttons -->
                 <div class="uk-margin cf-nobackground" style="display: none;">
                     <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
-                        <li data-uk-slideshow-item="0" class="uk-active">
+                        {% for item in site.data.slider.home %}
+                        <li data-uk-slideshow-item="{{ item.order }}" class="">
                             <a href=""></a>
                         </li>
-                        <li data-uk-slideshow-item="1" class="">
-                            <a href=""></a>
-                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!-- slide navigation arrows -->
                 <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle" style="padding: 40px;">
-                    <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch" data-uk-slideshow-item="previous"></a>
-                    <a href="" class="uk-slidenav uk-slidenav-next uk-hidden-touch" data-uk-slideshow-item="next"></a>
+                    <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch" data-uk-slideshow-item="previous">
+                    </a>
+                    <a href="" class="uk-slidenav uk-slidenav-next uk-hidden-touch" data-uk-slideshow-item="next">
+                    </a>
                 </div>
             </div>
         </div>
         <!-- Old Code Ends -->
     </div>
 </div>
-<!-- slide navigation buttons -->
-<div class="uk-margin">
+<!-- Nav Arrows -->
+<div class="uk-margin uk-hidden-large uk-hidden-medium uk-hidden-small uk-hidden-touch">
     <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
-        <li data-uk-slideshow-item="0" class="">
+        {% for item in site.data.slider.home %}
+        <li data-uk-slideshow-item="{{ item.order }}" class="">
             <a href=""></a>
         </li>
-        <li data-uk-slideshow-item="1" class="uk-active">
-            <a href=""></a>
-        </li>
-    </ul>
+        {% endfor %}
 </div>
 <!-- slide navigation arrows -->
 <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle">
     <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch" data-uk-slideshow-item="previous"></a>
     <a href="" class="uk-slidenav uk-slidenav-next uk-hidden-touch" data-uk-slideshow-item="next"></a>
 </div>
-<div class="uk-margin">
+<!-- Nav Arrows -->
+<div class="uk-margin uk-hidden-large uk-hidden-medium uk-hidden-small uk-hidden-touch">
     <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
-        <li data-uk-slideshow-item="0" class="uk-active">
+        {% for item in site.data.slider.home %}
+        <li data-uk-slideshow-item="{{ item.order }}" class="">
             <a href=""></a>
         </li>
-        <li data-uk-slideshow-item="1" class="">
-            <a href=""></a>
-        </li>
+        {% endfor %}
     </ul>
 </div>
 <!-- slide navigation arrows -->

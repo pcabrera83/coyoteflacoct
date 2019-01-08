@@ -1,4 +1,4 @@
-<div id="tm-top-a" class="tm-block-top-a uk-block cf-padding">
+<div id="tm-top-a" class="tm-block-top-a uk-block cf-padding uk-block-large cf-block-large">
     <div class="uk-text-center">
         <div class="uk-container uk-container-center">
             <h2 class="uk-margin-large-bottom uk-text-center cf-heading">
@@ -15,18 +15,19 @@
                                 {% for item in site.data.gallery %}
                                 <div class="work-item branding ui-ux">
                                     <div class="work-detail">
-                                        <a href="{{ item.path }}">
-                                            <img src="{{ item.path }}" alt="">
-                                            <div class="work-info">
-                                                <div class="centrize">
-                                                    <div class="v-center">
-                                                        <h3>{{ item.title }}</h3>
-                                                        <p>{{ item.location }}</p>
-                                                    </div>
+                                        <!-- <a href="{{ item.path }}"> -->
+                                        <img src="{{ item.path }}" alt="">
+                                        <div class="work-info">
+                                            <div class="centrize">
+                                                <div class="v-center">
+                                                    <h3>{{ item.title }}</h3>
+                                                    <!-- <p>{{ item.alt }}</p> -->
                                                 </div>
                                             </div>
-                                            <div class="gallery-overlay"></div>
-                                        </a>
+                                        </div>
+                                        <div class="gallery-overlay">
+                                        </div>
+                                        <!-- </a> -->
                                     </div>
                                 </div>
                                 {% endfor %}

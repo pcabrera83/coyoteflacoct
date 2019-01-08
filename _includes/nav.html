@@ -23,7 +23,7 @@
     <nav class="tm-navbar-container uk-flex uk-flex-space-between uk-margin-large-right">
         <!-- Coyote Flaco Section -->
         <div class="tm-nav-logo-small">
-            <a class="tm-logo-small" href="{{ site.baseurl }}/">
+            <a class="tm-logo-small" href="index.html">
                 <div class="flaco-logo-nav">
                     <span class="uk-hidden-small" style="display: none;">
                         {% include flaco-logo.html %} </span>
@@ -37,7 +37,7 @@
             <ul class="uk-navbar-nav uk-hidden-small">
                 <!-- home menu  -->
                 <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="{{ site.url }}/">
+                    <a href="index.html">
                         Home
                     </a>
                 </li>
@@ -52,7 +52,7 @@
                                 <ul class="uk-nav uk-nav-navbar">
                                     {% for item in site.data.navigation.locations %}
                                     <li>
-                                        <a href="{{ site.url }}/{{ item.link }}">
+                                        <a href="{{ item.link }}">
                                             {{ item.name }}
                                         </a>
                                     </li>
@@ -63,11 +63,11 @@
                     </div>
                 </li>
                 <!-- menu menu  -->
-                <li class="uk-parent" data-uk-dropdown><a href="{{ site.url }}/about/">About Us</a>
+                <li class="uk-parent" data-uk-dropdown><a href="about.html">About Us</a>
                 </li>
             </ul>
         </div>
         <!-- offcanvas nav icon -->
-        <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+        <!-- <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a> -->
     </nav>
 </div>

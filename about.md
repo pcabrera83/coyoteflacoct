@@ -1,7 +1,7 @@
 ---
 layout: aboutus
 title: About
-permalink: /about/
+permalink: about.html
 ---
 <!-- Wecome Section -->
 {% include welcome-about.html %}

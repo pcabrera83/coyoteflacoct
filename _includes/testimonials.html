@@ -1,66 +1,69 @@
-<div id="tm-main" class="tm-block-main uk-block uk-padding-large cf-padding uk-container-center">
+<div id="tm-main" class="tm-block-main uk-block uk-padding-large uk-container-center cf-block-large">
     <div class="uk-container uk-container-center">
         <h2 class="uk-margin-large-bottom uk-text-center cf-heading">
             {% include left-arrows.html%}
             WHAT OUR CUSTOMER SAY
             {% include right-arrows.html%}
         </h2>
-        <div class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
-            <div class="tm-main uk-width-medium-1-1 uk-row-first">
-                <main id="tm-content" class="tm-content" style="padding-bottom: 40px;">
-                    <article class="uk-article tm-article">
-                        <div class="tm-article-wrapper">
-                            <div class="tm-article-content uk-margin-large-bottom uk-margin-top-remove cf-testimonials">
-                                <div class="tm-article">
-                                    <!-- Testimonial slideshow -->
-                                    <div class="tm-slideshow-default uk-slidenav-position" data-uk-slideshow="{autoplay:true, animation: 'scroll', pauseOnHover: true, duration: 500, autoplayInterval: 10000, kenburns: false}">
-                                        <ul class="uk-slideshow uk-overlay-active" style="height: 281px;">
-                                            {% for item in site.data.reviews.global %}
-                                            <li data-slideshow-slide="html" aria-hidden="false" class="uk-active" style="animation-duration: 500ms; opacity: 1; height: 281px;">
-                                                <blockquote class="tm-testimonial uk-clearfix uk-text-center">
-                                                    <p>
-                                                        {{ item.review }}
-                                                    </p>
-                                                    <ul class="tm-rating">
-                                                        <li><i class="uk-icon-star"></i></li>
-                                                        <li><i class="uk-icon-star"></i></li>
-                                                        <li><i class="uk-icon-star"></i></li>
-                                                        <li><i class="uk-icon-star"></i></li>
-                                                        <li><i class="uk-icon-star"></i></li>
-                                                    </ul>
-                                                    <span class="author uk-margin-top">
-                                                        {{ item.name }}
-                                                    </span>
-                                                    <span class="jobtitle">
-                                                        {{ item.location }}
-                                                    </span>
-                                                </blockquote>
-                                            </li>
-                                            {% endfor %}
+        <div class="tm-middle uk-grid">
+            <div class="tm-main uk-width-medium-1-1">
+                <!-- <div class="tm-article-wrapper"> -->
+                <div class="tm-article-content uk-margin-large-bottom uk-margin-top-remove cf-testimonials">
+                    <div class="tm-article">
+                        <!-- Testimonial slideshow -->
+                        <div class="tm-slideshow-default uk-slidenav-position" data-uk-slideshow="{autoplay:true, animation: 'scroll', pauseOnHover: true, duration: 750, autoplayInterval: 7500, kenburns: false}">
+                            <ul class="uk-slideshow uk-overlay-active" style="height: 281px;">
+                                {% for item in site.data.reviews.global %}
+                                <li class="" style="">
+                                    <blockquote class="tm-testimonial uk-clearfix uk-text-center">
+                                        <p>
+                                            {{ item.review }}
+                                        </p>
+                                        <ul class="tm-rating">
+                                            <li><i class="uk-icon-star"></i></li>
+                                            <li><i class="uk-icon-star"></i></li>
+                                            <li><i class="uk-icon-star"></i></li>
+                                            <li><i class="uk-icon-star"></i></li>
+                                            <li><i class="uk-icon-star"></i></li>
                                         </ul>
-                                        <div class="uk-margin uk-hidden-small">
-                                            <ul class="uk-dotnav uk-flex-center uk-hidden-touch">
-                                                <li data-uk-slideshow-item="0" class=""><a href=""></a></li>
-                                                <li data-uk-slideshow-item="1" class=""><a href=""></a></li>
-                                                <li data-uk-slideshow-item="2" class=""><a href=""></a></li>
-                                                <li data-uk-slideshow-item="3" class=""><a href=""></a></li>
-                                                <li data-uk-slideshow-item="4" class=""><a href=""></a></li>
-                                            </ul>
-                                        </div>
-                                        <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle uk-hidden-small">
-                                            <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch"
-                                                data-uk-slideshow-item="previous">
-                                            </a>
-                                            <a href="" class="uk-slidenav uk-slidenav-next uk-hidden-touch"
-                                                data-uk-slideshow-item="next">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                                        <span class="author uk-margin-top">
+                                            {{ item.name }}
+                                        </span>
+                                        <span class="jobtitle">
+                                            {{ item.location }}
+                                        </span>
+                                    </blockquote>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            <!-- navigation bullets -->
+                            <div class="uk-margin uk-hidden-small">
+                                <ul class="uk-dotnav uk-flex-center uk-hidden-touch">
+                                    {% for item in site.data.reviews.global %}
+                                    <li data-uk-slideshow-item="{{ item.order }}" class="">
+                                        <a href="">
+                                        </a>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
                             </div>
+
+                            <!-- navigation arrows -->
+                            <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle uk-hidden-small">
+                                <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch"
+                                    data-uk-slideshow-item="previous">
+                                </a>
+                                <a href="" class="uk-slidenav uk-slidenav-next uk-hidden-touch" data-uk-slideshow-item="next">
+                                </a>
+                            </div>
+
                         </div>
-                    </article>
-                </main>
+
+                    </div>
+
+                </div>
+                <!-- </div> -->
+
             </div>
         </div>
     </div>

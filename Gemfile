@@ -21,7 +21,16 @@ gem "minima", "~> 2.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'hawkins'
+  gem 'jekyll-minifier'
+  gem 'jekyll-autoprefixer'
+  gem 'jekyll-sitemap'
+  gem 'jekyll-admin'
+  gem 'jekyll-deploy'
+  
+
 end
+
+JEKYLL_ENV="production"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

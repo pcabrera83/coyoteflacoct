@@ -1,7 +1,7 @@
 ---
 layout: mansfield-layout
-title: Mansfield
-permalink: /mansfield
+title: Mansfield - Coyote Flaco q
+permalink: /mansfield.html
 ---
 <!-- Slider In Section -->
 {% include cfm-slider.html %}
@@ -12,11 +12,11 @@ permalink: /mansfield
 <!-- Review Header Section -->
 {% include reviews-header.html %}
 <!-- Testimonials Section -->
-{% include testimonials.html %}
+{% include location-testimonials.html%}
 <!-- Image Divider Section -->
 {% include cfm-imgdivider.html %}
 <!-- Weekly Specials Section -->
 {% include cfm-wspecials.html %}
 <!-- Footer Section -->
-
-{% include scripts.html %}]
+{% include cfm-footer.html %}
+{% include scripts.html %}

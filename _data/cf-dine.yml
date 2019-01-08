@@ -8,6 +8,7 @@ Appetizers:
   menuItem: 'Tamal',
   menuDescription: 'Savory chicken filling steamed in corn meal casings topped with enchilada salsa and cheese',
   menuPrice: '5',
+  menuSubPrice: '',
   spicy: 'no', 
   alt: ''
   }
@@ -16,6 +17,7 @@ Appetizers:
   menuItem: 'Empanadas',
   menuDescription: 'Two fried empanadas stuffed with ground beef served with sour cream',
   menuPrice: '5',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -23,6 +25,7 @@ Appetizers:
   menuItem: 'Sopa de Tortillas',
   menuDescription: 'A spicy broth filled with chicken and avocado topped with cilantro and tortilla chips and a side of pico de gallo and cheese',
   menuPrice: '7',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -30,6 +33,7 @@ Appetizers:
   menuItem: 'Tacos de Pescado',
   menuDescription: 'Two soft tacos with tilapia served with lettuce, cilantro and onions',
   menuPrice: '8',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -39,6 +43,7 @@ Appetizers-2:
   menuItem: 'Quesadilla',
   menuDescription: 'A plain cheese quesadilla served with salad, guacamole and sour cream',
   menuPrice: '8',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -46,6 +51,7 @@ Appetizers-2:
   menuItem: 'Chorizo Norteño',
   menuDescription: 'Spanish sausage sautéed in chipotle sauce served with flour tortillas',
   menuPrice: '9',
+  menuSubPrice: '',
   spicy: 'yes' 
   }
 
@@ -53,14 +59,18 @@ Appetizers-2:
   menuItem: 'Gambas al Ajillo',
   menuDescription: 'Shrimp sautéed in a garlic sauce served with flour tortillas',
   menuPrice: '9',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of Gambas al Ajillo' 
   }
 
 - { 
   menuItem: 'Nacho Supreme',
   menuDescription: 'Corn tortillas topped with refried beans, Monterey Jack cheese, guacamole, sour cream, pico de gallo, jalapeños and your choice of meats or veggies',
   menuPrice: '11',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image  of Nacho Supreme' 
   }
 
 ##--------
@@ -73,6 +83,7 @@ Enchiladas:
   menuItem: 'Enchilada Roja',
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with enchilada salsa and Monterrey Jack cheese served with rice, refried beans and salad',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -80,6 +91,7 @@ Enchiladas:
   menuItem: 'Enchilada Suiza',
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with tomatillo salsa and Monterrey Jack cheese, served with rice, refried beans and sour cream',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of'
   }
 
@@ -89,6 +101,7 @@ Enchiladas-2:
   menuItem: 'Enchilada Oaxaca',
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with molé salsa and Monterrey Jack cheese served with rice, black beans and guacamole',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -96,6 +109,7 @@ Enchiladas-2:
   menuItem: 'Enchilada de Móle Verde',
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with enchilada salsa and Monterrey Jack cheese served with rice, black beans and guacamole',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -110,6 +124,7 @@ Platos-Tradicionales:
   menuDescription: 'A chile poblano pepper with your choice of
 meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served with rice, refried beans, guacamole and salad',
   menuPrice: '12',
+  menuSubPrice: '',
   spicy: 'yes' 
   }
 
@@ -119,13 +134,16 @@ meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served 
 veggies, deep fried served with rice,
 refried beans, salad and sour cream',
   menuPrice: '12',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'California Burrito',
   menuDescription: 'One large flour tortilla filled with rice, refried beans and your choice of meats or veggies, topped with enchilada salsa and cheese, served with sour cream and salad',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -135,6 +153,7 @@ Platos-Tradicionales-2:
   menuItem: 'Pollo Al Molé',
   menuDescription: 'Grilled chicken breast simmered in our molé salsa served with rice, black beans and vegetables',
   menuPrice: '15',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -142,6 +161,7 @@ Platos-Tradicionales-2:
   menuItem: 'Pollo A La Mexicana',
   menuDescription: 'Grilled chicken breast topped with sautéed peppers, onions, Monterrey jack cheese served with rice, black beans and guacamole',
   menuPrice: '15',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
   
@@ -151,6 +171,7 @@ Platos-Tradicionales-2:
 mushrooms, spinach and tomatoes, served
 with rice, black beans and guacamole',
   menuPrice: '16',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -163,15 +184,19 @@ Fajitas:
 - { 
   menuItem: 'Fajitas Coyote',
   menuDescription: 'Sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
-  menuPrice: 'Chicken 14 * Steak 15 * Shrimp 16',
-  spicy: 'no', alt: 'image of' 
+  menuPrice: '',
+  menuSubPrice: 'Chicken 14 • Steak 15 • Shrimp 16',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Fajitas Fiesta',
   menuDescription: 'The perfect seafood fajita combo of salmon and shrimp, sautéed onions and peppers served with rice, black beans, guacamole, sour cream, pico de gallo and flour tortillas',
   menuPrice: '17',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Fajitas-2:
@@ -179,7 +204,8 @@ Fajitas-2:
 - { 
   menuItem: 'Fajitas Mixtos',
   menuDescription: 'Broiled and marinated strips of  chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
-  menuPrice: 'Chicken & Steak 15 * Chicken & Shrimp 16 * Steak & Shrimp 17',
+  menuPrice: '',
+  menuSubPrice: 'Chicken & Steak 15 • Chicken & Shrimp 16 • Steak & Shrimp 17',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -193,14 +219,18 @@ Combos:
   menuItem: 'Tacos Combo',
   menuDescription: 'Two soft tacos stuffed with your choice of meats or veggies served with rice, refried beans, pico de gallo, lettuce and sour cream',
   menuPrice: '12',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Combo Mexicano',
   menuDescription: 'One burrito and an enchilada roja served with rice, refried beans and guacamole',
   menuPrice: '15',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
@@ -208,6 +238,7 @@ Combos:
   menuDescription: 'One enchilada suiza and one chimichanga
 filled with your choice of meats or veggies served with rice, refried beans and guacamole',
   menuPrice: '15',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -218,6 +249,7 @@ Combos-2:
   menuDescription: 'One enchilada suiza and one chimichanga
 filled with your choice of meats or veggies served with rice, refried beans and guacamole',
   menuPrice: '15',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -226,6 +258,7 @@ filled with your choice of meats or veggies served with rice, refried beans and 
   menuDescription: 'One chicken tamal and one chile relleno
 filled with your choice of meats or veggies served with rice, black beans and guacamole',
   menuPrice: '15',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -233,6 +266,7 @@ filled with your choice of meats or veggies served with rice, black beans and gu
   menuItem: 'Trio Enchiladas',
   menuDescription: 'A combination of an enchilada roja, enchilada suiza and an enchilada oaxaca stuffed with your choice of chicken, steak and pork served with rice, black beans and guacamole',
   menuPrice: '17',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -246,6 +280,7 @@ Quesadillas:
   menuItem: 'Spinach Quesadilla',
   menuDescription: 'A Spinach tortilla stuffed with Monterey jack cheese and spinach, served with guacamole, sour cream and salad',
   menuPrice: '10',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -253,6 +288,7 @@ Quesadillas:
   menuItem: 'Fiesta Quesadilla',
   menuDescription: 'A tomato tortilla stuffed with tomatoes, onions, mushrooms, Monterey jack cheese served with guacamole, sour cream and salad',
   menuPrice: '10',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -262,6 +298,7 @@ Quesadillas-2:
   menuItem: 'Quesadilla Linda',
   menuDescription: 'One flour tortilla filled with Monterey Jack cheese and your choice of meats or veggies served with salad, guacamole and sour cream',
   menuPrice: '13',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -275,6 +312,7 @@ Asados:
   menuItem: 'Bistek Ranchero',
   menuDescription: 'Grilled rib-eye steak topped with salsa de ranchero served with rice, refried beans, corn tortillas and guacamole',
   menuPrice: '17',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }  
 
@@ -282,6 +320,7 @@ Asados:
   menuItem: 'Coyote Steak',
   menuDescription: 'Charcoal rib-eye steak topped with peppers and onions sautéed with our spicy chipotle salsa served with rice, black beans and guacamole',
   menuPrice: '17',
+  menuSubPrice: '',
   spicy: 'yes' 
   } 
 
@@ -293,6 +332,7 @@ Asados-2:
 chicken enchilada suiza served with rice,
 refried beans, guacamole and chorizo',
   menuPrice: '17',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -307,7 +347,9 @@ Salads:
   menuDescription: 'Lettuce, grape tomato, spinach, cabbage
 and carrots topped with shrimp and avocado',
   menuPrice: '10',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Salads-2: 
@@ -316,6 +358,7 @@ Salads-2:
   menuItem: 'Taco Salad',
   menuDescription: 'Crispy flour tortilla nest filled with lettuce, carrots, cabbage, cheese, tomatoes topped with your choice of, meats or veggies',
   menuPrice: '12',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -330,6 +373,7 @@ Wraps:
   menuDescription: 'Spinach tortilla filled with rice, black beans,
 pico de gallo, cheese and your choice of filling, served with salad, guacamole and sour cream',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -339,6 +383,7 @@ Wraps-2:
   menuItem: 'Chile Fajita Wrap',
   menuDescription: 'A chile tortilla stuffed with black beans, red and green peppers, onions, pico de gallo, Monterey jack cheese and your choice of meats or vegetables, served with salad, guacamole and sour cream',
   menuPrice: '14',
+  menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -353,21 +398,27 @@ Seafood:
   menuDescription: 'Grilled salmon topped with ranchero and
 tomatillo salsa, served with rice, vegetables and guacamole',
   menuPrice: '16',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Salmon Poblano',
   menuDescription: 'Grilled salmon topped with molé verde on a bed of spinach and mushrooms, served with rice, black beans and guacamole',
   menuPrice: '17',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Camarones en Salsa Verde',
   menuDescription: 'Shrimp sautéed in tomatillo salsa served with rice, black beans and vegetables',
   menuPrice: '16',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Seafood-2:
@@ -376,7 +427,9 @@ Seafood-2:
   menuItem: 'Camarones al Ajillo',
   menuDescription: 'Shrimp sautéed in salsa de ajo served with rice, beans and vegetables',
   menuPrice: '16',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
@@ -384,6 +437,7 @@ Seafood-2:
   menuDescription: 'Shrimp sautéed with peppers and onions in
 a spicy chipotle salsa, served with rice, black beans and vegetables',
   menuPrice: '16',
+  menuSubPrice: '',
   spicy: 'yes' 
   }
 
@@ -391,7 +445,9 @@ a spicy chipotle salsa, served with rice, black beans and vegetables',
   menuItem: 'Huasteca al Ajo',
   menuDescription: 'Scallops, shrimp and green mussels, sautéed salsa de ajo served with rice, guacamole and vegetables',
   menuPrice: '18',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 # ##--------
@@ -404,21 +460,27 @@ Kids-Plates:
   menuItem: 'Kids Quesadilla',
   menuDescription: 'Grilled Flour tortilla stuffed with Monterey Jack cheese served with sour cream',
   menuPrice: '7',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Kids Taco',
   menuDescription: 'One hard taco filled with your choice of meats or veggies served with rice and beans',
   menuPrice: '7',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Kids Burrito',
   menuDescription: 'One flour tortilla filled with your choice of meats or veggies topped with enchilada salsa, cheese served with rice and beans',
   menuPrice: '8',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Kids-Plates-2:
@@ -427,21 +489,27 @@ Kids-Plates-2:
   menuItem: 'Kids Enchilada',
   menuDescription: 'One corn tortilla filled with your choice of meats or veggies topped with salsa, cheese served with rice and beans',
   menuPrice: '8',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Kids Chimichanga',
   menuDescription: 'One deep fried flour tortilla filled with your choice chicken, steak or veggies served with rice and beans ',
   menuPrice: '8',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Chicken Tenders',
   menuDescription: 'Crispy white meat chicken tenders served with french fries',
   menuPrice: '7',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Desserts:
@@ -450,21 +518,27 @@ Desserts:
   menuItem: 'Flan',
   menuDescription: 'Homemade baked custard topped with whipped cream',
   menuPrice: '4.99',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Sopapillas',
   menuDescription: 'Lightly fried flour tortillas dipped in sugar and cinnamon, served with vanilla ice cream, honey, whipped cream, strawberry and chocolate syrup',
   menuPrice: '5.99',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Churros',
   menuDescription: 'Fried dough rolled in cinnamon and sugar, served with vanilla ice cream topped with chocolate, strawberry syrup and whipped cream',
   menuPrice: '6.99',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Desserts-2:
@@ -473,14 +547,18 @@ Desserts-2:
   menuItem: 'Fried Ice Cream',
   menuDescription: 'Lightly fried ice cream rolled with crushed corn flakes, cinnamon, and cocount flakes topped with whipped cream, strawberry and chocoloate syrup',
   menuPrice: '5.99',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 - { 
   menuItem: 'Tres Leches Cake',
   menuDescription: 'A dense moist cake topped with a cloud of vanilla whipped cream, chocolate syrup, and cinnamon. ',
   menuPrice: '5.99',
-  spicy: 'no', alt: 'image of' 
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
   }
 
 Margaritas:
@@ -489,6 +567,7 @@ Margaritas:
   menuItem: 'House Margarita',
   menuDescription: 'Zapata Tequila, Triple Sec, Lime Mix',
   menuPrice: '4',
+  menuSubPrice: '',
   spicy: 'no', 
   }
 
@@ -498,7 +577,7 @@ Margaritas-2:
   menuItem: '1800 Margarita',
   menuDescription: '1800 Reposado Tequila, Triple Sec, Lime Mix',
   menuPrice: '5',
-  spicy: 'no', 
+  spicy: 'no'
   }
 
 Beer:
@@ -545,3 +624,199 @@ Wine-2:
   menuPrice: '5 (each)',
   spicy: 'no', 
   }
+
+##--------
+
+##--------
+
+Alacarte:
+
+- { 
+  menuItem: 'Tacos',
+  menuDescription: 'One soft or hard corn tortilla filled with your choice of meats served with lettuce, cilantro, cheese and pico de gallo',
+  menuPrice: '3.50',
+  menuSubPrice: 'add .50 for Sour Cream',
+  spicy: 'no', 
+  alt: ''
+  }
+
+- { 
+  menuItem: 'Express Flauta',
+  menuDescription: 'One corn tortilla deep fried filled with chicken or steak',
+  menuPrice: '4',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Express Fajita',
+  menuDescription: 'One flour tortilla filled with red onions, green and red peppers and your choice of chicken or steak',
+  menuPrice: '4',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Express Burrito',
+  menuDescription: 'One flour tortilla filled with your choice of meat or veggies',
+  menuPrice: '6',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
+  }
+
+Alacarte-2:
+
+- { 
+  menuItem: 'Express Chimichanga',
+  menuDescription: 'One deep fried flour tortilla filled with your chicken or steak ',
+  menuPrice: '6',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Express Enchilada',
+  menuDescription: 'Choice of Roja, Tomatillo, Molé salsa',
+  menuPrice: '6',
+  menuSubPrice: '',
+  spicy: 'yes' 
+  }
+
+- { 
+  menuItem: 'Express Chile Relleno',
+  menuDescription: 'One chile poblano pepper filled with your choice of meats or veggies',
+  menuPrice: '6',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of Gambas al Ajillo' 
+  }
+
+##--------
+
+##--------
+
+Beverages:
+
+- { 
+  menuItem: 'Jarritos',
+  menuDescription: 'Lime • Mandarina • Piña, Tamarindo • Sangria',
+  menuPrice: '2.50',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: ''
+  }
+
+- { 
+  menuItem: '2 Liters',
+  menuDescription: 'Coke • Diet Coke • Sprite • Ginger Ale',
+  menuPrice: '2.50',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
+  }
+
+
+Beverages-2:
+
+- { 
+  menuItem: 'Snapple',
+  menuDescription: 'Kiwi Strawberry • Mango Madness',
+  menuPrice: '2.50',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Cans',
+  menuDescription: 'Coke • Diet Coke • Sprite • Canada Dry Ginger Ale • Sunkist',
+  menuPrice: '1.50',
+  menuSubPrice: '',
+  spicy: 'yes' 
+  }
+
+
+handshaken-margaritas:
+
+- {
+  menuItem: 'Hornitos Margarita',
+  menuDescription: 'Sauza Hornitos Reposado
+Tequila, Triple Sec, Fresh Lime Juice',
+  menuPrice: '8',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: 'Cranberry Margarita',
+  menuDescription: 'Tequila, triple sec, lime and cranberry juice',
+  menuPrice: '8',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: 'El Jimador Margarita',
+  menuDescription: 'El Jimador Blanco Tequila,
+Grand Marnier, Fresh Lime Juice',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: 'Don Julio Margarita',
+  menuDescription: 'Don Julio Blanco Tequila,
+Grand Marnier, Fresh Lime Juice',
+  menuPrice: '10',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: 'Tradicional Margarita',
+  menuDescription: 'Jose Cuervo Tradicional Reposado Tequila, Cointreau, Fresh Lime Juice',
+  menuPrice: '10',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+frozen margaritas:
+
+- {
+  menuItem: 'Frozen Margarita',
+  menuDescription: 'Choice of flavors: Lime, Strawberry, or Mango',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+cocktails:
+
+- {
+  menuItem: 'Sangria',
+  menuDescription: '',
+  menuPrice: '9 • 27 Pitcher',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: 'Piña Colada',
+  menuDescription: '',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: 'Mojito',
+  menuDescription: '',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no' 
+}

@@ -1,0 +1,77 @@
+##--------
+
+##--------
+
+home:
+
+- {
+  class: "background-image: url('images/hartford-sidepatio-R.jpg');",
+  order: '0',
+}
+
+- {
+  class: "background-image: url('images/mansfield-building-R.jpg');",
+  order: '1',
+}
+
+- {
+  class: "background-image: url('images/hartford-diningroom-R2.jpg');",
+  order: '2',
+}
+
+- {
+  class: "background-image: url('images/silvia-pablo-harford-r.jpg');",
+  order: '3',
+}
+
+- {
+  class: "background-image: url('images/harford-diningroom-R3-v2.jpg');",
+  order: '4',
+}
+
+hartford:
+
+- {
+  class: "background-image: url('images/hartford-diningroom-3.jpg');",
+  order: '0',
+}
+
+- {
+  class: "background-image: url('images/fried-icecream.jpg');",
+  order: '1',
+}
+
+- {
+  class: "background-image: url('images/harford-bar.jpg');",
+  order: '2',
+}
+
+mansfield:
+
+- {
+  class: "background-image: url('images/mansfield-patio-1.jpg');",
+  order: '0',
+}
+
+- {
+  class: "background-image: url('images/mansfield-diningroom.jpg');",
+  order: '1',
+}
+
+- {
+  class: "background-image: url('images/mansfield-bar.jpg');",
+  order: '2',
+}
+
+- {
+  class: "background-image: url('images/mansfield-diningroom-2.jpg');",
+  order: '3',
+}
+
+- {
+  class: "background-image: url('images/mansfield-diningroom-3.jpg');",
+  order: '4',
+}
+
+
+

@@ -1,7 +1,7 @@
 ---
 layout: hartford-layout
 title: Hartford
-permalink: /hartford
+permalink: /hartford.html
 ---
 <!-- Slider In Section -->
 {% include cfh-slider.html %}
@@ -12,7 +12,7 @@ permalink: /hartford
 <!-- Review Header Section -->
 {% include reviews-header.html %}
 <!-- Testimonials Section -->
-{% include testimonials.html %}
+{% include location-testimonials.html%}
 <!-- Image Divider Section -->
 {% include cfh-imgdivider.html %}
 <!-- Weekly Specials Section -->

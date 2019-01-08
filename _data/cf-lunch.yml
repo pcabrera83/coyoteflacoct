@@ -1,0 +1,114 @@
+##--------
+
+##--------
+
+Appetizers:
+
+- { 
+  menuItem: 'Tamal',
+  menuDescription: 'Savory chicken filling steamed in corn meal casings topped with enchilada salsa and cheese',
+  menuPrice: '5',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: ''
+  }
+
+- { 
+  menuItem: 'Empanadas',
+  menuDescription: 'Two fried empanadas stuffed with ground beef served with sour cream',
+  menuPrice: '5',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Sopa de Tortillas',
+  menuDescription: 'A spicy broth filled with chicken and avocado topped with cilantro and tortilla chips and a side of pico de gallo and cheese',
+  menuPrice: '7',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Tacos de Pescado',
+  menuDescription: 'Two soft tacos with tilapia served with lettuce, cilantro and onions',
+  menuPrice: '8',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
+
+Appetizers-2:
+
+- { 
+  menuItem: 'Quesadilla',
+  menuDescription: 'A plain cheese quesadilla served with salad, guacamole and sour cream',
+  menuPrice: '8',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Chorizo Norteño',
+  menuDescription: 'Spanish sausage sautéed in chipotle sauce served with flour tortillas',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'yes' 
+  }
+
+- { 
+  menuItem: 'Gambas al Ajillo',
+  menuDescription: 'Shrimp sautéed in a garlic sauce served with flour tortillas',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of Gambas al Ajillo' 
+  }
+
+- { 
+  menuItem: 'Nacho Supreme',
+  menuDescription: 'Corn tortillas topped with refried beans, Monterey Jack cheese, guacamole, sour cream, pico de gallo, jalapeños and your choice of meats or veggies',
+  menuPrice: '11',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image  of Nacho Supreme' 
+  }
+
+##--------
+
+##--------
+
+Entrees:
+
+- { 
+  menuItem: 'Enchilada Roja',
+  menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with enchilada salsa and Monterrey Jack cheese served with rice, refried beans and salad',
+  menuPrice: '14',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Enchilada Suiza',
+  menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with tomatillo salsa and Monterrey Jack cheese, served with rice, refried beans and sour cream',
+  menuPrice: '14',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of'
+  }
+
+Entrees-2:
+
+- { 
+  menuItem: 'Enchilada Oaxaca',
+  menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with molé salsa and Monterrey Jack cheese served with rice, black beans and guacamole',
+  menuPrice: '14',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
+
+- { 
+  menuItem: 'Enchilada de Móle Verde',
+  menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with enchilada salsa and Monterrey Jack cheese served with rice, black beans and guacamole',
+  menuPrice: '14',
+  menuSubPrice: '',
+  spicy: 'no', alt: 'image of' 
+  }
