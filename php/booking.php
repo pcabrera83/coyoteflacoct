@@ -15,7 +15,7 @@
  */
 $mailTo     = 'coyoteflaco@comcast.net', 'pcabrera83@gmail.com', 'silvia41282@gmail.com';
 
-/**
+/**''
  * Set the subject
  */
 $subjectMsg = 'RE: Reservation details for Hartford Coyote Flaco';
