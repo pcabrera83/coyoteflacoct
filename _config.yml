@@ -50,6 +50,8 @@ auotprefixer:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+permalink: pretty
+
 jekyll_admin:
   hidden_links:
     - posts
