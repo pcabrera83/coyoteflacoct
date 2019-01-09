@@ -32,4 +32,3 @@ permalink: /hartford-reservations.html
 </div>
 
 {% include cf-reservations.html %}
-{% include cfh-footer.html %}

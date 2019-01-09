@@ -25,10 +25,12 @@ group :jekyll_plugins do
   gem 'jekyll-autoprefixer'
   gem 'jekyll-sitemap'
   gem 'jekyll-admin'
-  gem 'jekyll-deploy'
-  
-
+  gem 'jekyll-seo-tag'
+  gem "tinify"
 end
+
+require "tinify"
+Tinify.key = "c65XBDy54VNBx1BvxTxrnGDnrD7Mf0HM"
 
 JEKYLL_ENV="production"
 
@@ -37,4 +39,5 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
 

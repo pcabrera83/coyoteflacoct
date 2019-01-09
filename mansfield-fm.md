@@ -38,8 +38,3 @@ permalink: /mansfield-dine-in.html
 {% include cfm-entrees-items.html %}
 {% include cfm-asados.html %}
 {% include cfm-seafood.html %}
-
-{% include cfm-footer.html %}
-<!-- Mansfield Dine In Menu Ends -->
-
-{% include scripts.html %}

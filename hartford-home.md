@@ -18,22 +18,21 @@ permalink: /hartford.html
 {% include cfh-imgdivider.html %}
 <!-- Weekly Specials Section -->
 {% include cfh-wspecials.html %}
-<!-- Footer Section -->
-{% include cfh-footer.html %}
 
+<!-- offcanvas menu -->
 <div id="offcanvas" class="uk-offcanvas">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
         <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
             <!-- home menu  -->
             <li class="uk-parent uk-active" data-uk-dropdown>
                 <a href="index.html">
-                    Home
+                Home
                 </a>
             </li>
             <!-- Locations menu -->
             <li class="uk-parent" data-uk-dropdown>
                 <a href="#">
-                    Locations
+                Locations
                 </a>
                 <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
                     <div class="uk-grid uk-dropdown-grid">
@@ -42,39 +41,39 @@ permalink: /hartford.html
                                 {% for item in site.data.navigation.locations %}
                                 <li>
                                     <a href="{{ item.link }}">
-                                        {{ item.name }}
+                                    {{ item.name }}
                                     </a>
                                 </li>
-                                {% endfor %}
+                                    {% endfor %}
                             </ul>
                         </div>
                     </div>
                 </div>
             </li>
             <!-- Menu -->
-            <li class="uk-parent" data-uk-dropdown="" aria-haspopup="" aria-expanded=""><a href="#">Menu</a>
+            <li class="uk-parent" data-uk-dropdown="" aria-haspopup="" aria-expanded="">
+                <a href="#">
+                Menu
+                </a>
                 <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1 uk-dropdown-bottom" aria-hidden="true"
-                    tabindex="" style="top: 70px; left: 0px;">
+                tabindex="" style="top: 70px; left: 0px;">
                     <div class="uk-grid uk-dropdown-grid">
-                        <div class="uk-width-1-1">
+                            <div class="uk-width-1-1">
                             <ul class="uk-nav uk-nav-navbar">
                                 <li>
                                     <a href="hartford-lunch.html">
-                                        Lunch
+                                    Lunch
                                     </a>
-                                </li>
-                                <li>
                                     <a href="hartford-dine-in.html">
-                                        Dine In
+                                    Dine In
                                     </a>
-                                <li>
                                     <a href="hartford-takeout.html">
-                                        Take Out
+                                    Take Out
                                     </a>
                                 </li>
                                 <li>
                                     <a href="hartford-drinks.html">
-                                        Drinks
+                                    Drinks
                                     </a>
                                 </li>
                             </ul>
@@ -97,5 +96,3 @@ permalink: /hartford.html
         </ul>
     </div>
 </div>
-
-{% include scripts.html %}

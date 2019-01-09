@@ -31,7 +31,7 @@ permalink: /mansfield-reservations.html
 	</div>
 </div>
 {% include cfm-reservations.html %}
-{% include cfm-footer.html %}
+
 
 
 

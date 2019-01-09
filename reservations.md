@@ -4,8 +4,6 @@ title: Coyote Flaco Reservation
 permalink: reservations.html
 ---
 
-
-
 <div id="tm-header-a" class="tm-block-header-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse uk-margin-large-bottom">
 	<div class="uk-container uk-container-center">
 		<section class="tm-header-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}">

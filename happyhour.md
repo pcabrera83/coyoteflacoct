@@ -31,9 +31,8 @@ permalink: /happyhour.html
 	</div>
 </div>
 <!-- Menu Section -->
-
 {% include cfd-hhdrinks.html %}
-{% include cfh-footer.html %}
+
 
 
 
