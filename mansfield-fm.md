@@ -1,6 +1,7 @@
 ---
 layout: mansfield-layout
-title: Dine In
+title: Dine In Menu - Coyote Flaco Mansfield 
+description: Checkout our dine in menu. We offer everything from tacos, tamales, empanadas, tostadas, fajitas, quesadillas, enchiladas and burritos.
 permalink: /mansfield-dine-in.html
 ---
 <div id="tm-header-a" class="tm-block-header-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse uk-margin-large-bottom">
@@ -38,7 +39,7 @@ permalink: /mansfield-dine-in.html
 {% include cfm-asados.html %}
 {% include cfm-seafood.html %}
 
-
+{% include cfm-footer.html %}
 <!-- Mansfield Dine In Menu Ends -->
 
 {% include scripts.html %}

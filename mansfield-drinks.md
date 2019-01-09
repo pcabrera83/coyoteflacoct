@@ -1,6 +1,7 @@
 ---
 layout: full-menu
-title: Hartford Drinks Menu | Coyote Flaco
+title: Mansfield Drinks Menu | Coyote Flaco Mansfield
+description: Checkout Mansfield drinks menu where you will find everything from Margaritas, beers from mexico, draft beer and wine.
 permalink: /mansfield-drinks.html
 ---
 <div id="tm-header-a" class="tm-block-header-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse uk-margin-large-bottom">

@@ -1,6 +1,7 @@
 ---
 layout: full-menu
-title: Hartford Lunch Menu | Coyote Flaco
+title: Hartford Lunch Menu | Coyote Flaco Hartford
+description: We offer a lunch menu so you can enjoy our food during work. You'll find traditional mexican favorite dishes like tacos, enchilads, fajitas and burritos. 
 permalink: /hartford-lunch.html
 ---
 

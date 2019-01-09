@@ -1,6 +1,7 @@
 ---
 layout: hartford-layout
-title: Happy Hour | Coyote Flaco 
+title: Hartford Happy Hour | Coyote Flaco 
+description: Check out Coyote Flaco's Hartford happy hour menu. You will find everything from margaritas, beer, wine and food. 
 permalink: /happyhour.html
 ---
 

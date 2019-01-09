@@ -1,6 +1,7 @@
 ---
 layout: hartford-layout
-title: About - Hartford Coyote Flaco
+title: About | Coyote Flaco Hartford 
+description: We opened our first Coyote Flaco location in Hartford, CT back in August 1999. After much success, in 2004, we opened our second location in Mansfield, CT. 
 permalink: about-hartford.html
 ---
 <!-- Wecome Section -->
@@ -8,4 +9,4 @@ permalink: about-hartford.html
 <!-- Come Dine with Us Section -->
 {% include dine-us.html %}
 <!-- Footer Section -->
-{% include cfm-footer.html %}
+{% include cfh-footer.html %}

@@ -1,6 +1,7 @@
 ---
 layout: full-menu
-title: Hartford Menu | Coyote Flaco
+title: Hartford Dine In Menu | Coyote Flaco Hartford
+description: Checkout our dine in menu. We offer everything from tacos, tamales, empanadas, tostadas, fajitas, quesadillas, enchiladas and burritos.
 permalink: /hartford-dine-in.html
 ---
 
