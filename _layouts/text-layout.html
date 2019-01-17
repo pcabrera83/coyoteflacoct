@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+{% include sub-head.html %}
+{% include cf-nav.html %}
+
+<body>
+    <!-- Hartford Courant -->
+    <div id="tm-header-a" class="tm-block-header-a uk-block uk-block-default tm-block-fullwidth tm-grid-collapse uk-margin-large-bottom">
+        <div class="uk-container uk-container-center">
+            <section class="tm-header-a uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}">
+                <div class="uk-width-1-1">
+                    <div class="uk-panel uk-text-center uk-contrast tm-overlay-secondary tm-header-height">
+                        <div class="tm-background-cover uk-cover-background uk-flex uk-flex-center uk-flex-middle"
+                            style="background-position: 50% 0px; background-image: url('images/wood-background.png'); background-size: auto; background-repeat: no-repeat; padding: 130px 0px;"
+                            data-uk-parallax="{bg: '-200'}">
+                            <div class="uk-position-relative uk-container" style="width: 100%;">
+                                <div data-uk-parallax="{opacity: '1,0', y: '-50'}" style="transform: translate3d(0px, 0px, 0px); opacity: 1;">
+                                    <div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-top">
+                                        <h1 class="uk-margin-top uk-text-center cf-heading">
+                                            {% include left-arrows.html %}
+                                            Coyote Flaco, Hartford
+                                            {% include right-arrows.html %}</h1>
+                                    </div>
+                                    <div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-top">
+                                        <h5 class="uk-sub-title-small">
+                                            By Frank Cohen <br>
+                                            As seen on the
+                                            <a href="http://www.courant.com/hartford-magazine/food-drink/hc-hm-coyote-flaco-hartford-20160625-story.html"
+                                                target="_blank">
+                                                Hartford Courant
+                                            </a>
+                                            <br>
+                                            on June 25, 2016.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <div class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+        <div class="tm-main uk-width-medium-1-1 uk-row-first">
+            <main id="tm-content" class="tm-content">
+                <article class="uk-article tm-article">
+                    <div id="tm-main" class="tm-block-main uk-block">
+                        <div class="uk-container uk-container-center">
+                            <div class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
+                                <div class="uk-width-1-1" style="padding: 0px 60px;">
+                                    {{ content }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+    </div>
+    {% include cfh-mobile-nav.html %}
+</body>
+<!-- Footer Section -->
+{% include cfh-footer.html %}
+{% include scripts.html %}
+
+</html>

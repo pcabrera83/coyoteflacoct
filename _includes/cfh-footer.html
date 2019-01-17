@@ -8,27 +8,18 @@
                     <h2 class="uk-margin-large-top">Bienvenidos
 
                     </h2>
-                    <p>Located in
-                        <b>
-                            Hartford’s quiet southwest
-                        </b>
-                        , we’ve been serving up quality Mexican food straight from our parent’s recipes
-                        since 1999. Also, we make great margaritas and when the weather
-                        is nice, you can sit outside on the patio. On those pesky,
-                        dreary winter days and it’s too cold to go outside, <b>WE
-                            DELIVER!!
-                        </b>
-                        <p>
-                            Off street parking is available in the front, in back and on
-                            the side of our building.
-                        </p>
-                    </p>
-                    <h2 class="uk-margin-large-top">
-                        Address
-                    </h2>
-                    {% for item in site.data.address.hartford %}
-                    <p>{{ item.street }} <br> {{ item.city }} <br>{{ item.phone }}</p>
-                    {% endfor %}
+                    <p>Located in <b>Hartford’s quiet southwest</b>, we’ve been serving
+                        up quality Mexican food straight from our parents’ recipes
+                        since 1999. We make great margaritas and, when the weather is
+                        nice, you can enjoy dinner and drinks on the patio.
+                        <p>Off-street parking is available in the front, in back and on
+                            the side of our building.</p>
+                        <h2 class="uk-margin-large-top">
+                            Address
+                        </h2>
+                        {% for item in site.data.address.hartford %}
+                        <p>{{ item.street }} <br> {{ item.city }} <br>{{ item.phone }}</p>
+                        {% endfor %}
                 </div>
             </div>
             <!-- Page Layout -->

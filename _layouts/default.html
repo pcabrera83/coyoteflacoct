@@ -12,47 +12,9 @@
     {% include press.html%}
     <!-- Testimonials Section -->
     {% include testimonials.html%}
+    {% include mobile-nav.html %}
     <!-- Footer Section -->
     {% include footer.html %}
-    <!-- Mobile Menu Section -->
-
-
-    <div id="offcanvas" class="uk-offcanvas">
-        <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
-            <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
-                <!-- home menu  -->
-                <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="index.html">
-                        Home
-                    </a>
-                </li>
-                <!-- Locations menu -->
-                <li class="uk-parent" data-uk-dropdown>
-                    <a href="#">
-                        Locations
-                    </a>
-                    <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1">
-                        <div class="uk-grid uk-dropdown-grid">
-                            <div class="uk-width-1-1">
-                                <ul class="uk-nav uk-nav-navbar">
-                                    {% for item in site.data.navigation.locations %}
-                                    <li>
-                                        <a href="{{ item.link }}">
-                                            {{ item.name }}
-                                        </a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <!-- menu menu  -->
-                <li class="uk-parent" data-uk-dropdown><a href="about.html">About Us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
     <!-- Scripts Section -->
     {% include scripts.html %}
 </body>

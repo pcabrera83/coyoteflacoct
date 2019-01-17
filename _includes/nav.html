@@ -1,47 +1,44 @@
 <div class="tm-navbar" data-uk-sticky>
+    <!-- Top Green Bar -->
     <div class="tm-toolbar uk-clearfix uk-hidden-small" style="background-color: #D2C82A; ">
-        <!-- toolbar left -->
+        <!-- Nav Left -->
         <div class="uk-float-left">
-            <div>
-                <!-- <ul class="uk-subnav uk-subnav-line">
-                    <li><a href="" target="_blank">Buy Now</a></li>
-                    <li><a href="#">Login</a></li>
-                </ul> -->
-            </div>
-            <div class=" uk-hidden-small">
-                <!-- <p>Open daily: 11 am to 10:00 pm</p> -->
-            </div>
         </div>
-        <!-- Nav Social Media Section -->
+        <!-- Nav Right -->
         <div class="uk-float-right">
             <div>
-                <!-- <a href="" class="uk-icon-button uk-icon-facebook" target="_blank"></a>
-                <a href="" class="uk-icon-button uk-icon-instagram" target="_blank"></a> -->
             </div>
         </div>
     </div>
+    <!-- Top Green Bar -->
     <nav class="tm-navbar-container uk-flex uk-flex-space-between uk-margin-large-right">
         <!-- Coyote Flaco Section -->
         <div class="tm-nav-logo-small">
-            <a class="tm-logo-small" href="index.html">
+            <!-- Home -->
+            {% for item in site.data.navigation.home %}
+            <a class="tm-logo-small" href="{{ item.link }}">
+                {% endfor %}
                 <div class="flaco-logo-nav">
                     <span class="uk-hidden-small" style="display: none;">
-                        {% include flaco-logo.html %} </span>
-                    <h1>Coyote
-                        Flaco</h1>
+                        {% include flaco-logo.html %}
+                    </span>
+                    <h1>
+                        Coyote Flaco</h1>
                 </div>
             </a>
         </div>
-        <!-- main menu -->
+        <!-- Coyote Flaco Restaurant Nav -->
         <div class="tm-nav uk-hidden-small">
             <ul class="uk-navbar-nav uk-hidden-small">
-                <!-- home menu  -->
-                <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="index.html">
-                        Home
+                <!-- Home  -->
+                {% for item in site.data.navigation.home%}
+                <li>
+                    <a href="{{ item.link }}">
+                        {{ item.name }}
                     </a>
                 </li>
-                <!-- Locations menu -->
+                {% endfor %}
+                <!-- Restaurant Locations -->
                 <li class="uk-parent" data-uk-dropdown>
                     <a href="#">
                         Locations
@@ -62,9 +59,14 @@
                         </div>
                     </div>
                 </li>
-                <!-- menu menu  -->
-                <li class="uk-parent" data-uk-dropdown><a href="about.html">About Us</a>
+                <!-- About Us  -->
+                {% for item in site.data.navigation.about %}
+                <li class="uk-parent" data-uk-dropdown>
+                    <a href="{{ item.link }}">
+                        {{ item.name }}
+                    </a>
                 </li>
+                {% endfor %}
             </ul>
         </div>
         <!-- offcanvas nav icon -->

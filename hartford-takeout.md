@@ -1,6 +1,6 @@
 ---
 layout: full-menu
-title: Hartford Takeout Menu | Coyote Flaco Hartford
+title: Takeout Menu Hartford - Coyote Flaco Restaurant
 description: Not feeling like going out. You can take food to go or have us deliver to you in the Hartford, CT area. We can also deliver to your place work. 
 permalink: /hartford-takeout.html
 ---
@@ -16,7 +16,8 @@ permalink: /hartford-takeout.html
 									<h1 class="uk-margin-top uk-text-center cf-heading">
                       {% include left-arrows.html %}
                       Takeout Menu
-                      {% include right-arrows.html %}</h1>
+                      {% include right-arrows.html %}
+					  </h1>
 								</div>
 								<div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-top">
 									<h5 class="uk-sub-title-small">Hartford</h5>
@@ -46,5 +47,6 @@ permalink: /hartford-takeout.html
 {% include cfd-beverages.html %}
 {% include cfd-desserts.html %}
 <!-- Hartford Dine In Menu Ends -->
+{% include cfh-mobile-nav.html %}
 {% include cfh-footer.html %}
 {% include scripts.html %}

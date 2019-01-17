@@ -1,6 +1,6 @@
 ---
 layout: hartford-layout
-title: Reviews | Coyote Flaco Hartford 
+title: Reviews Hartford | Coyote Flaco Restaurant
 description: We opened our first Coyote Flaco location in Hartford, CT back in August 1999. After much success, in 2004, we opened our second location in Mansfield, CT. 
 permalink: /hartford-reviews.html
 ---
@@ -21,7 +21,11 @@ permalink: /hartford-reviews.html
                       {% include right-arrows.html %}</h1>
 								</div>
 								<div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-top">
-									<h5 class="uk-sub-title-small">By Frank Cohen</h5>
+									<h5 class="uk-sub-title-small">
+									 By Frank Cohen <br>
+									 As seen on the
+									  <a href="http://www.courant.com/hartford-magazine/food-drink/hc-hm-coyote-flaco-hartford-20160625-story.html" target="_blank">Hartford Courant</a><br> on June 25, 2016.
+									</h5>
 								</div>
 							</div>
 						</div>
@@ -31,7 +35,6 @@ permalink: /hartford-reviews.html
 		</section>
 	</div>
 </div>
-
 <div class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
 <div class="tm-main uk-width-medium-1-1 uk-row-first">
 <main id="tm-content" class="tm-content">
@@ -74,13 +77,7 @@ are offered. The margaritas are said to be great.
 <br><br>
 No one leaves the restaurant a coyote flaco. Este coyote es muy gordo ahora.
 <br><br>
-
-
 </p>
-
-<small style="color: #333333;">
-Coyote Flaco, 635 New Britain Ave., Hartford; 860-953-1299; <a href="https://www.coyoteflacoct.com">coyoteflacoct.com</a><br>
-As seen on the <a href="http://www.courant.com/hartford-magazine/food-drink/hc-hm-coyote-flaco-hartford-20160625-story.html" target="_blank">Hartford Courant</a> on June 25, 2016.</small>
 </div>
 </div>
 </div>

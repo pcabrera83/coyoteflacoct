@@ -1,6 +1,6 @@
 ---
 layout: mansfield-layout
-title: Mansfield Reservations - Coyote Flaco Mansfield
+title: Mansfield Reservations - Coyote Flaco Restaurant
 description: Join us for lunch, dinner or happy hour. Quickly reserve your table for your next visit. Bring your family, friends or work colleagues. We are near the Uconn campus so we are only five minutes away. Next time you are in town visit us. 
 permalink: /mansfield-reservations.html
 ---

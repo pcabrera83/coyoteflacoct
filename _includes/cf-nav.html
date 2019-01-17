@@ -1,40 +1,51 @@
 <div class="tm-navbar" data-uk-sticky>
-    <div class="tm-toolbar uk-clearfix uk-hidden-small" style="background-color: #D2C82A; ">
-        <!-- toolbar left -->
+    <!-- Top Green Bar -->
+    <div class="tm-toolbar uk-clearfix uk-hidden-small" style="background-color: #D2C82A;">
+        <!-- Nav Left -->
         <div class="uk-float-left">
-            <div>
-            </div>
-            <div class=" uk-hidden-small">
-                <!-- <p>Open daily: 7:30 am to 11:00 pm</p> -->
-            </div>
         </div>
-        <!-- Nav Social Media Section -->
+        <!-- Nav Right -->
         <div class="uk-float-right">
             <div>
+                <p class="phone-number">
+                    Call Us: (860) 953-1299
+                </p>
             </div>
         </div>
     </div>
+    <!-- Top Green Bar -->
     <nav class="tm-navbar-container uk-flex uk-flex-space-between uk-margin-large-right">
         <!-- Coyote Flaco Section -->
         <div class="tm-nav-logo-small">
-            <a class="tm-logo-small" href="index.html" />
-            <div class="flaco-logo-nav">
-                <span class="uk-hidden-small" style="display: none;">
-                    {% include flaco-logo.html %} </span>
-                <h1>Coyote Flaco <small>Hartford</small></h1>
-            </div>
+            <!-- Home -->
+            {% for item in site.data.navigation.home %}
+            <a class="tm-logo-small" href="{{ item.link }}">
+                {% endfor %}
+                <div class="flaco-logo-nav">
+                    <span class="uk-hidden-small" style="display: none;">
+                        {% include flaco-logo.html %}
+                    </span>
+                    <h1>
+                        Coyote Flaco
+                        <small>
+                            Hartford
+                        </small>
+                    </h1>
+                </div>
             </a>
         </div>
-        <!-- main menu -->
+        <!-- Coyote Flaco Hartford Nav -->
         <div class="tm-nav uk-hidden-small">
             <ul class="uk-navbar-nav uk-hidden-small">
-                <!-- home menu  -->
-                <li class="uk-parent uk-active" data-uk-dropdown>
-                    <a href="index.html">
-                        Home
+                <!-- Gome  -->
+                {% for item in site.data.navigation.home%}
+                <li>
+                    <a href="{{ item.link }}">
+                        {{ item.name }}
                     </a>
                 </li>
-                <!-- Locations menu -->
+                {% endfor %}
+                <!-- Restaurant Locations -->
                 <li class="uk-parent" data-uk-dropdown>
                     <a href="#">
                         Locations
@@ -55,54 +66,55 @@
                         </div>
                     </div>
                 </li>
-                <!-- Menu -->
-                <li class="uk-parent" data-uk-dropdown="" aria-haspopup="" aria-expanded=""><a href="#">Menu</a>
+                <!-- Menu Navigation -->
+                <li class="uk-parent" data-uk-dropdown="" aria-haspopup="" aria-expanded="">
+                    <a href="#">
+                        Menu
+                    </a>
                     <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1 uk-dropdown-bottom" aria-hidden="true"
                         tabindex="" style="top: 70px; left: 0px;">
                         <div class="uk-grid uk-dropdown-grid">
                             <div class="uk-width-1-1">
                                 <ul class="uk-nav uk-nav-navbar">
+                                    {% for item in site.data.navigation.hartford-menu %}
                                     <li>
-                                        <a href="hartford-lunch.html">
-                                            Lunch
+                                        <a href="{{ item. link }}">
+                                            {{ item.name }}
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="hartford-dine-in.html">
-                                            Dine In
-                                        </a>
-                                    <li>
-                                        <a href="hartford-takeout.html">
-                                            Take Out
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="hartford-drinks.html">
-                                            Drinks
-                                        </a>
-                                    </li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </li>
                 <!-- Happy Hour -->
+                {% for item in site.data.navigation.hartford-happy %}
                 <li class="uk-parent" data-uk-dropdown>
-                    <a href="happyhour.html">Happy Hour</a>
+                    <a href="happyhour.html">
+                        {{ item.name }}
+                    </a>
                 </li>
+                {% endfor %}
                 <!-- Reservations -->
+                {% for item in site.data.navigation.hartford-reservations %}
                 <li class="uk-parent" data-uk-dropdown>
-                    <a href="hartford-reservations.html">Reservations</a>
+                    <a href="{{ item. link }}">
+                        {{ item.name }}
+                    </a>
                 </li>
+                {% endfor %}
                 <!-- About Us  -->
                 <li class="uk-parent" data-uk-dropdown>
-                    <a href="about-hartford.html">About Us</a>
-
+                    <a href="about-hartford.html">
+                        About Us
+                    </a>
                     <div class="uk-dropdown uk-dropdown-navbar uk-dropdown-width-1 uk-dropdown-bottom" aria-hidden="true"
                         tabindex="" style="top: 70px; left: 0px;">
                         <div class="uk-grid uk-dropdown-grid">
                             <div class="uk-width-1-1">
                                 <ul class="uk-nav uk-nav-navbar">
+                                    <!-- Hartford Courant Reviews -->
                                     <li>
                                         <a href="hartford-reviews.html">
                                             Reviews
@@ -112,11 +124,11 @@
                             </div>
                         </div>
                     </div>
-
                 </li>
             </ul>
         </div>
         <!-- offcanvas nav icon -->
-        <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas></a>
+        <a href="#offcanvas" class="uk-navbar-toggle uk-visible-small" data-uk-offcanvas>
+        </a>
     </nav>
 </div>

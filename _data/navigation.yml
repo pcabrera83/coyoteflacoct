@@ -1,4 +1,67 @@
-locations: 
+###-------------------------------
+# Global Navigation Links
+###-------------------------------
 
-- {name: 'Hartford', link: 'hartford.html', class: 'uk-button-primary',}
-- {name: 'Mansfield', link: 'mansfield.html', class: 'uk-button-secondary', class2: 'right', }
+home: 
+
+- {name: 'Home', link: 'index.html',}  
+
+about: 
+
+- {name: 'About', link: 'about.html'}  
+
+locations:
+
+- {name: 'Hartford', link: 'cf-hartford.html', class: 'uk-button-primary',}
+- {name: 'Mansfield', link: 'cf-mansfield.html', class: 'uk-button-secondary', class2: 'right', }
+
+
+
+
+###-------------------------------
+# Hartford Navigation Links
+###-------------------------------
+
+hartford-menu:
+
+- {name: 'Lunch', link: 'hartford-lunch.html',}
+- {name: 'Dine In', link: 'hartford-dine-in.html',}
+- {name: 'Take Out', link: 'hartford-takeout.html',}
+- {name: 'Drinks', link: 'hartford-drinks.html',}
+
+
+hartford-happy:
+
+- {name: 'Happy Hour', link: 'happyhour.html',}
+
+hartford-reservations:
+
+- {name: 'Reservations', link: 'hartford-reservations.html',}
+
+hartford-aboutus:
+
+- {name: 'About Us', link: 'about-hartford.html',}
+
+hartford-reviews:
+
+- {name: 'Reviews', link: 'hartford-reviews.html',}
+
+
+
+
+###-------------------------------
+# Mansfield Navigation Links
+###-------------------------------
+
+mansfield-menu:
+
+- {name: 'Dine In', link: 'mansfield-dine-in.html',}
+- {name: 'Drinks', link: 'mansfield-drinks.html',}
+
+mansfield-reservations:
+
+- {name: 'Reservations', link: 'mansfield-reservations.html',}
+
+mansfield-aboutus:
+
+- {name: 'About Us', link: 'about-mansfield.html',}

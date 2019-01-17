@@ -1,6 +1,6 @@
 ---
 layout: mansfield-layout
-title: Mansfield Drinks Menu | Coyote Flaco Mansfield
+title: Drinks Menu Mansfield | Coyote Flaco Restaurant
 description: Checkout Mansfield drinks menu where you will find everything from Margaritas, beers from mexico, draft beer and wine.
 permalink: /mansfield-drinks.html
 ---

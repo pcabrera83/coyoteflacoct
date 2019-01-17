@@ -1,90 +1,38 @@
 <div id="tm-main" class="tm-block-main">
     <div class="uk-container uk-container-center">
         <div class="tm-middle uk-grid" data-uk-grid-match="" data-uk-grid-margin="">
-            <div class="tm-main uk-width-medium-1-1 uk-block">
+            <div class="tm-main uk-width-medium-1-1 uk-block" style="padding: 0px;">
                 <main id="tm-content" class="tm-content">
-                    <article class="uk-article tm-article">
+                    <article class="uk-article tm-article" style="padding: 0px;">
                         <div class="tm-article-wrapper">
-                            <div class="tm-article-content ">
+                            <div class="tm-article-content" style="padding: 0px;">
                                 <div class="tm-article">
-                                    <!-- <h3 class="uk-text-center uk-margin-large-top cf-heading" style="font-size:1.75em;">Hartford
-                                        Reservation</h3> -->
-
                                     <div class="uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-2"
                                         data-uk-grid-margin="">
                                         <!-- Section -->
                                         <div class="uk-panel uk-panel-space" style="
                                         padding-top: 12px;">
                                             <div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-bottom">
-                                                <div class="uk-panel uk-panel-box uk-text-center" style="min-height: 459px; border: none;">
-
-
-                                                    <p>Call us at (860) 953-1299 to make a reservation,
-                                                        or reserve your table online</p>
-                                                    <p>Located in Hartford’s quiet southwest, we are
-                                                        near I-84 which makes it easier to hop
-                                                        off and find us. </p>
-
-
-                                                    <iframe class="uk-thumbnail" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5954.788537252073!2d-72.702082!3d41.733588000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e652d6c7b79467%3A0x97894cbb43c5e3cf!2sCoyote+Flaco+Mexican+Restaurant!5e0!3m2!1sen!2sus!4v1544187383562"
-                                                        width="600" height="450" frameborder="0" style="padding: 10px; margin-top: 50px;"
-                                                        allowfullscreen></iframe>
+                                                <div class="uk-panel uk-panel-box uk-text-center" style="min-height: 459px; border: none; padding-top: 0px">
+                                                    <p>Call us at (860) 953-1299 to make a reservation, or reserve your
+                                                        table online.</p>
+                                                    <p>Located in Hartford’s quiet southwest, wwe are easily accessible
+                                                        from I-84. </p>
+                                                    <!-- OpenTable Widget -->
+                                                    <script type='text/javascript' src='//www.opentable.com/widget/reservation/loader?rid=69808&type=standard&theme=tall&iframe=true&overlay=false&domain=com&lang=en-US'>
+                                                    </script>
+                                                    <!-- OpenTable Widget Ends -->
                                                 </div>
                                             </div>
                                         </div>
                                         <!-- Section -->
-                                        <div class="uk-panel uk-panel-space uk-row-first">
+                                        <div class="uk-panel uk-panel-space uk-row-first" style="padding-top: 0px; padding-bottom: 40px;">
                                             <div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-bottom uk-text-center">
-
-                                                <form id="booking_form" class="uk-form uk-form-horizontal uk-margin-top"
-                                                    method="post" action="php/booking.php">
-
-                                                    <div id="alert-msg-booking" class="alert-msg"></div>
-
-                                                    <div class="uk-grid uk-grid-width-medium-1-1 uk-grid-width-1-1"
-                                                        data-uk-grid-margin="">
-
-                                                        <div class="uk-form-icon uk-row-first">
-                                                            <input type="text" placeholder="Your Name" name="book-name"
-                                                                class="uk-width-1-1" required="required">
-                                                        </div>
-
-                                                        <div class="uk-form-icon uk-grid-margin uk-row-first">
-                                                            <input type="text" placeholder="Your Phone" name="book-name"
-                                                                class="uk-width-1-1" required="required">
-                                                        </div>
-
-                                                        <div class="uk-form-icon uk-grid-margin uk-row-first">
-                                                            <input type="text" placeholder="Guests" name="book-guests"
-                                                                class="uk-width-1-1" required="required">
-                                                        </div>
-
-                                                        <div class="uk-form-icon uk-grid-margin uk-row-first">
-                                                            <input type="text" placeholder="Date" name="book-date"
-                                                                class="uk-width-1-1" data-uk-datepicker="{format:'DD/MM/YYYY', minDate: 0}"
-                                                                required="required">
-                                                        </div>
-
-                                                        <div class="uk-display-block uk-form-icon uk-grid-margin uk-row-first"
-                                                            data-uk-timepicker="{format:'12h', start:9, end: 22}">
-                                                            <input type="text" placeholder="Time" name="book-time"
-                                                                class="uk-width-1-1" required="required">
-                                                        </div>
-
-                                                        <div class="uk-form-icon uk-grid-margin uk-row-first">
-                                                            <textarea type="text" placeholder="Your Comments" name="book-descriptions"
-                                                                class="uk-width-1-1"></textarea>
-                                                        </div>
-                                                        <div class="form-group uk-margin-remove uk-grid-margin uk-row-first">
-                                                            <button id="booking_submit" type="submit" class="uk-button uk-button-default uk-button-large uk-margin-large-top">Reserve
-                                                                Your Table</button>
-                                                            <small style="display: block; margin-top: 24px;"><sup>*</sup>
-                                                                We do no
-                                                                not accept reservation on
-                                                                5 de Mayo</small>
-                                                        </div>
-                                                    </div>
-                                                </form>
+                                                <!-- Google Maps Widget -->
+                                                <iframe class="uk-thumbnail" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5954.788537252073!2d-72.702082!3d41.733588000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e652d6c7b79467%3A0x97894cbb43c5e3cf!2sCoyote+Flaco+Mexican+Restaurant!5e0!3m2!1sen!2sus!4v1544187383562"
+                                                    width="600" height="450" frameborder="0" style="padding: 10px; margin-top: 50px;"
+                                                    allowfullscreen></iframe>
+                                                <!-- Google Maps Widget Ends -->
                                             </div>
                                         </div>
                                     </div>

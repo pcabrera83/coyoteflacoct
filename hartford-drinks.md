@@ -1,6 +1,6 @@
 ---
 layout: full-menu
-title: Hartford Drinks Menu | Coyote Flaco Hartford
+title: Drinks Menu Hartford - Coyote Flaco Restaurant
 description: Checkout our drinks menu. We have tequila flights, margaritas, beer from mexico, and wine. 
 permalink: /hartford-drinks.html
 ---
@@ -35,5 +35,6 @@ permalink: /hartford-drinks.html
 {% include cfd-drinks.html %}
 
 <!-- Hartford Dine In Menu Ends -->
+{% include cfh-mobile-nav.html %}
 {% include cfh-footer.html %}
 {% include scripts.html %}

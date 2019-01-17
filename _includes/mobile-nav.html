@@ -1,0 +1,31 @@
+<!-- Mobile Menu Section -->
+<div id="offcanvas" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
+            <!-- home  -->
+            {% for item in site.data.navigation.home%}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Restaurant Locations  -->
+            {% for item in site.data.navigation.locations %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- About -->
+            {% for item in site.data.navigation.about %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

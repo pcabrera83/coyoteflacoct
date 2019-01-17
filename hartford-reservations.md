@@ -1,6 +1,6 @@
 ---
 layout: hartford-layout
-title: Hartford Reservations | Coyote Flaco Hartford
+title: Reservations Hartford | Coyote Flaco Restaurant
 description: Join us for lunch, dinner or happy hour. Quickly reserve your table for your next visit. Bring your family, friends or work colleagues. 
 permalink: /hartford-reservations.html
 ---

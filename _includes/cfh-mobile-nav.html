@@ -1,0 +1,63 @@
+<!-- Mobile Menu -->
+<div id="offcanvas" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
+            <!-- Home  -->
+            {% for item in site.data.navigation.home%}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Restaurant Locations  -->
+            {% for item in site.data.navigation.locations %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Menu Navigation -->
+            {% for item in site.data.navigation.hartford-menu %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Happy Hour  -->
+            {% for item in site.data.navigation.hartford-happy %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Reservations  -->
+            {% for item in site.data.navigation.hartford-reservations %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- About Us -->
+            {% for item in site.data.navigation.hartford-aboutus %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Reviews  -->
+            {% for item in site.data.navigation.hartford-reviews %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

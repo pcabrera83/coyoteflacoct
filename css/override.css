@@ -2,27 +2,18 @@
 
   Table of Contents
 
-  01  Slider Styles
-  02  Buttons
-  03  Navbar
-  04  Aside Navbar
-  05  Fullscreen Menu
-  06  Home Slider
-  07  Icon Boxes
-  08  Footer
-  09  Portfolio
-  10  Team
-  11  Blog
-  12  Shop
-  13  Forms
-  14  Timeline
-  15  Pricing Tables
-  16  Photo Gallery
-  17  Animations
-  18  Fullpage
-  19  Zoom
-  20  Helpers
-  21  Media Queries
+  01  Global Styles
+  02  Nav Styles
+  03  Slider Styles
+  04  Location Welcome Styles
+  05  Menu Styles
+  06  Footer Styles
+  07  Testimonials Styles
+  08  Call Out Styles
+  09  Button Styles
+  10  Utilities Styles
+  11  Tab Styles
+  
 *****************/
 
 /*
@@ -123,8 +114,22 @@ section {
 
 }
 
+.uk-navbar-toggle:before {
+  display: none;
+}
+
+.uk-navbar-toggle:after {
+  font-size: 1.5em;
+}
+
+.phone-number {
+  font-family: 'Varela', Helvetica, Arial, sans-serif;
+  font-size: .90em;
+  margin-right: 40px !important;
+}
+
 /*
-  02
+  03
   Slider Styles
 */
 
@@ -218,8 +223,8 @@ h3 {
 
 
 /* 
-  16
-  Location Welcome Pages
+  04
+  Location Welcome Styles
 */
 
 .tm-dropcap-block p {
@@ -230,7 +235,7 @@ h3 {
 }
 
 /* 
-  03
+  05
   Menu Styles
 */
 
@@ -244,7 +249,7 @@ h3 {
 
 /* 
 
-  04
+  06
   Footer Styles
 
 */
@@ -289,13 +294,9 @@ small {
   margin-right: 10em !important;
 }
 
-/* .cf-grid>* {
-  margin-right: 6em !important;
-} */
-
 /* 
-  17
-  Testimonials
+  07
+  Testimonials Styles
 */
 
 .cf-testimonials {
@@ -311,8 +312,8 @@ small {
 
 
 /*
-  18
-  Call Out Section
+  08
+  Call Out Styles
 */
 
 .cf-callout-background {
@@ -325,7 +326,7 @@ small {
 }
 
 /*
-  19
+  09
   Buttons
 */
 
@@ -336,6 +337,7 @@ small {
   letter-spacing: .125em !important;
   margin-bottom: 1em !important;
   margin-top: .75em;
+  margin-right: 1em;
   padding: .25em 1.5em;
 }
 
@@ -354,6 +356,17 @@ small {
   color: #ffffff
 }
 
+.cf-button-slider {
+  width: 100% !important;
+}
+
+.cf-button-position {
+  position: relative !important;
+  top: -80px !important;
+  left: 40px !important;
+  width: auto !important;
+}
+
 .uk-button {
   border-radius: 0px;
   border: 0px;
@@ -361,8 +374,8 @@ small {
 
 
 /*
-  20
-  Utilities
+  10
+  Utilities Styles
 */
 
 .cf-block {
@@ -382,15 +395,9 @@ small {
   line-height: 1.25em;
 }
 
-/*
-  21
-  Media Queries
-*/
-
-
 /* 
-  22
-  Tabs 
+  11
+  Tab Styls
 
 */
 
@@ -430,7 +437,10 @@ small {
   border-radius: 0px;
 }
 
-
+/*
+  12
+  Media Queries
+*/
 
 @media (max-width: 1700px) {
 
@@ -449,6 +459,12 @@ small {
     margin: 0 auto;
   }
 
+  .cf-button-position {
+    position: relative !important;
+    top: 0px !important;
+    left: 65px !important;
+  }
+
   .right {
     margin-bottom: 0;
     margin-left: 0 !important;
@@ -463,9 +479,22 @@ small {
     position: absolute;
     right: 5% !important;
   }
+
+  .uk-button {
+    border-radius: 0px;
+    border: 0px;
+    margin-right: 1em;
+  }
+}
+
+@media (max-width:1190px) {
+  .cf-button-position {
+    display: none;
+  }
 }
 
 @media (max-width:959px) {
+
   .cf-callout-grid {
     width: 80%;
     margin: 0 auto;
@@ -496,7 +525,6 @@ small {
     margin-top: 1.5em;
     padding: 8px !important;
     width: 100% !important;
-
   }
 
   .cf-button-tertiary {
@@ -524,11 +552,6 @@ small {
   .trb_nh_l {
     width: 40% !important;
   }
-
-  /* .cf-grid>* {
-    margin-right: 6em !important;
-    padding-left: 1.25em !important;
-  } */
 
 }
 

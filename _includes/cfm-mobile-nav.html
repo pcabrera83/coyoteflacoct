@@ -1,0 +1,47 @@
+<!-- Mobile Menu -->
+<div id="offcanvas" class="uk-offcanvas">
+    <div class="uk-offcanvas-bar uk-offcanvas-bar-flip">
+        <ul class="uk-nav uk-nav-parent-icon uk-nav-offcanvas" data-uk-nav>
+            <!-- Home  -->
+            {% for item in site.data.navigation.home%}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Restaurant Locations  -->
+            {% for item in site.data.navigation.locations %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Menu Navigation -->
+            {% for item in site.data.navigation.mansfield-menu %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!-- Reservations-->
+            {% for item in site.data.navigation.mansfield-reservations %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+            <!--  About Us  -->
+            {% for item in site.data.navigation.mansfield-aboutus %}
+            <li>
+                <a href="{{ item.link }}">
+                    {{ item.name }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

@@ -5,28 +5,39 @@
 home:
 
 - {
-  class: "background-image: url('images/hartford-sidepatio-R.jpg');",
+  class: "background-image: url('images/fishtacos.jpg');",
   order: '0',
+  title: 'Fish Tacos',
 }
 
 - {
-  class: "background-image: url('images/mansfield-building-R.jpg');",
+  class: "background-image: url('images/mansfield-patio-1.jpg');",
   order: '1',
+  title: 'Mansfield Patio',
 }
 
 - {
   class: "background-image: url('images/hartford-diningroom-R2.jpg');",
   order: '2',
+  title: 'Hartford Dining Room',
 }
 
 - {
   class: "background-image: url('images/silvia-pablo-harford-r.jpg');",
   order: '3',
+  title: 'Silvia and Pablo'
 }
 
 - {
-  class: "background-image: url('images/harford-diningroom-R3-v2.jpg');",
+  class: "background-image: url('images/mansfield-diningroom-2.jpg');",
   order: '4',
+  title: 'Mansfied Dining Room',
+}
+
+- {
+  class: "background-image: url('images/hartford-sidepatio-R.jpg');",
+  order: '5',
+  title: 'Hartford Patio',
 }
 
 hartford:

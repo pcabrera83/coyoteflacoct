@@ -1,8 +1,8 @@
 ---
 layout: mansfield-layout
-title: Mansfield - Coyote Flaco Mansfield
+title: Mansfield - Coyote Flaco Restaurant
 description: Located in Storrs's, near the UCONN campus, we’ve been serving up quality Mexican food straight from our parent’s recipes since 2004. Also, we make great margaritas and when the weather is nice, you can sit outside on the patio. 
-permalink: /mansfield.html
+permalink: /cf-mansfield.html
 ---
 <!-- Slider In Section -->
 {% include cfm-slider.html %}
