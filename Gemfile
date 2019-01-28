@@ -24,9 +24,10 @@ group :jekyll_plugins do
   gem 'jekyll-minifier'
   gem 'jekyll-autoprefixer'
   gem 'jekyll-sitemap'
-  gem 'jekyll-admin'
   gem 'jekyll-seo-tag'
-  gem "tinify"
+  gem 'jekyll-analytics'
+  gem 'tinify'
+  gem 'jekyll-admin', group: :jekyll_plugins
 end
 
 require "tinify"
@@ -39,5 +40,3 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
-
-

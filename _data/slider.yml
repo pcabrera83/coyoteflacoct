@@ -5,39 +5,33 @@
 home:
 
 - {
-  class: "background-image: url('images/fishtacos.jpg');",
+  class: "background-image: url('images/caliburrito.jpg');",
   order: '0',
-  title: 'Fish Tacos',
+  title: 'California Burrito',
 }
 
 - {
-  class: "background-image: url('images/mansfield-patio-1.jpg');",
+  class: "background-image: url('images/flan-dessert.jpg');",
   order: '1',
-  title: 'Mansfield Patio',
+  title: 'Flan',
 }
 
 - {
-  class: "background-image: url('images/hartford-diningroom-R2.jpg');",
+  class: "background-image: url('images/tacos.jpg');",
   order: '2',
-  title: 'Hartford Dining Room',
+  title: 'Tacos',
 }
 
 - {
-  class: "background-image: url('images/silvia-pablo-harford-r.jpg');",
+  class: "background-image: url('images/silvia-frozenmarg.jpg",
   order: '3',
-  title: 'Silvia and Pablo'
+  title: 'Silvia with Margarita'
 }
 
 - {
-  class: "background-image: url('images/mansfield-diningroom-2.jpg');",
+  class: "background-image: url('images/tacosalad.jpg');",
   order: '4',
-  title: 'Mansfied Dining Room',
-}
-
-- {
-  class: "background-image: url('images/hartford-sidepatio-R.jpg');",
-  order: '5',
-  title: 'Hartford Patio',
+  title: 'Taco Salad',
 }
 
 hartford:

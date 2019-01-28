@@ -31,12 +31,30 @@ plugins:
   - jekyll-autoprefixer
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-analytics
 
 #CSS
 auotprefixer:
     browsers:
       -last 2 versions
       # only_production: true
+
+jekyll_analytics:
+  GoogleAnalytics:          # Add, if you want to track with Google Analytics
+    id: UA-42573959-1          # Required - replace with your tracking id
+    anonymizeIp: true      # Optional - Default: false - set to true for anonymized tracking
+
+  Matomo:                   # Add, if you want to track with Matomo (former Piwik Analytics)
+    url: matomo.example.com # Required - url to Matomo installation without trailing /
+    siteId: "1234"          # Required - replace with your Matomo site id (Write id as string)
+
+  Piwik:                    # Add, if you want to track with Piwik
+    url: piwik.example.com  # Required - url to Piwik installation without trailing /
+    siteId: "1234"          # Required - replace with your Piwik site id (Write id as string)
+
+  MPulse:                   # Add if you want to track performance with mPulse
+    apikey: XXXXX-YYYYY-ZZZZZ-AAAAA-23456   # Required - replace with your mPulse API key
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -55,10 +73,10 @@ permalink: pretty
 jekyll_admin:
   hidden_links:
     - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration
+    # - pages
+    # - staticfiles
+    # - datafiles
+    # - configuration
 
 jekyll-sitemap: 
   sitemap: true
