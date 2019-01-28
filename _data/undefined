@@ -34,6 +34,12 @@ home:
   title: 'Taco Salad',
 }
 
+- {
+  class: "background-image: url('images/3360.jpeg');",
+  order: '5',
+  title: 'Shadow',
+}
+
 hartford:
 
 - {
