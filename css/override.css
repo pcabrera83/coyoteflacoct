@@ -353,7 +353,7 @@ small {
 .cf-button-tertiary:focus,
 .cf-button-tertiary:hover {
   background-color: #a23600;
-  color: #ffffff
+  color: #f9f9f9;
 }
 
 .cf-button-slider {
@@ -435,6 +435,12 @@ small {
   border: none !important;
   text-decoration: none;
   border-radius: 0px;
+}
+
+.uk-dropdown-navbar .uk-nav-navbar>li>a:focus,
+.uk-dropdown-navbar .uk-nav-navbar>li>a:hover {
+  color: #f9f9f9;
+  background-color: #938372 !important;
 }
 
 /*
@@ -573,7 +579,7 @@ small {
 
   .uk-dropdown-navbar .uk-nav-navbar>li>a:focus,
   .uk-dropdown-navbar .uk-nav-navbar>li>a:hover {
-    color: #ffffff;
+    color: #f9f9f9;
     background-color: #938372 !important;
   }
 
@@ -586,7 +592,7 @@ small {
 
   .uk-dropdown-navbar .uk-nav-navbar>li>a:hover {
     background: #bdb425 !important;
-    color: #938372 !important;
+    /* color: #938372 !important; */
   }
 }
 
@@ -597,10 +603,11 @@ small {
 
 .uk-dropdown-navbar .uk-nav-navbar>li>a {
   background: #bdb425 !important;
-  color: #938372 !important;
+  /* color: #938372 !important; */
 }
 
+/* Controls Hover Over Color */
 .uk-dropdown-navbar .uk-nav-navbar>li>a:hover {
   background: #bdb425 !important;
-  color: #f9f9f9 !important;
+  color: #444 !important;
 }

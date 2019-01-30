@@ -26,7 +26,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-seo-tag'
   gem 'jekyll-analytics'
-  gem 'tinify'
+  # gem 'tinify'
   gem 'jekyll-admin', group: :jekyll_plugins
 end
 
