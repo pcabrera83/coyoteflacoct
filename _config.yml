@@ -17,6 +17,12 @@ title: Coyote Flaco Mexican Restaurant | Connecticut
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   We have great food like burritos, fajitas, tacos, quesadillas, tamales and great margaritas. During the summer we have outdoor seating. You can visit us in Hartford, CT and we Deliver call us at (860) 953-1299. Or you can visit our Mansfield, CT near the Uconn Storr's campus at (860) 423-4414. 635 New Britain Ave, Hartford, CT, 860-953-1299, - 50 Higgins Hwy, Mansfield, CT 860-423-4414.
+hartford: >-
+   Located in Hartford’s quiet southwest, we’ve been serving up quality Mexican food straight from our parents’ recipes since 1999. We make great margaritas and, when the weather is nice, you can enjoy dinner and drinks on the patio. Off-street parking is available in the front, in back and on the side of our building. 
+   Here’s what some of our customers have to say.
+mansfield: >-
+  Located in Storrs, near the UCONN campus, we’ve been serving up quality Mexican food straight from our parents’ recipes since 1999. We make great margaritas and, when the weather is nice, you can enjoy dinner and drinks on the patio.
+  Here’s what some of our customers have to say.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://coyoteflacoct.com" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: 
