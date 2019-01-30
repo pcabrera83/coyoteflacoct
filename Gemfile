@@ -30,8 +30,8 @@ group :jekyll_plugins do
   gem 'jekyll-admin', group: :jekyll_plugins
 end
 
-require "tinify"
-Tinify.key = "c65XBDy54VNBx1BvxTxrnGDnrD7Mf0HM"
+# require "tinify"
+# Tinify.key = "c65XBDy54VNBx1BvxTxrnGDnrD7Mf0HM"
 
 JEKYLL_ENV="production"
 
