@@ -13,6 +13,7 @@ mansfield:
 
   - {day: 'Monday', hours: '5pm  - 9pm'}
   - {day: 'Tuesday', hours: 'Closed'}
-  - {day: 'Wednesday - Thursday', hours: '5pm - 10pm'}
+  - {day: 'Wednesday', hours: '5pm - 9pm'}
+  - {day: 'Thursday', hours: '5pm - 10pm'}
   - {day: 'Friday - Saturday', hours: '4pm - 10pm'}
   - {day: 'Sunday', hours: '12pm - 9pm'}
