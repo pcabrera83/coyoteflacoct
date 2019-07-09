@@ -611,3 +611,7 @@ small {
   background: #bdb425 !important;
   color: #444 !important;
 }
+
+.uk-hidden-touch {
+  display: none;
+}
