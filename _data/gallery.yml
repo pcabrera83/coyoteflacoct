@@ -63,7 +63,7 @@
   title: Taquitos Dorados
   alt: Image of Taquitos Dorados
 
-- path: '/images/cfpatio-hartford-2.jpg'
+- path: 'images/cfpatio-hartford-2.jpg'
   lightbox: "{group:'gallery1'}"
   title: Hartford Patio
   alt: Image of Coyote Flaco Hartford New Patio
