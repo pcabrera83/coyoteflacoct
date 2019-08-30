@@ -1,59 +1,69 @@
 - path: 'images/quesadilla@2x.png'
   lightbox: "{group:'gallery1'}"
   title: Quesadilla
-  alt: 
+  alt: Image of a Quesadilla
 
 - path: 'images/mansfield-patio-R.jpg'
   lightbox: "{group:'gallery1'}"
   title: Mansfield Patio
-  alt: 
+  alt: Image of Coyote Flaco Mansfield Patio
 
 - path: 'images/silvia-flan.jpg'
   lightbox: "{group:'gallery1'}"
   title: Flan
-  alt: 
+  alt: Image of a Flan
   
 - path: 'images/donjulio-margarita.jpg'
   lightbox: "{group:'gallery1'}"
   title: Don Julio Margarita
-  alt: 
+  alt: Image of a Don Julio Margarita
 
 - path: 'images/cactus-R.jpg'
   lightbox: "{group:'gallery1'}"
   title: Mansfield Dining Room 
-  alt: 
+  alt: Image of Coyote Flaco Mansfield's Dining Room 
 
 - path: 'images/tacos-margarita-R.png'
   lightbox: "{group:'gallery1'}"
   title: Tacos and Margarita 
-  alt: 
+  alt: Image of Tacos and Margarita
 
 - path: 'images/cranberry-margarita.jpg'
   lightbox: "{group:'gallery1'}"
   title: Cranberry Margarita
-  alt: 
+  alt: Image of Cranberry Margarita
 
 - path: 'images/pollo-mexicana@2x.png'
   lightbox: "{group:'gallery1'}"
-  title: Pollo al Mexicana
-  alt: 
+  title: Pollo ala Mexicana
+  alt: Image of a Pollo a la Mexicana
 
 - path: 'images/chips-margarita.jpg'
   lightbox: "{group:'gallery1'}"
   title: Chips and Margaritas
-  alt: 
+  alt: Image fo tortiall chips and Margaritas
 
 - path: 'images/sangria.jpg'
   lightbox: "{group:'gallery1'}"
   title: Sangria Drink
-  alt: 
-
-- path: 'images/hartford-patio@2x.png'
-  lightbox: "{group:'gallery1'}"
-  title: Hartford Patio
-  alt: 
+  alt: Image of a Sangria (Alcoholic)
 
 - path: 'images/silvia-frozenmarg.jpg'
   lightbox: "{group:'gallery1'}"
   title: Frozen Margarita
-  alt: 
+  alt: Image of Frozen Strawberry Margarita
+
+- path: 'images/tacos-aug19.jpg'
+  lightbox: "{group:'gallery1'}"
+  title: Tacos
+  alt: Image of Carne Asada Tacos
+
+- path: 'images/taquitos-dorados.jpg'
+  lightbox: "{group:'gallery1'}"
+  title: Taquitos Dorados
+  alt: Image of Taquitos Dorados
+
+- path: '/images/cfpatio-hartford-2.jpg'
+  lightbox: "{group:'gallery1'}"
+  title: Hartford Patio
+  alt: Image of Coyote Flaco Hartford New Patio
