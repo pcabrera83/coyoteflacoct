@@ -185,7 +185,7 @@ Fajitas:
   menuItem: 'Fajitas Coyote',
   menuDescription: 'Sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
-  menuSubPrice: 'Chicken 14 • Steak 15 • Shrimp 16',
+  menuSubPrice: 'Chicken 15 • Steak 16 • Shrimp 17',
   spicy: 'no', 
   alt: 'image of' 
   }
@@ -193,7 +193,7 @@ Fajitas:
 - { 
   menuItem: 'Fajitas Fiesta',
   menuDescription: 'The perfect seafood fajita combo of salmon and shrimp, sautéed onions and peppers served with rice, black beans, guacamole, sour cream, pico de gallo and flour tortillas',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -205,7 +205,7 @@ Fajitas-2:
   menuItem: 'Fajitas Mixtos',
   menuDescription: 'Broiled and marinated strips of  chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
-  menuSubPrice: 'Chicken & Steak 15 • Chicken & Shrimp 16 • Steak & Shrimp 17',
+  menuSubPrice: 'Chicken & Steak 16 • Chicken & Shrimp 17 • Steak & Shrimp 18',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -311,7 +311,7 @@ Asados:
 - { 
   menuItem: 'Bistek Ranchero',
   menuDescription: 'Grilled rib-eye steak topped with salsa de ranchero served with rice, refried beans, corn tortillas and guacamole',
-  menuPrice: '17',
+  menuPrice: '19',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }  
@@ -319,7 +319,7 @@ Asados:
 - { 
   menuItem: 'Coyote Steak',
   menuDescription: 'Charcoal rib-eye steak topped with peppers and onions sautéed with our spicy chipotle salsa served with rice, black beans and guacamole',
-  menuPrice: '17',
+  menuPrice: '19',
   menuSubPrice: '',
   spicy: 'yes' 
   } 
@@ -331,7 +331,7 @@ Asados-2:
   menuDescription: 'Skirt steak topped with garlic salsa and a
 chicken enchilada suiza served with rice,
 refried beans, guacamole and chorizo',
-  menuPrice: '17',
+  menuPrice: '19',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }

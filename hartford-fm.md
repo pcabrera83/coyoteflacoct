@@ -32,6 +32,8 @@ permalink: /hartford-dine-in
 </div>
 
 <!-- Hartford Dine In Menu -->
+{% include cfd-beverages.html %}
+{% include cfd-drinks.html %}
 {% include cfd-apps.html %}
 {% include cfd-entrees.html %}
 {% include cfd-enchiladas.html %}
@@ -45,6 +47,9 @@ permalink: /hartford-dine-in
 {% include cfd-seafood.html %}
 {% include cfd-kids.html %}
 {% include cfd-desserts.html %}
+<div style="margin: auto; padding: 30px; width: 35%;">
+	<small style="color:#EC4E00;">Prices and menu items are subject to change without notice.</small>
+</div>
 <!-- Hartford Dine In Menu Ends -->
 {% include cfh-mobile-nav.html %}
 {% include cfh-footer.html %}

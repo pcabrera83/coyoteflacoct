@@ -4,11 +4,12 @@
 		<section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
 			<div class="uk-width-1-1 uk-row-first">
 				<div class="uk-panel uk-text-center">
-					<h2 class="uk-margin-large-bottom uk-text-center cf-heading">
+					<h2 class="uk-margin-large-bottom uk-text-center cf-heading" style="margin-bottom: -30px !important">
 						{% include left-arrows.html %}
-						Selected Plates
+						Featured Plates
 						{% include right-arrows.html %}
 					</h2>
+					<a href="/hartford-dine-in.html" style="color:#ec4e00; margin-top:18px;">View Hartford's Full Menu</a>
 				</div>
 				<div class="tm-article-content uk-margin-large-bottom uk-margin-top-remove">
 					<div class="tm-article">
@@ -57,7 +58,7 @@
 																		{{ item.menuItem }}
 																	</h3>
 																	<div class="uk-badge-danger uk-badge {{ item.spicy }}">
-																		hot
+																		spicy
 																	</div>
 																	<span class="tm-menu-dots"></span>
 																	<span class="tm-menu-price cf-menu-background">
@@ -87,7 +88,7 @@
 																		{{ item.menuItem }}
 																	</h3>
 																	<div class="uk-badge-danger uk-badge {{ item.spicy }}">
-																		hot
+																		spicy
 																	</div>
 																	<span class="tm-menu-dots"></span>
 																	<span class="tm-menu-price cf-menu-background">
