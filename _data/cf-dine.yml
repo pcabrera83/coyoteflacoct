@@ -7,7 +7,7 @@ Appetizers:
 - { 
   menuItem: 'Tamal',
   menuDescription: 'Savory chicken filling steamed in corn meal casings topped with enchilada salsa and cheese',
-  menuPrice: '5',
+  menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
   alt: ''
@@ -123,7 +123,7 @@ Platos-Tradicionales:
   menuItem: 'Chile Relleno',
   menuDescription: 'A chile poblano pepper with your choice of
 meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served with rice, refried beans, guacamole and salad',
-  menuPrice: '12',
+  menuPrice: '13',
   menuSubPrice: '',
   spicy: 'yes' 
   }
@@ -133,7 +133,7 @@ meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served 
   menuDescription: 'A flour tortilla filled with chicken, steak or
 veggies, deep fried served with rice,
 refried beans, salad and sour cream',
-  menuPrice: '12',
+  menuPrice: '13',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -152,7 +152,7 @@ Platos-Tradicionales-2:
 - { 
   menuItem: 'Pollo Al Molé',
   menuDescription: 'Grilled chicken breast simmered in our molé salsa served with rice, black beans and vegetables',
-  menuPrice: '15',
+  menuPrice: '16',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -160,7 +160,7 @@ Platos-Tradicionales-2:
 - { 
   menuItem: 'Pollo A La Mexicana',
   menuDescription: 'Grilled chicken breast topped with sautéed peppers, onions, Monterrey jack cheese served with rice, black beans and guacamole',
-  menuPrice: '15',
+  menuPrice: '16',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -193,7 +193,7 @@ Fajitas:
 - { 
   menuItem: 'Fajitas Fiesta',
   menuDescription: 'The perfect seafood fajita combo of salmon and shrimp, sautéed onions and peppers served with rice, black beans, guacamole, sour cream, pico de gallo and flour tortillas',
-  menuPrice: '18',
+  menuPrice: '19',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -246,8 +246,7 @@ Combos-2:
 
 - { 
   menuItem: 'Combo Azteca',
-  menuDescription: 'One enchilada suiza and one chimichanga
-filled with your choice of meats or veggies served with rice, refried beans and guacamole',
+  menuDescription: 'One enchilada suiza and an chimichanga filled with your choice of meats or veggies served with rice, refried beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
@@ -257,7 +256,7 @@ filled with your choice of meats or veggies served with rice, refried beans and 
   menuItem: 'Combo Poblano',
   menuDescription: 'One chicken tamal and one chile relleno
 filled with your choice of meats or veggies served with rice, black beans and guacamole',
-  menuPrice: '15',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -265,7 +264,7 @@ filled with your choice of meats or veggies served with rice, black beans and gu
 - { 
   menuItem: 'Trio Enchiladas',
   menuDescription: 'A combination of an enchilada roja, enchilada suiza and an enchilada oaxaca stuffed with your choice of chicken, steak and pork served with rice, black beans and guacamole',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -279,7 +278,7 @@ Quesadillas:
 - { 
   menuItem: 'Spinach Quesadilla',
   menuDescription: 'A Spinach tortilla stuffed with Monterey jack cheese and spinach, served with guacamole, sour cream and salad',
-  menuPrice: '10',
+  menuPrice: '11',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -287,7 +286,7 @@ Quesadillas:
 - { 
   menuItem: 'Fiesta Quesadilla',
   menuDescription: 'A tomato tortilla stuffed with tomatoes, onions, mushrooms, Monterey jack cheese served with guacamole, sour cream and salad',
-  menuPrice: '10',
+  menuPrice: '11',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -297,7 +296,7 @@ Quesadillas-2:
 - { 
   menuItem: 'Quesadilla Linda',
   menuDescription: 'One flour tortilla filled with Monterey Jack cheese and your choice of meats or veggies served with salad, guacamole and sour cream',
-  menuPrice: '13',
+  menuPrice: '14',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -397,7 +396,7 @@ Seafood:
   menuItem: 'Salmon Ranchero',
   menuDescription: 'Grilled salmon topped with ranchero and
 tomatillo salsa, served with rice, vegetables and guacamole',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -406,7 +405,7 @@ tomatillo salsa, served with rice, vegetables and guacamole',
 - { 
   menuItem: 'Salmon Poblano',
   menuDescription: 'Grilled salmon topped with molé verde on a bed of spinach and mushrooms, served with rice, black beans and guacamole',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -415,7 +414,7 @@ tomatillo salsa, served with rice, vegetables and guacamole',
 - { 
   menuItem: 'Camarones en Salsa Verde',
   menuDescription: 'Shrimp sautéed in tomatillo salsa served with rice, black beans and vegetables',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -426,7 +425,7 @@ Seafood-2:
 - { 
   menuItem: 'Camarones al Ajillo',
   menuDescription: 'Shrimp sautéed in salsa de ajo served with rice, beans and vegetables',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -436,7 +435,7 @@ Seafood-2:
   menuItem: 'Camarones a la Diabla',
   menuDescription: 'Shrimp sautéed with peppers and onions in
 a spicy chipotle salsa, served with rice, black beans and vegetables',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'yes' 
   }
@@ -444,7 +443,7 @@ a spicy chipotle salsa, served with rice, black beans and vegetables',
 - { 
   menuItem: 'Huasteca al Ajo',
   menuDescription: 'Scallops, shrimp and green mussels, sautéed salsa de ajo served with rice, guacamole and vegetables',
-  menuPrice: '18',
+  menuPrice: '19',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -517,7 +516,7 @@ Desserts:
 - { 
   menuItem: 'Flan',
   menuDescription: 'Homemade baked custard topped with whipped cream',
-  menuPrice: '4.99',
+  menuPrice: '5',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -526,7 +525,7 @@ Desserts:
 - { 
   menuItem: 'Sopapillas',
   menuDescription: 'Lightly fried flour tortillas dipped in sugar and cinnamon, served with vanilla ice cream, honey, whipped cream, strawberry and chocolate syrup',
-  menuPrice: '5.99',
+  menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -535,7 +534,7 @@ Desserts:
 - { 
   menuItem: 'Churros',
   menuDescription: 'Fried dough rolled in cinnamon and sugar, served with vanilla ice cream topped with chocolate, strawberry syrup and whipped cream',
-  menuPrice: '6.99',
+  menuPrice: '8',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -546,7 +545,7 @@ Desserts-2:
 - { 
   menuItem: 'Fried Ice Cream',
   menuDescription: 'Lightly fried ice cream rolled with crushed corn flakes, cinnamon, and cocount flakes topped with whipped cream, strawberry and chocoloate syrup',
-  menuPrice: '5.99',
+  menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -555,7 +554,7 @@ Desserts-2:
 - { 
   menuItem: 'Tres Leches Cake',
   menuDescription: 'A dense moist cake topped with a cloud of vanilla whipped cream, chocolate syrup, and cinnamon. ',
-  menuPrice: '5.99',
+  menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -566,7 +565,7 @@ Margaritas:
 - { 
   menuItem: 'House Margarita',
   menuDescription: 'Zapata Tequila, Triple Sec, Lime Mix',
-  menuPrice: '4',
+  menuPrice: '7',
   menuSubPrice: '',
   spicy: 'no', 
   }
@@ -576,7 +575,7 @@ Margaritas-2:
 - { 
   menuItem: '1800 Margarita',
   menuDescription: '1800 Reposado Tequila, Triple Sec, Lime Mix',
-  menuPrice: '5',
+  menuPrice: '8',
   spicy: 'no'
   }
 
@@ -586,14 +585,14 @@ Beer:
   menuItem: 'Mexican',
   menuDescription: 'Corona • Corona Light • Negra Modelo • Tecate • 
 Pacifico • Sol • Victoria',
-  menuPrice: '3.50 (each)',
+  menuPrice: '5 (each)',
   spicy: 'no', 
   }
 
 - { 
   menuItem: 'Draft Beer',
   menuDescription: 'Varies, please ask server',
-  menuPrice: '3.50 (each)',
+  menuPrice: '4 (each)',
   spicy: 'no', 
   }
 
@@ -612,7 +611,7 @@ Wine:
 - { 
   menuItem: 'White',
   menuDescription: 'Chardonnay (Chile) • Pinot Grigio (Italy) •  Blanc (Argentina)',
-  menuPrice: '5 (each)',
+  menuPrice: '7 (each)',
   spicy: 'no', 
   }
 
@@ -621,7 +620,7 @@ Wine-2:
 - { 
   menuItem: 'Red',
   menuDescription: 'Merlot (Chile) • Shiraz (Australia) • Cabernet Sauvignon (Argentina) • Malbec (Chile)',
-  menuPrice: '5 (each)',
+  menuPrice: '8 (each)',
   spicy: 'no', 
   }
 
@@ -713,7 +712,7 @@ Beverages:
 - { 
   menuItem: '2 Liters',
   menuDescription: 'Coke • Diet Coke • Sprite • Ginger Ale',
-  menuPrice: '2.50',
+  menuPrice: '3.00',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -744,9 +743,8 @@ handshaken-margaritas:
 
 - {
   menuItem: 'Hornitos Margarita',
-  menuDescription: 'Sauza Hornitos Reposado
-Tequila, Triple Sec, Fresh Lime Juice',
-  menuPrice: '8',
+  menuDescription: 'Sauza Hornitos Reposado, Tequila, Triple Sec, Fresh Lime Juice',
+  menuPrice: '9',
   menuSubPrice: '',
   spicy: 'no' 
 }
@@ -754,25 +752,25 @@ Tequila, Triple Sec, Fresh Lime Juice',
 - {
   menuItem: 'Cranberry Margarita',
   menuDescription: 'Tequila, triple sec, lime and cranberry juice',
-  menuPrice: '8',
-  menuSubPrice: '',
-  spicy: 'no' 
-}
-
-- {
-  menuItem: 'El Jimador Margarita',
-  menuDescription: 'El Jimador Blanco Tequila,
-Grand Marnier, Fresh Lime Juice',
   menuPrice: '9',
   menuSubPrice: '',
   spicy: 'no' 
 }
 
 - {
-  menuItem: 'Don Julio Margarita',
-  menuDescription: 'Don Julio Blanco Tequila,
-Grand Marnier, Fresh Lime Juice',
+  menuItem: 'El Jimador Margarita',
+  menuDescription: 'El Jimador Blanco Tequila, Grand Marnier, Fresh Lime Juice',
   menuPrice: '10',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+handshaken-margaritas-2:
+
+- {
+  menuItem: 'Don Julio Margarita',
+  menuDescription: 'Don Julio Blanco Tequila, Grand Marnier, Fresh Lime Juice',
+  menuPrice: '11',
   menuSubPrice: '',
   spicy: 'no' 
 }
@@ -790,7 +788,7 @@ frozen margaritas:
 - {
   menuItem: 'Frozen Margarita',
   menuDescription: 'Choice of flavors: Lime, Strawberry, or Mango',
-  menuPrice: '9',
+  menuPrice: '10',
   menuSubPrice: '',
   spicy: 'no' 
 }
@@ -800,7 +798,7 @@ cocktails:
 - {
   menuItem: 'Sangria',
   menuDescription: '',
-  menuPrice: '9 • 27 Pitcher',
+  menuPrice: '9',
   menuSubPrice: '',
   spicy: 'no' 
 }
@@ -817,6 +815,34 @@ cocktails:
   menuItem: 'Mojito',
   menuDescription: '',
   menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+pitchers:
+
+- {
+  menuItem: 'House Pitcher',
+  menuDescription: '',
+  menuPrice: '27',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+- {
+  menuItem: '1800 Pitcher',
+  menuDescription: '',
+  menuPrice: '31',
+  menuSubPrice: '',
+  spicy: 'no' 
+}
+
+pitchers-2:
+
+- {
+  menuItem: 'Sangria Pitcher',
+  menuDescription: '',
+  menuPrice: '31',
   menuSubPrice: '',
   spicy: 'no' 
 }

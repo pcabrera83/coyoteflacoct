@@ -6,8 +6,6 @@ permalink: /cf-mansfield.html
 ---
 <!-- Slider In Section -->
 {% include cfm-slider.html %}
-<!-- Call Out Section -->
-<!-- {% include cfm-callout.html %} -->
 <!-- Location Welcome Section -->
 {% include cfm-welcome.html %}
 <!-- Review Header Section -->

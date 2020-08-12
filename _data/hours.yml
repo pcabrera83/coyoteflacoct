@@ -3,17 +3,15 @@
   # Hartford Hours
 hartford :
 
-- {day: 'Tuesday - Friday', hours: '3pm  - 8pm'}
-- {day: 'Saturday', hours: '3pm - 8pm'}
+- {day: 'Tuesday - Wednesday', hours: '3pm  - 8pm'}
+- {day: 'Thursday - Saturday', hours: '3pm - 9pm'}
 - {day: 'Sunday', hours: '3pm - 8pm'}
 - {day: 'Monday', hours: 'Closed'}
 
   # Mansfield Hours
 mansfield:
 
-  - {day: 'Monday', hours: '5pm  - 8pm'}
+  - {day: 'Sunday - Monday', hours: '4pm  - 8pm'}
   - {day: 'Tuesday', hours: 'Closed'}
-  - {day: 'Wednesday', hours: '5pm - 8pm'}
-  - {day: 'Thursday', hours: '5pm - 8pm'}
-  - {day: 'Friday - Saturday', hours: '4pm - 8pm'}
-  - {day: 'Sunday', hours: '4pm - 8pm'}
+  - {day: 'Wednesday', hours: '4pm - 8pm'}
+  - {day: 'Thursday - Saturday', hours: '4pm - 9pm'}

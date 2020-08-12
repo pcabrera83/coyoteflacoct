@@ -7,14 +7,21 @@
 			<h3 class="uk-margin">
 				Hours of Operation
 			</h3>
-			<dl class="uk-description-list-horizontal">{% for item in site.data.hours.hartford %} <dt>{{ item.day }}</dt>
-				<dd>{{ item.hours }}</dd>{% endfor %}
+			<dl class="uk-description-list-horizontal">
+				{% for item in site.data.hours.hartford %} 
+				<dt>{{ item.day }}</dt>
+				<dd>{{ item.hours }}</dd>
+				{% endfor %}
 			</dl>
 			<a class="
                 uk-button-primary uk-button-large uk-button cf-button" href="tel:860-953-1299">Call
 				Us</a>
-			<a class="uk-button-secondary uk-margin-left uk-button-large uk-button cf-button right" href="hartford-reservations.html">Reserve
-				Table</a>
+			<a class="uk-button-secondary uk-margin-left uk-button-large uk-button cf-button right" href="hartford-reservations.html">
+				Reserve Table
+			</a>
+			<a class="uk-button uk-margin-left uk-button-large uk-button cf-button right cf-button-tertiary" href="hartford-dine-in.html">
+				Dine In Menu
+			</a>
 		</div>
 	</div>
 	<div class="box-2 uk-hidden-medium uk-hidden-small">

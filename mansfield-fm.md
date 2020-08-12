@@ -31,6 +31,11 @@ permalink: /mansfield-dine-in.html
 </div>
 
 <!-- Mansfield Dine In Menu -->
+
+{% include cfm-handshakenmars.html %}
+{% include cfm-specialtydrinks.html %}
+{% include cfm-wine.html %}
+{% include cfm-beer.html %}
 {% include cfm-apps.html %}
 {% include cfm-soups-salads.html %}
 {% include cfm-enchiladas.html %}

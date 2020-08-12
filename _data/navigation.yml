@@ -57,7 +57,7 @@ hartford-reviews:
 mansfield-menu:
 
 - {name: 'Dine In', link: 'mansfield-dine-in.html',}
-- {name: 'Drinks', link: 'mansfield-drinks.html',}
+- {name: 'Drink Specials', link: 'mansfield-drinks.html',}
 
 mansfield-reservations:
 

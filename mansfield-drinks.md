@@ -15,7 +15,7 @@ permalink: /mansfield-drinks.html
 								<div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-top">
 									<h1 class="uk-margin-top uk-text-center cf-heading">
                       {% include left-arrows.html %}
-                      Drinks Menu
+                      Drink Specials
                       {% include right-arrows.html %}</h1>
 								</div>
 								<div class="uk-scrollspy-init-inview uk-scrollspy-inview uk-animation-slide-top">
