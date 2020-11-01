@@ -387,7 +387,7 @@ handmade-margaritas:
 
 - { 
   menuItem: 'Hornitos Margarita',
-  menuDescription: 'El Jimador Silver Tequila, Gran Gala, Fresh Lime Juice',
+  menuDescription: 'Sauza Hornitos Reposado Tequila, Triple Sec, Fresh Lime Juice',
   menuPrice: '9',
   menuSubPrice: '',
   spicy: 'no' 
@@ -395,7 +395,7 @@ handmade-margaritas:
 
 - { 
   menuItem: 'El Jimador Margarita',
-  menuDescription: 'Sauza Hornitos Reposado Tequila, Triple Sec, Fresh Lime Juice',
+  menuDescription: 'El Jimador Silver Tequila, Gran Gala, Fresh Lime Juice',
   menuPrice: '10  ',
   menuSubPrice: '',
   spicy: 'no' 

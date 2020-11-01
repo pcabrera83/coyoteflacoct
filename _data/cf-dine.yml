@@ -185,7 +185,7 @@ Fajitas:
   menuItem: 'Fajitas Coyote',
   menuDescription: 'Sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
-  menuSubPrice: 'Chicken 15 • Steak 16 • Shrimp 17',
+  menuSubPrice: 'Chicken 16 • Steak 17 • Shrimp 18',
   spicy: 'no', 
   alt: 'image of' 
   }
@@ -205,7 +205,7 @@ Fajitas-2:
   menuItem: 'Fajitas Mixtos',
   menuDescription: 'Broiled and marinated strips of  chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
-  menuSubPrice: 'Chicken & Steak 16 • Chicken & Shrimp 17 • Steak & Shrimp 18',
+  menuSubPrice: 'Chicken & Steak 17 • Chicken & Shrimp 18 • Steak & Shrimp 19',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -246,7 +246,7 @@ Combos-2:
 
 - { 
   menuItem: 'Combo Azteca',
-  menuDescription: 'One enchilada suiza and an chimichanga filled with your choice of meats or veggies served with rice, refried beans and guacamole',
+  menuDescription: 'One enchilada suiza and one enchilada oaxaca filled with your choice of meats or veggies served with rice, refried beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
@@ -414,7 +414,7 @@ tomatillo salsa, served with rice, vegetables and guacamole',
 - { 
   menuItem: 'Camarones en Salsa Verde',
   menuDescription: 'Shrimp sautéed in tomatillo salsa served with rice, black beans and vegetables',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -425,7 +425,7 @@ Seafood-2:
 - { 
   menuItem: 'Camarones al Ajillo',
   menuDescription: 'Shrimp sautéed in salsa de ajo served with rice, beans and vegetables',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -435,7 +435,7 @@ Seafood-2:
   menuItem: 'Camarones a la Diabla',
   menuDescription: 'Shrimp sautéed with peppers and onions in
 a spicy chipotle salsa, served with rice, black beans and vegetables',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'yes' 
   }
