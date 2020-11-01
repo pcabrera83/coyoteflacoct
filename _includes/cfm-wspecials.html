@@ -4,10 +4,10 @@
 		<section class="tm-top-b uk-grid" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin="">
 			<div class="uk-width-1-1 uk-row-first">
 				<div class="uk-panel uk-text-center">
-					<h2 class="uk-margin-large-bottom uk-text-center cf-heading">
-						{% include left-arrows.html %}
+					<h2 class="uk-text-center uk-margin-large-bottom uk-sub-title">
+
 						Featured Plates
-						{% include right-arrows.html %}
+
 					</h2>
 					<a href="/mansfield-dine-in.html" style="color:#ec4e00; margin-top:18px;">View Mansfield's Full Menu</a>
 				</div>
@@ -57,9 +57,9 @@
 																	<h3 class="tm-menu-name cf-menu-background">
 																		{{ item.menuItem }}
 																	</h3>
-																	<div class="uk-badge-danger uk-badge {{ item.spicy }}">
+																	<!-- <div class="uk-badge-danger uk-badge {{ item.spicy }}">
 																		spicy
-																	</div>
+																	</div> -->
 																	<span class="tm-menu-dots"></span>
 																	<span class="tm-menu-price cf-menu-background">
 																		{{ item.menuPrice }}
@@ -70,6 +70,15 @@
 																	<span class="cf-submenu-price">
 																		{{ item.menuSubPrice }}
 																	</span>
+																	<div class="uk-badge-danger uk-badge {{ item.spicy }}">
+																		spicy
+																	</div>
+																	<div class="uk-badge-success uk-badge {{ item.vegan }}">
+																		vegan
+																	</div>
+																	<div class="uk-badge-blue uk-badge {{ item.gluten }}">
+																		gluten free
+																	</div>
 																</div>
 															</div>
 														</div>

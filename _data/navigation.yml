@@ -24,9 +24,9 @@ locations:
 
 hartford-menu:
 
-- {name: 'Lunch', link: 'hartford-lunch.html',}
+# - {name: 'Lunch', link: 'hartford-lunch.html',}
 - {name: 'Dine In', link: 'hartford-dine-in.html',}
-- {name: 'Take Out', link: 'hartford-takeout.html',}
+# - {name: 'Take Out', link: 'hartford-takeout.html',}
 - {name: 'Drinks', link: 'hartford-drinks.html',}
 
 

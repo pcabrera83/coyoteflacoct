@@ -10,7 +10,9 @@ Appetizers:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: ''
+  alt: '',
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -18,7 +20,10 @@ Appetizers:
   menuDescription: 'Two fried empanadas stuffed with ground beef served with sour cream',
   menuPrice: '5',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -26,7 +31,10 @@ Appetizers:
   menuDescription: 'A spicy broth filled with chicken and avocado topped with cilantro and tortilla chips and a side of pico de gallo and cheese',
   menuPrice: '7',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -34,7 +42,10 @@ Appetizers:
   menuDescription: 'Two soft tacos with tilapia served with lettuce, cilantro and onions',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'yes' 
   }
 
 Appetizers-2:
@@ -44,7 +55,10 @@ Appetizers-2:
   menuDescription: 'A plain cheese quesadilla served with salad, guacamole and sour cream',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -52,7 +66,9 @@ Appetizers-2:
   menuDescription: 'Spanish sausage sautéed in chipotle sauce served with flour tortillas',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -61,7 +77,9 @@ Appetizers-2:
   menuPrice: '9',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of Gambas al Ajillo' 
+  alt: 'image of Gambas al Ajillo',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -70,7 +88,9 @@ Appetizers-2:
   menuPrice: '11',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image  of Nacho Supreme' 
+  alt: 'image  of Nacho Supreme',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 ##--------
@@ -84,7 +104,9 @@ Enchiladas:
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with enchilada salsa and Monterrey Jack cheese served with rice, refried beans and salad',
   menuPrice: '14',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', alt: 'image of',
+  vegan: 'no',
+  gluten: 'yes' 
   }
 
 - { 
@@ -92,7 +114,10 @@ Enchiladas:
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with tomatillo salsa and Monterrey Jack cheese, served with rice, refried beans and sour cream',
   menuPrice: '14',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of'
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'yes'
   }
 
 Enchiladas-2:
@@ -102,7 +127,10 @@ Enchiladas-2:
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with molé salsa and Monterrey Jack cheese served with rice, black beans and guacamole',
   menuPrice: '14',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -110,7 +138,10 @@ Enchiladas-2:
   menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with molé verde and Monterrey Jack cheese served with rice, black beans and guacamole',
   menuPrice: '14',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 # ##--------
@@ -125,7 +156,9 @@ Platos-Tradicionales:
 meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served with rice, refried beans, guacamole and salad',
   menuPrice: '14',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -136,7 +169,9 @@ refried beans, salad and sour cream',
   menuPrice: '14',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -144,7 +179,10 @@ refried beans, salad and sour cream',
   menuDescription: 'One large flour tortilla filled with rice, refried beans and your choice of meats or veggies, topped with enchilada salsa and cheese, served with sour cream and salad',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 Platos-Tradicionales-2:
@@ -154,7 +192,10 @@ Platos-Tradicionales-2:
   menuDescription: 'Grilled chicken breast simmered in our molé salsa served with rice, black beans and vegetables',
   menuPrice: '17',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -162,7 +203,10 @@ Platos-Tradicionales-2:
   menuDescription: 'Grilled chicken breast topped with sautéed peppers, onions, Monterrey jack cheese served with rice, black beans and guacamole',
   menuPrice: '17',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
   
 - { 
@@ -172,7 +216,10 @@ mushrooms, spinach and tomatoes, served
 with rice, black beans and guacamole',
   menuPrice: '17',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 # ##--------
@@ -187,7 +234,9 @@ Fajitas:
   menuPrice: '',
   menuSubPrice: 'Chicken 16 • Steak 18 • Shrimp 18',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -196,7 +245,9 @@ Fajitas:
   menuPrice: '22',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 Fajitas-2:
@@ -206,7 +257,10 @@ Fajitas-2:
   menuDescription: 'Broiled and marinated strips of  chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
   menuSubPrice: 'Chicken & Steak 18 • Chicken & Shrimp 18 • Steak & Shrimp 20',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 # ##--------
@@ -221,7 +275,9 @@ Combos:
   menuPrice: '13',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -230,7 +286,9 @@ Combos:
   menuPrice: '16',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -239,7 +297,10 @@ Combos:
 filled with your choice of meats or veggies served with rice, refried beans and guacamole',
   menuPrice: '16',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 Combos-2:
@@ -249,7 +310,10 @@ Combos-2:
   menuDescription: 'One enchilada suiza and one enchilada oaxaca filled with your choice of meats or veggies served with rice, refried beans and guacamole',
   menuPrice: '16',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no',
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -258,7 +322,10 @@ Combos-2:
 filled with your choice of meats or veggies served with rice, black beans and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -266,7 +333,10 @@ filled with your choice of meats or veggies served with rice, black beans and gu
   menuDescription: 'A combination of an enchilada roja, enchilada suiza and an enchilada oaxaca stuffed with your choice of chicken, steak and pork served with rice, black beans and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no',
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 # ##--------
@@ -280,7 +350,10 @@ Quesadillas:
   menuDescription: 'A Spinach tortilla stuffed with Monterey jack cheese and spinach, served with guacamole, sour cream and salad',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -288,7 +361,10 @@ Quesadillas:
   menuDescription: 'A tomato tortilla stuffed with tomatoes, onions, mushrooms, Monterey jack cheese served with guacamole, sour cream and salad',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Quesadillas-2:
@@ -298,7 +374,10 @@ Quesadillas-2:
   menuDescription: 'One flour tortilla filled with Monterey Jack cheese and your choice of meats or veggies served with salad, guacamole and sour cream',
   menuPrice: '14',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 # ##--------
@@ -312,7 +391,10 @@ Asados:
   menuDescription: 'Charcoal rib-eye steak topped with salsa de ranchero served with rice, refried beans, corn tortillas and guacamole',
   menuPrice: '19',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }  
 
 - { 
@@ -320,7 +402,9 @@ Asados:
   menuDescription: 'Charcoal rib-eye steak topped with peppers and onions sautéed with our spicy chipotle salsa served with rice, black beans and guacamole',
   menuPrice: '19',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes',
+  vegan: 'no',
+  gluten: 'yes'  
   } 
 
 Asados-2:
@@ -332,7 +416,11 @@ chicken enchilada suiza served with rice,
 refried beans, guacamole and chorizo',
   menuPrice: '19',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
+
   }
 
 # ##--------
@@ -348,7 +436,9 @@ and carrots topped with shrimp and avocado',
   menuPrice: '10',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'yes',
+  gluten: 'yes'  
   }
 
 Salads-2: 
@@ -358,7 +448,10 @@ Salads-2:
   menuDescription: 'Crispy flour tortilla nest filled with lettuce, carrots, cabbage, cheese, tomatoes topped with your choice of, meats or veggies',
   menuPrice: '12',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 # ##--------
@@ -373,7 +466,10 @@ Wraps:
 pico de gallo, cheese and your choice of filling, served with salad, guacamole and sour cream',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Wraps-2:
@@ -383,7 +479,10 @@ Wraps-2:
   menuDescription: 'A chile tortilla stuffed with black beans, red and green peppers, onions, pico de gallo, Monterey jack cheese and your choice of meats or vegetables, served with salad, guacamole and sour cream',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no', alt: 'image of' 
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 # ##--------
@@ -399,7 +498,9 @@ tomatillo salsa, served with rice, vegetables and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -408,7 +509,9 @@ tomatillo salsa, served with rice, vegetables and guacamole',
   menuPrice: '20',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -417,7 +520,9 @@ tomatillo salsa, served with rice, vegetables and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'yes'  
   }
 
 Seafood-2:
@@ -428,7 +533,9 @@ Seafood-2:
   menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'yes'  
   }
 
 - { 
@@ -437,7 +544,9 @@ Seafood-2:
 a spicy chipotle salsa, served with rice, black beans and vegetables',
   menuPrice: '18',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -446,7 +555,9 @@ a spicy chipotle salsa, served with rice, black beans and vegetables',
   menuPrice: '20',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 # ##--------
@@ -461,7 +572,9 @@ Kids-Plates:
   menuPrice: '7',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -470,7 +583,9 @@ Kids-Plates:
   menuPrice: '7',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -479,7 +594,9 @@ Kids-Plates:
   menuPrice: '8',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Kids-Plates-2:
@@ -490,7 +607,9 @@ Kids-Plates-2:
   menuPrice: '8',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -499,7 +618,9 @@ Kids-Plates-2:
   menuPrice: '8',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -508,7 +629,9 @@ Kids-Plates-2:
   menuPrice: '7',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Desserts:
@@ -519,7 +642,9 @@ Desserts:
   menuPrice: '5',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -528,7 +653,9 @@ Desserts:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -537,7 +664,9 @@ Desserts:
   menuPrice: '8',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Desserts-2:
@@ -548,7 +677,9 @@ Desserts-2:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -557,7 +688,9 @@ Desserts-2:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Margaritas:
@@ -567,7 +700,9 @@ Margaritas:
   menuDescription: 'Zapata Tequila, Triple Sec, Lime Mix',
   menuPrice: '7',
   menuSubPrice: '',
-  spicy: 'no', 
+  spicy: 'no',,
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Margaritas-2:
@@ -576,7 +711,9 @@ Margaritas-2:
   menuItem: '1800 Margarita',
   menuDescription: '1800 Reposado Tequila, Triple Sec, Lime Mix',
   menuPrice: '8',
-  spicy: 'no'
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 Beer:
@@ -586,14 +723,18 @@ Beer:
   menuDescription: 'Corona • Corona Light • Negra Modelo • Tecate • 
 Pacifico • Sol • Victoria',
   menuPrice: '5 (each)',
-  spicy: 'no', 
+  spicy: 'no',,
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
   menuItem: 'Draft Beer',
   menuDescription: 'Varies, please ask server',
   menuPrice: '4 (each)',
-  spicy: 'no', 
+  spicy: 'no',,
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 
@@ -603,7 +744,9 @@ Beer-2:
   menuItem: 'Domestic',
   menuDescription: 'Budweiser • Bud Light • Coors Light',
   menuPrice: '3 (each)',
-  spicy: 'no', 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Wine:
@@ -612,7 +755,9 @@ Wine:
   menuItem: 'White',
   menuDescription: 'Chardonnay (Chile) • Pinot Grigio (Italy) •  Blanc (Argentina)',
   menuPrice: '7 (each)',
-  spicy: 'no', 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Wine-2:
@@ -621,7 +766,9 @@ Wine-2:
   menuItem: 'Red',
   menuDescription: 'Merlot (Chile) • Shiraz (Australia) • Cabernet Sauvignon (Argentina) • Malbec (Chile)',
   menuPrice: '8 (each)',
-  spicy: 'no', 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 ##--------
@@ -635,8 +782,10 @@ Alacarte:
   menuDescription: 'One soft or hard corn tortilla filled with your choice of meats served with lettuce, cilantro, cheese and pico de gallo',
   menuPrice: '3.50',
   menuSubPrice: 'add .50 for Sour Cream',
-  spicy: 'no', 
-  alt: ''
+  spicy: 'no' 
+  alt: '',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -645,7 +794,9 @@ Alacarte:
   menuPrice: '4',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -654,7 +805,9 @@ Alacarte:
   menuPrice: '4',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -663,7 +816,9 @@ Alacarte:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 Alacarte-2:
@@ -674,7 +829,9 @@ Alacarte-2:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -682,7 +839,9 @@ Alacarte-2:
   menuDescription: 'Choice of Roja, Tomatillo, Molé salsa',
   menuPrice: '6',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes',
+  vegan: 'no',
+  gluten: 'yes'  
   }
 
 - { 
@@ -691,7 +850,9 @@ Alacarte-2:
   menuPrice: '6',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of Gambas al Ajillo' 
+  alt: 'image of Gambas al Ajillo',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 ##--------
@@ -706,7 +867,9 @@ Beverages:
   menuPrice: '2.50',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: ''
+  alt: '',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -715,7 +878,9 @@ Beverages:
   menuPrice: '3.00',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 
@@ -727,7 +892,9 @@ Beverages-2:
   menuPrice: '2.50',
   menuSubPrice: '',
   spicy: 'no', 
-  alt: 'image of' 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -735,7 +902,9 @@ Beverages-2:
   menuDescription: 'Coke • Diet Coke • Sprite • Canada Dry Ginger Ale • Sunkist',
   menuPrice: '1.50',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 
@@ -746,7 +915,9 @@ handshaken-margaritas:
   menuDescription: 'Sauza Hornitos Reposado, Tequila, Triple Sec, Fresh Lime Juice',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no' 
 }
 
 - {
@@ -754,7 +925,9 @@ handshaken-margaritas:
   menuDescription: 'Tequila, triple sec, lime and cranberry juice',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 - {
@@ -762,7 +935,9 @@ handshaken-margaritas:
   menuDescription: 'El Jimador Blanco Tequila, Grand Marnier, Fresh Lime Juice',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 handshaken-margaritas-2:
@@ -772,7 +947,9 @@ handshaken-margaritas-2:
   menuDescription: 'Don Julio Blanco Tequila, Grand Marnier, Fresh Lime Juice',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 - {
@@ -780,7 +957,9 @@ handshaken-margaritas-2:
   menuDescription: 'Jose Cuervo Tradicional Reposado Tequila, Cointreau, Fresh Lime Juice',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 frozen margaritas:
@@ -790,7 +969,9 @@ frozen margaritas:
   menuDescription: 'Choice of flavors: Lime, Strawberry, or Mango',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 cocktails:
@@ -800,7 +981,9 @@ cocktails:
   menuDescription: '',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 - {
@@ -808,7 +991,9 @@ cocktails:
   menuDescription: '',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 - {
@@ -816,7 +1001,9 @@ cocktails:
   menuDescription: '',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 pitchers:
@@ -826,7 +1013,9 @@ pitchers:
   menuDescription: '',
   menuPrice: '27',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 - {
@@ -834,7 +1023,9 @@ pitchers:
   menuDescription: '',
   menuPrice: '31',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }
 
 pitchers-2:
@@ -844,5 +1035,7 @@ pitchers-2:
   menuDescription: '',
   menuPrice: '31',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
 }

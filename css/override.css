@@ -68,6 +68,22 @@ section {
   max-height: 550px !important;
 }
 
+.tm-menu-desc {
+  color: #333 !important;
+}
+.tm-menu-name {
+  font-weight: 700 !important;
+}
+.uk-sub-title {
+  font-size: 28px;
+}
+
+.tm-header-height > div {
+  max-height: 150px !important;
+}
+
+
+
 /*
   02
   Nav Styles
@@ -393,6 +409,10 @@ small {
   font-size: 2.5em;
   font-weight: 600;
   line-height: 1.25em;
+}
+
+.uk-badge-blue {
+  background-color: royalblue;
 }
 
 /* 

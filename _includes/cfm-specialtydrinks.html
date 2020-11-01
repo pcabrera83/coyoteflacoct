@@ -5,10 +5,9 @@
             <div class="uk-width-1-1 uk-row-first">
                 <div class="uk-panel uk-text-center">
                     <!-- <img class="" src="images/sopa.png" alt="sopa" width="300" height="200"> -->
-                    <h2 class="uk-text-center cf-heading uk-margin-large-bottom">
-                        {% include left-arrows.html %}
+                    <h2 class="uk-text-center uk-margin-large-bottom uk-sub-title">
                         Specialty Drinks
-                        {% include right-arrows.html %}
+
                         <!-- <span class="uk-sub-title uk-block">
                             Appetizers
                         </span> -->
@@ -27,9 +26,9 @@
                                                     <h3 class="tm-menu-name" style="background: #fff5ea;">
                                                         {{ item.menuItem }}
                                                     </h3>
-                                                    <div class="uk-badge-danger uk-badge {{ item.spicy }}">
+                                                    <!-- <div class="uk-badge-danger uk-badge {{ item.spicy }}">
                                                         spicy
-                                                    </div>
+                                                    </div> -->
                                                     <span class="tm-menu-dots"></span>
                                                     <span class="tm-menu-price" style="background: #fff5ea;">
                                                         {{ item.menuPrice }}
@@ -37,6 +36,15 @@
                                                     <span class="tm-menu-desc">
                                                         {{ item.menuDescription }}
                                                     </span>
+                                                    <div class="uk-badge-danger uk-badge {{ item.spicy }}">
+                                                        spicy
+                                                    </div>
+                                                    <div class="uk-badge-success uk-badge {{ item.vegan }}">
+                                                        vegan
+                                                    </div>
+                                                    <div class="uk-badge-blue uk-badge {{ item.gluten }}">
+                                                        gluten free
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

@@ -9,7 +9,9 @@ Appetizers:
   menuDescription: 'Spanish-style seafood stew with clams, shrimp and pico de gallo sautéed in white wine and tomatillo sauce served with flour tortillas',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no'
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'yes'
   }
 
 - { 
@@ -17,7 +19,9 @@ Appetizers:
   menuDescription: 'Spanish sausage sautéed in a spicy chipotle sauce served with flour tortillas',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -25,7 +29,9 @@ Appetizers:
   menuDescription: 'Jalapeños stuffed with chorizo sautéed in oil until blistered served in a spicy chipotle sauce with sides of sour cream and flour tortillas',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes',
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -33,7 +39,9 @@ Appetizers:
   menuDescription: 'A fried Latin American turnover stuffed with ground beef and cheese, served with a mild dipping sauce',
   menuPrice: '7',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 Appetizers-2:
@@ -43,7 +51,9 @@ Appetizers-2:
   menuDescription: 'Shrimp sautéed in a garlic sauce served with flour tortillas',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -51,7 +61,9 @@ Appetizers-2:
   menuDescription: 'A cornmeal husk filled with chicken, peppers and onions topped with tomatillo sauce, enchilada sauce and cheese served with jalapeños and pico de gallo',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -59,7 +71,9 @@ Appetizers-2:
   menuDescription: 'One soft or hard corn tortilla with your choice of filling or tilapia served with cotija cheese, cilantro and pico de gallo',
   menuPrice: '4',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -67,7 +81,9 @@ Appetizers-2:
   menuDescription: 'Corn chips topped with refried beans, cheese, guacamole, sour cream, jalepeños and pico de gallo',
   menuPrice: '9',
   menuSubPrice: 'add 3 for meats or veggies',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 # ##--------
@@ -81,7 +97,9 @@ Soup-Salad:
   menuDescription: 'Black beans served with sides of cheese, pico de gallo and flour tortillas',
   menuPrice: '6',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'yes',
+  gluten: 'yes'
   }
 
 - { 
@@ -89,7 +107,9 @@ Soup-Salad:
   menuDescription: 'A spicy broth with chicken and avocado topped with cilantro and tortilla chips, sides of pico de gallo and cheese',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -97,7 +117,9 @@ Soup-Salad:
   menuDescription: 'A crispy tortilla bowl filled with lettuce, carrots, cabbage and tomatoes, topped with your choice of filling, served with sour cream and our homemade dressing',
   menuPrice: '13',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 Soup-Salad-2:
@@ -107,7 +129,9 @@ Soup-Salad-2:
   menuDescription: 'Lettuce, grape tomato, spinach, cabbage and carrots topped with avocado',
   menuPrice: '9',
   menuSubPrice: 'Add Chicken 5 • Add Shrimp 6 • Add Skirt Steak 6',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'yes',
+  gluten: 'yes' 
   }
 
 - { 
@@ -115,7 +139,9 @@ Soup-Salad-2:
   menuDescription: 'Spinach, cucumbers, grape tomatoes, peppers, red onions, feta cheese, chick peas, and bean salad',
   menuPrice: '11',
   menuSubPrice: 'Add Chicken 5 • Add Shrimp 6 • Add Skirt Steak 6',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'yes',
+  gluten: 'yes'
   }
 
 - { 
@@ -123,7 +149,9 @@ Soup-Salad-2:
   menuDescription: 'Quinoa, spinach, grape tomatoes, avocado, feta cheese, chick peas, and bean salad',
   menuPrice: '12',
   menuSubPrice: 'Add Chicken 5 • Add Shrimp 6 • Add Skirt Steak 6',
-  spicy: 'no' 
+  spicy: 'no',
+  vegan: 'yes',
+  gluten: 'yes'
   }
 
 # ##--------
@@ -137,7 +165,9 @@ Enchiladas:
   menuDescription: 'Two red corn tortillas with your choice of fillings, topped with enchilada sauce and cheese served with rice, beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'yes'
   }
 
 - { 
@@ -145,7 +175,9 @@ Enchiladas:
   menuDescription: 'Two white corn tortillas with your choice of fillings, topped with tomatillo sauce and cheese served with rice, beans and sour cream',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'yes'
   }
 
 - { 
@@ -153,15 +185,20 @@ Enchiladas:
   menuDescription: 'Two blue corn tortillas with your choice of fillings and topped with Molé sauce and cheese, served with rice, black beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
+
 Enchiladas-2:
 - { 
   menuItem: 'Combo Azteca',
   menuDescription: 'One enchilada Suiza and one enchilada Oaxaca stuffed with your choice of fillings, served with rice, black beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -169,7 +206,9 @@ Enchiladas-2:
   menuDescription: 'One enchilada Oaxaca filled with pork, one enchilada Suiza filled with steak, and one enchilada Roja filled with chicken, served with rice, black beans and guacamole',
   menuPrice: '20',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 # ##--------
@@ -183,7 +222,9 @@ Entrees:
   menuDescription: 'One large flour tortilla filled with rice, refried beans and your choice of filling, topped with enchilada sauce and cheese, served with sour cream ',
   menuPrice: '16',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -191,7 +232,9 @@ Entrees:
   menuDescription: 'A deep fried flour tortilla filled with chicken, steak, or vegetables, served with rice, refried beans and sour cream',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -199,7 +242,9 @@ Entrees:
   menuDescription: 'A chile poblano pepper stuffed with your choice of filling topped with enchilada sauce, tomatillo sauce, and cheese, served with rice, refried beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -207,14 +252,18 @@ Entrees:
   menuDescription: 'Spinach flour tortilla filled with rice, black beans, pico de gallo, cheese and your choice of filling, served with guacamole and sour cream',
   menuPrice: '16',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 - {
   menuItem: 'Quesadilla Linda',
   menuDescription: 'One flour tortilla filled with Oaxaca cheese and your choice of meats or veggies served with salad, guacamole and sour cream',
   menuPrice: '15',
   menuSubPrice: 'Add Shrimp  5 • Add Spinach 3 • Add Mushrooms & Onions 3',
-  spicy: 'no',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
 }
 
 Entrees-2:
@@ -223,7 +272,9 @@ Entrees-2:
   menuDescription: 'A large flour tortilla filled with Oaxaca cheese served with guacamole and sour cream',
   menuPrice: '11',
   menuSubPrice: 'Add Spinach 3 • Add Mushrooms & Onions 3',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -231,7 +282,9 @@ Entrees-2:
   menuDescription: 'One chimichanga filled with chicken or steak and one enchilada suiza stuffed with your choice of filling served with rice, beans and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -239,7 +292,9 @@ Entrees-2:
   menuDescription: 'One chicken tamal and one chile relleño with your choice of filling served with rice, black beans and guacamole',
   menuPrice: '19',
   menuSubPrice: '',
-  spicy: 'no' 
+  sspicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -247,7 +302,9 @@ Entrees-2:
   menuDescription: 'Marinated and grilled chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, cheese, guacamole, and sour cream',
   menuPrice: 'Chicken 17 • Steak 20 • Shrimp 20',
   menuSubPrice: 'Chicken & Steak 19 • Chicken & Shrimp 20 • Steak & Shrimp 21',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 # ##--------
@@ -261,7 +318,9 @@ Asados:
   menuDescription: 'Grilled chicken marinated in lime and cilantro served with rice, black beans and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -269,7 +328,9 @@ Asados:
   menuDescription: 'Grilled chicken topped with sauteed mushrooms, spinach and tomatoes served with rice, black beans and guacamole',
   menuPrice: '18',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -277,7 +338,9 @@ Asados:
   menuDescription: 'Skirt steak topped with garlic sauce and a chicken enchilada suiza, served with rice, refried beans, guacamole and chorizo',
   menuPrice: '22',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 Asados-2:
@@ -287,7 +350,9 @@ Asados-2:
   menuDescription: 'Skirt Steak topped with chimichurri sauce served with chorizo, steak fries, rice, black beans and guacamole',
   menuPrice: '22',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -295,7 +360,9 @@ Asados-2:
   menuDescription: 'A charcoal Rib-Eye steak topped with peppers and onions sautéed in our spicy chipotle sauce, served with rice, refried beans and guacamole',
   menuPrice: '22',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -303,7 +370,9 @@ Asados-2:
   menuDescription: 'Chicken, skirt steak, shrimp and mushrooms served on a bed of seasonal vegetables, served with rice, black beans and guacamole',
   menuPrice: '22',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 # ##--------
@@ -317,7 +386,9 @@ Seafood:
   menuDescription: 'Grilled salmon topped with ranchero sauce and tomatillo sauce served with rice, vegetables and guacamole',
   menuPrice: '20',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -325,7 +396,9 @@ Seafood:
   menuDescription: 'Scallops, shrimp and pico de gallo sautéed in tomatillo sauce served with rice, vegetables and guacamole ',
   menuPrice: '20',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 Seafood-2:
@@ -335,7 +408,9 @@ Seafood-2:
   menuDescription: 'Shrimp sautéed with peppers and onions in a spicy chipotle sauce served with rice, black beans and vegetables',
   menuPrice: '20',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -343,7 +418,9 @@ Seafood-2:
   menuDescription: 'Spanish seafood with clams, mussels, salmon, scallops, shrimp and tilapia served with rice, vegetables and guacamole',
   menuPrice: '23',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 fountain-margaritas:
@@ -353,7 +430,9 @@ fountain-margaritas:
   menuDescription: 'Exotico Silver Tequila, Triple Sec, Lime Mix',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -361,7 +440,9 @@ fountain-margaritas:
   menuDescription: '1800 Reposado Tequila, Triple Sec, Lime Mix',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 fountain-margaritas-2:
@@ -371,9 +452,10 @@ fountain-margaritas-2:
   menuDescription: 'Herradura Silver Tequila, Grand Marnier, Lime Mix',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
-
 
 handmade-margaritas:
   
@@ -382,7 +464,9 @@ handmade-margaritas:
   menuDescription: 'Exotico Silver Tequila, Triple Sec, Fresh Lime Juice, Cranberry Juice',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -390,7 +474,9 @@ handmade-margaritas:
   menuDescription: 'Our in-house infused Jalapeño Tequila, Triple Sec, Fresh Lime Juice',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'yes' 
+  spicy: 'yes', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -398,7 +484,9 @@ handmade-margaritas:
   menuDescription: 'Sauza Hornitos Reposado Tequila, Triple Sec, Fresh Lime Juice',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -406,7 +494,9 @@ handmade-margaritas:
   menuDescription: 'El Jimador Silver Tequila, Gran Gala, Fresh Lime Juice',
   menuPrice: '10  ',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 handmade-margaritas-2:
@@ -416,7 +506,9 @@ handmade-margaritas-2:
   menuDescription: 'Jose Cuervo Tradicional Reposado Tequila, Cointreau, Fresh Lime Juice',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -424,7 +516,9 @@ handmade-margaritas-2:
   menuDescription: 'Don Julio Blanco Tequila, Grand Marnier, Fresh Lime Juice',
   menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -432,7 +526,9 @@ handmade-margaritas-2:
   menuDescription: 'Exotico Silver Tequila, Alizé Gold Passion Liqueur, Triple Sec, Fresh Lime Juice',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 specialty-drinks:
@@ -440,17 +536,21 @@ specialty-drinks:
 - { 
   menuItem: 'Sangria',
   menuDescription: 'Exotico Silver Tequila, Alize Gold Passion Liqueur, Brandy, Triple Sec, Orange Juice, Red Wine',
-  menuPrice: '9',
+  menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
   menuItem: 'Flavored Margarita',
   menuDescription: 'FROZEN ONLY - Our selection varies, please ask your server',
-  menuPrice: '10',
+  menuPrice: '11',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -458,7 +558,9 @@ specialty-drinks:
   menuDescription: 'Malibu Coconut Rum, Pineapple, Coconut',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 specialty-drinks-2:
@@ -468,7 +570,9 @@ specialty-drinks-2:
   menuDescription: 'El Jimador Blanco, Xicaru Mezcal, Deep Eddy Grapefruit Vodka, Lime Juice, Agave Nectar, Seltzer',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 - { 
@@ -476,7 +580,9 @@ specialty-drinks-2:
   menuDescription: 'Western Son Prickley Pear Vodka, Yellow Rose American Whiskey, Lime Juice, Agave Nectar',
   menuPrice: '10',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'
   }
 
 wine:
@@ -486,7 +592,9 @@ wine:
   menuDescription: 'Chardonnay - Chile',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -494,7 +602,9 @@ wine:
   menuDescription: 'Sauvignon Blanc - New Zealand',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -502,7 +612,9 @@ wine:
   menuDescription: 'Pinot Grigio - Italy',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -510,7 +622,9 @@ wine:
   menuDescription: 'Moscato - Italy',
   menuPrice: '7',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 wine-2:
@@ -520,7 +634,9 @@ wine-2:
   menuDescription: 'Merlot - California',
   menuPrice: '8',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -528,7 +644,9 @@ wine-2:
   menuDescription: 'Cabernet - California',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -536,7 +654,9 @@ wine-2:
   menuDescription: 'Malbec - Argentina',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -544,7 +664,9 @@ wine-2:
   menuDescription: 'Shiraz - Australia',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 beer:
@@ -554,7 +676,9 @@ beer:
   menuDescription: 'Budweiser, Bud Light, Coors Light, Kaliber (Non-Alcoholic)',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -562,7 +686,9 @@ beer:
   menuDescription: 'Corona, Corona Light, Negra Modelo, Tecate, Sol',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 beer-2:
@@ -572,7 +698,9 @@ beer-2:
   menuDescription: 'Our selection varies, please ask your server',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 drink-specials:
@@ -582,7 +710,9 @@ drink-specials:
   menuDescription: 'House Margarita - $5',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -590,7 +720,9 @@ drink-specials:
   menuDescription: 'Wine - $5',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -598,7 +730,9 @@ drink-specials:
   menuDescription: '1800 Margarita - $7',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no'  
   }
 
 - { 
@@ -606,7 +740,9 @@ drink-specials:
   menuDescription: 'Frozen Margarita - $7 •• Sangria - $6 •• Dos Equis Ambar - $4',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spspicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
 
 - { 
@@ -614,5 +750,7 @@ drink-specials:
   menuDescription: 'Ultimate Margarita - $9',
   menuPrice: '',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
   }
