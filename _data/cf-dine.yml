@@ -107,7 +107,7 @@ Enchiladas-2:
 
 - { 
   menuItem: 'Enchilada de Móle Verde',
-  menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with enchilada salsa and Monterrey Jack cheese served with rice, black beans and guacamole',
+  menuDescription: 'Two corn tortillas stuffed with your choice of meats or vegetables topped with molé verde and Monterrey Jack cheese served with rice, black beans and guacamole',
   menuPrice: '14',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
@@ -123,7 +123,7 @@ Platos-Tradicionales:
   menuItem: 'Chile Relleno',
   menuDescription: 'A chile poblano pepper with your choice of
 meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served with rice, refried beans, guacamole and salad',
-  menuPrice: '13',
+  menuPrice: '14',
   menuSubPrice: '',
   spicy: 'yes' 
   }
@@ -133,7 +133,7 @@ meats or veggies topped with enchilada salsa, tomatillo sauce and cheese served 
   menuDescription: 'A flour tortilla filled with chicken, steak or
 veggies, deep fried served with rice,
 refried beans, salad and sour cream',
-  menuPrice: '13',
+  menuPrice: '14',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -142,7 +142,7 @@ refried beans, salad and sour cream',
 - { 
   menuItem: 'California Burrito',
   menuDescription: 'One large flour tortilla filled with rice, refried beans and your choice of meats or veggies, topped with enchilada salsa and cheese, served with sour cream and salad',
-  menuPrice: '14',
+  menuPrice: '15',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -152,7 +152,7 @@ Platos-Tradicionales-2:
 - { 
   menuItem: 'Pollo Al Molé',
   menuDescription: 'Grilled chicken breast simmered in our molé salsa served with rice, black beans and vegetables',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -160,7 +160,7 @@ Platos-Tradicionales-2:
 - { 
   menuItem: 'Pollo A La Mexicana',
   menuDescription: 'Grilled chicken breast topped with sautéed peppers, onions, Monterrey jack cheese served with rice, black beans and guacamole',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -170,7 +170,7 @@ Platos-Tradicionales-2:
   menuDescription: 'Grilled chicken breast topped with sautéed
 mushrooms, spinach and tomatoes, served
 with rice, black beans and guacamole',
-  menuPrice: '16',
+  menuPrice: '17',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -185,15 +185,15 @@ Fajitas:
   menuItem: 'Fajitas Coyote',
   menuDescription: 'Sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
-  menuSubPrice: 'Chicken 16 • Steak 17 • Shrimp 18',
+  menuSubPrice: 'Chicken 16 • Steak 18 • Shrimp 18',
   spicy: 'no', 
   alt: 'image of' 
   }
 
 - { 
-  menuItem: 'Fajitas Fiesta',
+  menuItem: 'Fajitas Fiesta (Salmon & Shrimp)',
   menuDescription: 'The perfect seafood fajita combo of salmon and shrimp, sautéed onions and peppers served with rice, black beans, guacamole, sour cream, pico de gallo and flour tortillas',
-  menuPrice: '19',
+  menuPrice: '22',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -205,7 +205,7 @@ Fajitas-2:
   menuItem: 'Fajitas Mixtos',
   menuDescription: 'Broiled and marinated strips of  chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, guacamole, shredded cheese and sour cream',
   menuPrice: '',
-  menuSubPrice: 'Chicken & Steak 17 • Chicken & Shrimp 18 • Steak & Shrimp 19',
+  menuSubPrice: 'Chicken & Steak 18 • Chicken & Shrimp 18 • Steak & Shrimp 20',
   spicy: 'no', alt: 'image of' 
   }
 
@@ -218,7 +218,7 @@ Combos:
 - { 
   menuItem: 'Tacos Combo',
   menuDescription: 'Two soft tacos stuffed with your choice of meats or veggies served with rice, refried beans, pico de gallo, lettuce and sour cream',
-  menuPrice: '12',
+  menuPrice: '13',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -227,7 +227,7 @@ Combos:
 - { 
   menuItem: 'Combo Mexicano',
   menuDescription: 'One burrito and an enchilada roja served with rice, refried beans and guacamole',
-  menuPrice: '15',
+  menuPrice: '16',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -237,7 +237,7 @@ Combos:
   menuItem: 'Combo Charro',
   menuDescription: 'One enchilada suiza and one chimichanga
 filled with your choice of meats or veggies served with rice, refried beans and guacamole',
-  menuPrice: '15',
+  menuPrice: '16',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -247,7 +247,7 @@ Combos-2:
 - { 
   menuItem: 'Combo Azteca',
   menuDescription: 'One enchilada suiza and one enchilada oaxaca filled with your choice of meats or veggies served with rice, refried beans and guacamole',
-  menuPrice: '15',
+  menuPrice: '16',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -256,7 +256,7 @@ Combos-2:
   menuItem: 'Combo Poblano',
   menuDescription: 'One chicken tamal and one chile relleno
 filled with your choice of meats or veggies served with rice, black beans and guacamole',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -309,7 +309,7 @@ Asados:
 
 - { 
   menuItem: 'Bistek Ranchero',
-  menuDescription: 'Grilled rib-eye steak topped with salsa de ranchero served with rice, refried beans, corn tortillas and guacamole',
+  menuDescription: 'Charcoal rib-eye steak topped with salsa de ranchero served with rice, refried beans, corn tortillas and guacamole',
   menuPrice: '19',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
@@ -371,7 +371,7 @@ Wraps:
   menuItem: 'Coyote Wrap',
   menuDescription: 'Spinach tortilla filled with rice, black beans,
 pico de gallo, cheese and your choice of filling, served with salad, guacamole and sour cream',
-  menuPrice: '14',
+  menuPrice: '15',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -381,7 +381,7 @@ Wraps-2:
 - { 
   menuItem: 'Chile Fajita Wrap',
   menuDescription: 'A chile tortilla stuffed with black beans, red and green peppers, onions, pico de gallo, Monterey jack cheese and your choice of meats or vegetables, served with salad, guacamole and sour cream',
-  menuPrice: '14',
+  menuPrice: '15',
   menuSubPrice: '',
   spicy: 'no', alt: 'image of' 
   }
@@ -396,7 +396,7 @@ Seafood:
   menuItem: 'Salmon Ranchero',
   menuDescription: 'Grilled salmon topped with ranchero and
 tomatillo salsa, served with rice, vegetables and guacamole',
-  menuPrice: '17',
+  menuPrice: '18',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -405,7 +405,7 @@ tomatillo salsa, served with rice, vegetables and guacamole',
 - { 
   menuItem: 'Salmon Poblano',
   menuDescription: 'Grilled salmon topped with molé verde on a bed of spinach and mushrooms, served with rice, black beans and guacamole',
-  menuPrice: '18',
+  menuPrice: '20',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 
@@ -443,7 +443,7 @@ a spicy chipotle salsa, served with rice, black beans and vegetables',
 - { 
   menuItem: 'Huasteca al Ajo',
   menuDescription: 'Scallops, shrimp and green mussels, sautéed salsa de ajo served with rice, guacamole and vegetables',
-  menuPrice: '19',
+  menuPrice: '20',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of' 

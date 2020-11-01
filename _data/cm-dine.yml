@@ -106,7 +106,7 @@ Soup-Salad-2:
   menuItem: 'Coyote Salad',
   menuDescription: 'Lettuce, grape tomato, spinach, cabbage and carrots topped with avocado',
   menuPrice: '9',
-  menuSubPrice: 'Add Chicken 5 • Add Shrimp 5 • Add Skirt Steak 6',
+  menuSubPrice: 'Add Chicken 5 • Add Shrimp 6 • Add Skirt Steak 6',
   spicy: 'no' 
   }
 
@@ -114,7 +114,7 @@ Soup-Salad-2:
   menuItem: 'Meditariana',
   menuDescription: 'Spinach, cucumbers, grape tomatoes, peppers, red onions, feta cheese, chick peas, and bean salad',
   menuPrice: '11',
-  menuSubPrice: 'Add Chicken 5 • Add Shrimp 5 • Add Skirt Steak 6',
+  menuSubPrice: 'Add Chicken 5 • Add Shrimp 6 • Add Skirt Steak 6',
   spicy: 'no' 
   }
 
@@ -122,7 +122,7 @@ Soup-Salad-2:
   menuItem: 'Quinoa',
   menuDescription: 'Quinoa, spinach, grape tomatoes, avocado, feta cheese, chick peas, and bean salad',
   menuPrice: '12',
-  menuSubPrice: 'Add Chicken 5 • Add Shrimp 5 • Add Skirt Steak 6',
+  menuSubPrice: 'Add Chicken 5 • Add Shrimp 6 • Add Skirt Steak 6',
   spicy: 'no' 
   }
 
@@ -196,7 +196,7 @@ Entrees:
 
 - { 
   menuItem: 'Chile Relleno',
-  menuDescription: 'A chile poblano pepper stuffed with your choice of filling topped with enchilada sauce and tomatillo sauce, cheese, served with rice, refried beans and guacamole',
+  menuDescription: 'A chile poblano pepper stuffed with your choice of filling topped with enchilada sauce, tomatillo sauce, and cheese, served with rice, refried beans and guacamole',
   menuPrice: '15',
   menuSubPrice: '',
   spicy: 'no' 
@@ -209,12 +209,20 @@ Entrees:
   menuSubPrice: '',
   spicy: 'no' 
   }
+- {
+  menuItem: 'Quesadilla Linda',
+  menuDescription: 'One flour tortilla filled with Oaxaca cheese and your choice of meats or veggies served with salad, guacamole and sour cream',
+  menuPrice: '15',
+  menuSubPrice: 'Add Shrimp  5 • Add Spinach 3 • Add Mushrooms & Onions 3',
+  spicy: 'no',
+}
+
 Entrees-2:
 - { 
   menuItem: 'Quesadilla',
   menuDescription: 'A large flour tortilla filled with Oaxaca cheese served with guacamole and sour cream',
-  menuPrice: '10',
-  menuSubPrice: 'Add Chicken 5 • Add Spinach 3 • Add Mushroom & Onions 3 • Add Shrimp 9',
+  menuPrice: '11',
+  menuSubPrice: 'Add Spinach 3 • Add Mushrooms & Onions 3',
   spicy: 'no' 
   }
 
@@ -237,7 +245,7 @@ Entrees-2:
 - { 
   menuItem: 'Fajitas',
   menuDescription: 'Marinated and grilled chicken, steak or shrimp sautéed with peppers and onions served with rice, beans, cheese, guacamole, and sour cream',
-  menuPrice: 'Chicken 17 • Steak 20 • Shrimp 18',
+  menuPrice: 'Chicken 17 • Steak 20 • Shrimp 20',
   menuSubPrice: 'Chicken & Steak 19 • Chicken & Shrimp 20 • Steak & Shrimp 21',
   spicy: 'no' 
   }
@@ -382,7 +390,7 @@ handmade-margaritas:
   menuDescription: 'Our in-house infused Jalapeño Tequila, Triple Sec, Fresh Lime Juice',
   menuPrice: '9',
   menuSubPrice: '',
-  spicy: 'no' 
+  spicy: 'yes' 
   }
 
 - { 
