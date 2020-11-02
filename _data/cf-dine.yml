@@ -700,7 +700,7 @@ Margaritas:
   menuDescription: 'Zapata Tequila, Triple Sec, Lime Mix',
   menuPrice: '7',
   menuSubPrice: '',
-  spicy: 'no',,
+  spicy: 'no',
   vegan: 'no',
   gluten: 'no'  
   }
@@ -723,7 +723,7 @@ Beer:
   menuDescription: 'Corona • Corona Light • Negra Modelo • Tecate • 
 Pacifico • Sol • Victoria',
   menuPrice: '5 (each)',
-  spicy: 'no',,
+  spicy: 'no',
   vegan: 'no',
   gluten: 'no'  
   }
@@ -732,7 +732,7 @@ Pacifico • Sol • Victoria',
   menuItem: 'Draft Beer',
   menuDescription: 'Varies, please ask server',
   menuPrice: '4 (each)',
-  spicy: 'no',,
+  spicy: 'no',
   vegan: 'no',
   gluten: 'no'  
   }
@@ -782,7 +782,7 @@ Alacarte:
   menuDescription: 'One soft or hard corn tortilla filled with your choice of meats served with lettuce, cilantro, cheese and pico de gallo',
   menuPrice: '3.50',
   menuSubPrice: 'add .50 for Sour Cream',
-  spicy: 'no' 
+  spicy: 'no', 
   alt: '',
   vegan: 'no',
   gluten: 'no' 

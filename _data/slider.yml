@@ -23,21 +23,21 @@ home:
 }
 
 - {
-  class: "background-image: url('images/silvia-frozenmarg.jpg",
+  class: "background-image: url('images/hartford-nightPatio.png",
   order: '3',
-  title: 'Silvia with Margarita'
+  title: 'Outdoor Seating'
 }
 
-- {
-  class: "background-image: url('images/tacosalad.jpg');",
-  order: '4',
-  title: 'Taco Salad',
-}
+# - {
+#   class: "background-image: url('images/tacosalad.jpg');",
+#   order: '4',
+#   title: 'Taco Salad',
+# }
 
 hartford:
 
 - {
-  class: "background-image: url('images/hartford-diningroom-3.jpg');",
+  class: "background-image: url('images/hartford-avion.png');",
   order: '0',
 }
 
@@ -47,7 +47,7 @@ hartford:
 }
 
 - {
-  class: "background-image: url('images/harford-bar.jpg');",
+  class: "background-image: url('images/hartford-bar.png');",
   order: '2',
 }
 
