@@ -22,7 +22,7 @@
 */
 body {
   background: #FFF5EA !important;
-  min-width: 480px;
+  min-width: 320px;
 }
 
 dt {
@@ -633,5 +633,5 @@ small {
 }
 
 .uk-hidden-touch {
-  display: none;
+  display: none !important;
 }

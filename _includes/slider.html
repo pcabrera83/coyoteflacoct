@@ -46,7 +46,7 @@
                     {% endfor %}
                 </ul>
                 <!-- slide navigation buttons -->
-                <div class="uk-margin cf-nobackground cf-slider-dots">
+                <div class="uk-margin cf-nobackground cf-slider-dots uk-hidden-touch">
                     <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
                         {% for item in site.data.slider.home %}
                         <li data-uk-slideshow-item="{{ item.order }}" class="">
@@ -56,7 +56,7 @@
                     </ul>
                 </div>
                 <!-- slide navigation arrows -->
-                <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle">
+                <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle uk-hidden-touch">
                     <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch" data-uk-slideshow-item="previous">
 
                     </a>
@@ -65,7 +65,7 @@
                     </a>
                 </div>
                 <!-- Controls Background for Slider Buttons -->
-                <div class="uk-margin cf-nobackground" style="display: none;">
+                <div class="uk-margin cf-nobackground uk-hidden-touch" style="display: none;">
                     <ul class="uk-dotnav uk-flex-right uk-hidden-touch">
                         {% for item in site.data.slider.home %}
                         <li data-uk-slideshow-item="{{ item.order }}" class="">
@@ -75,7 +75,7 @@
                     </ul>
                 </div>
                 <!-- slide navigation arrows -->
-                <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle" style="padding: 40px;">
+                <div class="tm-slidenav uk-flex uk-flex-right uk-flex-middle uk-hidden-touch" style="padding: 40px;">
                     <a href="" class="uk-slidenav uk-slidenav-previous uk-hidden-touch" data-uk-slideshow-item="previous">
                     </a>
                     <a href="" class="uk-slidenav uk-slidenav-next uk-hidden-touch" data-uk-slideshow-item="next">
