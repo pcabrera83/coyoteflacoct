@@ -737,10 +737,10 @@ drink-specials:
 
 - { 
   menuItem: 'Friday - Saturday',
-  menuDescription: 'Frozen Margarita - $7 •• Sangria - $6 •• Dos Equis Ambar - $4',
+  menuDescription: 'Frozen Margarita - $7 • Sangria - $6 • Dos Equis Ambar - $4',
   menuPrice: '',
   menuSubPrice: '',
-  spspicy: 'no', 
+  spicy: 'no', 
   vegan: 'no',
   gluten: 'no' 
   }
@@ -754,3 +754,75 @@ drink-specials:
   vegan: 'no',
   gluten: 'no' 
   }
+
+kids-menu:
+
+- { 
+  menuItem: 'Chicken Nuggets',
+  menuDescription: '',
+  menuPrice: '$7',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
+
+- { 
+  menuItem: 'Kids Enchilada',
+  menuDescription: '',
+  menuPrice: '$8',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
+
+- { 
+  menuItem: 'Kids Burrito',
+  menuDescription: '',
+  menuPrice: '$8',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
+
+- { 
+  menuItem: 'Kids Chimichanga',
+  menuDescription: '',
+  menuPrice: '$8',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
+
+- { 
+  menuItem: 'Kids Taco',
+  menuDescription: '',
+  menuPrice: '$8',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
+
+- { 
+  menuItem: 'Kids Quesadilla',
+  menuDescription: '',
+  menuPrice: '$7',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
+
+- { 
+  menuItem: 'Kids Linda',
+  menuDescription: '',
+  menuPrice: '$8',
+  menuSubPrice: '',
+  spicy: 'no', 
+  vegan: 'no',
+  gluten: 'no' 
+}
