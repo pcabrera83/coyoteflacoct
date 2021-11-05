@@ -348,7 +348,7 @@ Quesadillas:
 - { 
   menuItem: 'Spinach Quesadilla',
   menuDescription: 'A Spinach tortilla stuffed with Monterey jack cheese and spinach, served with guacamole, sour cream and salad',
-  menuPrice: '11',
+  menuPrice: '12',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of',
@@ -359,7 +359,7 @@ Quesadillas:
 - { 
   menuItem: 'Fiesta Quesadilla',
   menuDescription: 'A tomato tortilla stuffed with tomatoes, onions, mushrooms, Monterey jack cheese served with guacamole, sour cream and salad',
-  menuPrice: '11',
+  menuPrice: '13',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of',
@@ -389,7 +389,7 @@ Asados:
 - { 
   menuItem: 'Bistek Ranchero',
   menuDescription: 'Charcoal rib-eye steak topped with salsa de ranchero served with rice, refried beans, corn tortillas and guacamole',
-  menuPrice: '19',
+  menuPrice: '20',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of',
@@ -400,7 +400,7 @@ Asados:
 - { 
   menuItem: 'Coyote Steak',
   menuDescription: 'Charcoal rib-eye steak topped with peppers and onions sautéed with our spicy chipotle salsa served with rice, black beans and guacamole',
-  menuPrice: '19',
+  menuPrice: '20',
   menuSubPrice: '',
   spicy: 'yes',
   vegan: 'no',
@@ -414,7 +414,7 @@ Asados-2:
   menuDescription: 'Skirt steak topped with garlic salsa and a
 chicken enchilada suiza served with rice,
 refried beans, guacamole and chorizo',
-  menuPrice: '19',
+  menuPrice: '20',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of',
@@ -433,7 +433,7 @@ Salads:
   menuItem: 'Coyote Salad',
   menuDescription: 'Lettuce, grape tomato, spinach, cabbage
 and carrots topped with shrimp and avocado',
-  menuPrice: '10',
+  menuPrice: '14',
   menuSubPrice: '',
   spicy: 'no', 
   alt: 'image of',
@@ -743,7 +743,7 @@ Beer-2:
 - { 
   menuItem: 'Domestic',
   menuDescription: 'Budweiser • Bud Light • Coors Light',
-  menuPrice: '3 (each)',
+  menuPrice: '4 (each)',
   spicy: 'no',
   vegan: 'no',
   gluten: 'no'  
@@ -872,16 +872,16 @@ Beverages:
   gluten: 'no' 
   }
 
-- { 
-  menuItem: '2 Liters',
-  menuDescription: 'Coke • Diet Coke • Sprite • Ginger Ale',
-  menuPrice: '3.00',
-  menuSubPrice: '',
-  spicy: 'no', 
-  alt: 'image of',
-  vegan: 'no',
-  gluten: 'no'  
-  }
+# - { 
+#   menuItem: '2 Liters',
+#   menuDescription: 'Coke • Diet Coke • Sprite • Ginger Ale',
+#   menuPrice: '3.00',
+#   menuSubPrice: '',
+#   spicy: 'no', 
+#   alt: 'image of',
+#   vegan: 'no',
+#   gluten: 'no'  
+#   }
 
 
 Beverages-2:
@@ -1011,7 +1011,7 @@ pitchers:
 - {
   menuItem: 'House Pitcher',
   menuDescription: '',
-  menuPrice: '27',
+  menuPrice: '30',
   menuSubPrice: '',
   spicy: 'no',
   vegan: 'no',
@@ -1021,7 +1021,7 @@ pitchers:
 - {
   menuItem: '1800 Pitcher',
   menuDescription: '',
-  menuPrice: '31',
+  menuPrice: '34',
   menuSubPrice: '',
   spicy: 'no',
   vegan: 'no',
@@ -1033,7 +1033,7 @@ pitchers-2:
 - {
   menuItem: 'Sangria Pitcher',
   menuDescription: '',
-  menuPrice: '31',
+  menuPrice: '40',
   menuSubPrice: '',
   spicy: 'no',
   vegan: 'no',

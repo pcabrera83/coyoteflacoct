@@ -826,3 +826,62 @@ kids-menu:
   vegan: 'no',
   gluten: 'no' 
 }
+
+Desserts:
+
+- { 
+  menuItem: 'Flan',
+  menuDescription: 'Homemade baked custard topped with whipped cream',
+  menuPrice: '6',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
+  }
+
+- { 
+  menuItem: 'Churros',
+  menuDescription: 'Fried dough rolled in cinnamon and sugar, served with vanilla ice cream topped with chocolate, strawberry syrup and whipped cream',
+  menuPrice: '9',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
+  }
+
+- { 
+  menuItem: 'Fried Ice Cream',
+  menuDescription: 'Lightly fried ice cream rolled with crushed corn flakes, cinnamon, and cocount flakes topped with whipped cream, strawberry and chocoloate syrup',
+  menuPrice: '7',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
+  }
+
+Desserts-2:
+
+- { 
+  menuItem: 'Tres Leches Cake',
+  menuDescription: 'A dense moist cake topped with a cloud of vanilla whipped cream, chocolate syrup, and cinnamon. ',
+  menuPrice: '7',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
+  }
+
+- { 
+  menuItem: 'Chocolate Lava Cake',
+  menuDescription: 'A dense moist cake topped with a cloud of vanilla whipped cream, chocolate syrup, and cinnamon. ',
+  menuPrice: '7',
+  menuSubPrice: '',
+  spicy: 'no', 
+  alt: 'image of',
+  vegan: 'no',
+  gluten: 'no'  
+  }

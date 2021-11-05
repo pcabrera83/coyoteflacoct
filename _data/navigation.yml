@@ -59,9 +59,9 @@ mansfield-menu:
 - {name: 'Dine In', link: 'mansfield-dine-in.html',}
 - {name: 'Drink Specials', link: 'mansfield-drinks.html',}
 
-mansfield-reservations:
+# mansfield-reservations:
 
-- {name: 'Reservations', link: 'mansfield-reservations.html',}
+# - {name: 'Reservations', link: 'mansfield-reservations.html',}
 
 mansfield-aboutus:
 

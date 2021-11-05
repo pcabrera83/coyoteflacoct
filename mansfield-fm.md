@@ -22,6 +22,7 @@ permalink: /mansfield-dine-in.html
 									<h5 class="uk-sub-title-small">Mansfield</h5>
 								</div>
 							</div>
+							<a href="https://www.musthavemenus.com/menu/viewMenu.do?token=c66d2fc4-9c07-4ca9-8319-aeb5e05da9d5&lite=true" class="uk-button-large uk-button" style="border-radius: 8px; background-color:#ec4e00;" target="_blank">View PDF Menu</a>
 						</div>
 					</div>
 				</div>
@@ -31,7 +32,7 @@ permalink: /mansfield-dine-in.html
 </div>
 
 <!-- Mansfield Dine In Menu -->
-{% include cfm-fountain.html %}
+<div style="display: none;"> {% include cfm-fountain.html %}
 {% include cfm-handshakenmars.html %}
 {% include cfm-specialtydrinks.html %}
 {% include cfm-wine.html %}
@@ -43,3 +44,6 @@ permalink: /mansfield-dine-in.html
 {% include cfm-entrees-items.html %}
 {% include cfm-asados.html %}
 {% include cfm-seafood.html %}
+{% include cfm-dessert.html %}
+</div>
+
